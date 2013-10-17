@@ -1,0 +1,8 @@
+------------------------------ Rakefile ------------------------------
+
+Rake.clear_tasks('vlad:start_app')
+
+desc 'Restart Passenger'
+remote_task :start_app, :roles => :app do
+  run "touch /var/www/orchivetest/current/tmp/restart.txt"
+end

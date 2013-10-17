@@ -1,0 +1,8 @@
+	<td><%= image_tag 'png/waveform/2005/001A.thumb.jpg' %></td>
+
+
+------------------------------ show.html.erb ------------------------------
+
+<% @recording.labbook_pages.each do |n| %>
+  <%= image_tag n.png_file_path %>
+<% end %>

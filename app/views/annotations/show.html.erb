@@ -1,0 +1,33 @@
+<h1>Annotation : <%= @annotation.name %></h1>
+
+
+<div class="tabular">
+<table>
+  <tr>
+	<th>name</th>
+	<th>Start Time (sec)</th>
+	<th>End Time (sec)</th>
+	<th>Recording</th>
+	<th>Label</th>
+  </tr>
+  <% @annotation.annotation_items.each do |n| %>
+  <tr>
+	<td><%= n.name %></td>
+	<td><%= n.start_time_sec %></td>
+	<td><%= n.end_time_sec %></td>
+	<td>
+	  <% if !n.recording.nil? %>
+		<%= link_to n.recording.name, :controller => 'recordings', :action => 'show', :id => n.recording_id %>
+	  <% end %>
+	</td>
+	<td><%= n.label.nil? ? "" : n.label.name %></td>
+  </tr>
+  <% end %>
+</table>
+</div>
+
+<br />
+
+<h1>Recordings</h1>
+<%= render :partial => "recordings/recording_list", :locals => { :recordings => @annotation.recordings} %>
+

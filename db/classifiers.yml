@@ -1,0 +1,12 @@
+--- 
+- !ruby/object:Classifier 
+  attributes: 
+    name: classifier1
+    updated_at: 2009-08-13 16:24:56
+    id: "1"
+    user_id: "1"
+    mpl: 
+    created_at: 2009-08-13 16:24:56
+    arff: 
+  attributes_cache: {}
+

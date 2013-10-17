@@ -1,0 +1,56 @@
+------------------------------ index.html.erb ------------------------------
+
+<div id="admin">
+
+<h1>Orchive Admin Interface</h1>
+
+<table>
+  <tr>
+	<th>Year</th>
+	<th>Percent Complete</th>
+	<th>Actions</th>
+  </tr>
+  <% @years.each do |n| %>
+	<tr>
+	  <td><%= n.year %></td>
+	  <td><%= n.percent_complete %></td>
+	  <td>
+		<%= link_to "Edit", :action => 'edit_year', :id => n.id %>
+		<%= link_to "Destroy", :action => 'destroy_year', :id => n.id %>
+	  </td>
+	</tr>
+  <% end %>
+  
+</table>
+
+</div>
+
+
+------------------------------ make_a_prediction_on_an_annotation.html.erb ------------------------------
+
+<h1>Make a Prediction on an Annotation</h1>
+
+<table>
+  <tr>
+	<th>name</th>
+	<th># annotations</th>
+	<th>recordings</th>
+	<th>Actions</th>
+  </tr>
+  <% @annotations.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :action => 'show', :id => n.id %></td>
+	<td><%= n.annotation_items.count %></td>
+	<td>
+	  <% n.recordings.each do |m| %>
+		<%= link_to m.name, :controller => 'admin_recordings', :action => 'show', :id => m.id %><br />
+	  <% end %>
+	</td>
+	<td>
+	  <%= link_to "Make prediction", :action => 'submit_job_for_prediction_on_one_annotation', :id => n.id %>
+  </tr>
+  <% end %>
+</table>
+
+
+

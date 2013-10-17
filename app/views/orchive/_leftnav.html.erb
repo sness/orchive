@@ -1,0 +1,16 @@
+<div id="leftnav">
+  <ul>
+	<% @leftnav_years.each do |n| %>
+	  <li><%= link_to n.name, :controller => 'recordings', :action => 'year', :id => n.name %></li>
+	  <% if n.name == @current_year.to_i %>
+		<% if !@recordings.nil? %>
+		  <ul>
+			<% @leftnav_recordings.each do |m| %>
+			  <li><%= link_to m.name, :controller => 'recordings', :action => 'show', :id => m.id %></li>
+			<% end %>
+		  </ul>
+		<% end %>
+	  <% end %>
+	<% end %>
+  </ul>
+</div>

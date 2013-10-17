@@ -1,0 +1,3 @@
+<% if !current_user.nil? && current_user != :false && current_user.can_set_labbook_page %>
+  <%= link_to "Add lab book page to recording", :action => 'edit_labbook_page_recordings', :id => @recording.id %>
+<% end %>

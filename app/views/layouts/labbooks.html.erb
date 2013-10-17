@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <%= render :partial => '/layouts/xhtml_header' %>
+  <body>
+	
+	<div id="doc2">  
+	  
+	  <div id="header">
+		<%= render :partial => '/layouts/header' %>
+	  </div>   
+	  
+	  <div id="topnav">
+		<%= render :partial => '/layouts/topnav' %>
+	  </div>
+	  
+	  <div id="content">
+		
+		<% if flash[:notice] -%>
+		  <div class="notice">
+			<%= flash[:notice] %>
+		  </div>
+		<% end %>
+		
+		<div class="yui-gf">
+		  <div class="yui-u first">
+			<div id="leftnav">
+			  <%= render :partial => 'leftnav' %>
+			</div>
+		  </div>
+		  <div class="yui-u">
+			  <%= yield %>
+		  </div>
+		</div>
+		
+	  </div>
+	  
+	  <div id="footer">
+		<%= render :partial => '/layouts/footer' %>
+	  </div>   
+	  
+	</div>  
+	
+	<% if ENV["RAILS_ENV"] == 'production' %>
+	  <script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	  </script>
+	  <script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-51793-17");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+	  </script>
+	<% end %>	
+  </body>
+</html>

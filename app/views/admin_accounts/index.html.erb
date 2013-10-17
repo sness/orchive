@@ -1,0 +1,56 @@
+<h1>Users</h1>
+
+<table>
+  <tr>
+	<th>user</th>
+	<th>name</th>
+	<th>email</th>
+	<th>admin</th>
+	<th>can annotate</th>
+	<th>can set recording time</th>
+	<th>can set labbook page</th>
+	<th># annotations</th>
+	<th># recording start times</th>
+	<th># labbook page recordings</th>
+  </tr>
+  <% @users.each do |n| %>
+  <tr>
+	<td><%= link_to n.login, :action => 'show', :id => n.id %></td>
+	<td><%= n.name %></td>
+	<td><%= n.email %></td>
+	<td>
+	  <% if n.admin %>
+		Yes
+	  <% else %>
+		No
+	  <% end %>
+	</td>
+	<td>
+	  <% if n.can_annotate %>
+		Yes
+	  <% else %>
+		<%= link_to "Approve" %>
+	  <% end %>
+	</td>
+	<td>
+	  <% if n.can_set_recording_time %>
+		Yes
+	  <% else %>
+		<%= link_to "Approve" %>
+	  <% end %>
+	</td>
+	<td>
+	  <% if n.can_set_labbook_page %>
+		Yes
+	  <% else %>
+		<%= link_to "Approve" %>
+	  <% end %>
+	</td>
+	<td><%= n.annotations.count %></td>
+	<td><%= n.recording_start_times.count %></td>
+	<td><%= n.labbook_page_recordings.count %></td>
+  </tr>
+  <% end %>
+</table>
+
+

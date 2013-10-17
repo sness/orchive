@@ -1,0 +1,24 @@
+<h1>Annotations</h1>
+
+<div class="tabular">
+<table>
+  <tr>
+	<th>name</th>
+	<th># annotations</th>
+	<th>recordings</th>
+  </tr>
+  <% @annotations.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :action => 'show', :id => n.id %></td>
+	<td><%= n.annotation_items.count %></td>
+	<td>
+	  <% n.recordings.each do |m| %>
+		<%= link_to m.name, :controller => 'recordings', :action => 'show', :id => m.id %><br />
+	  <% end %>
+	</td>
+  </tr>
+  <% end %>
+</table>
+</div>
+
+

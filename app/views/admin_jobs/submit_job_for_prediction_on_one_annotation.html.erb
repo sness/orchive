@@ -1,0 +1,14 @@
+<h1>Submit Job for Prediction on one Annotation</h1>
+
+<%= error_messages_for :job %>
+
+<h2>Annotations</h2>
+<%= render :partial => "admin_annotations/annotation", :locals => { :annotation => @annotation} %>
+
+<% form_for(:job, :url => { :action => 'submit_job_for_prediction_on_one_annotation' }) do |f| -%>
+
+  <p>
+    <%= submit_tag 'Submit Job' %>
+  </p>
+  
+<% end -%>

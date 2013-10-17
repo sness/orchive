@@ -1,0 +1,14 @@
+------------------------------ index.html.erb ------------------------------
+
+<%= render :partial => "annotation_set_list", :locals => { :annotation_sets => @annotation_sets} %>
+
+
+------------------------------ index.html.erb ------------------------------
+
+	<th>prediction</th>
+
+	<td>
+	  <% if !n.prediction.nil? %>
+		<%= link_to n.prediction.name, :controller => 'admin_predictions', :action => 'show', :id => n.prediction.id %>
+	  <% end %>
+	</td>

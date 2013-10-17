@@ -1,0 +1,18 @@
+<h1>Run Classifier</h1>
+
+<h2>Please select the recording to apply this classifier to:</h2>
+
+<form action="/classifier/run" method="post">
+
+  <table class="pretty">
+	<tr>
+	  <th>Recording</th>
+	</tr>
+	<% @recordings.each do |n| %>
+	  <tr>
+		<td><%= link_to n.pretty_name, :action => 'run_classifier', :id => n %></td>
+	  </tr>
+	<% end %>
+  </table>
+
+</form>

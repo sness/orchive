@@ -1,0 +1,25 @@
+<% form_for(:user, :url => { :action => 'edit' }) do |f| -%>
+
+  <p><label for="user_login">Login</label>
+	<%= f.text_field :login  %></p>
+
+  <p><label for="user_email">Email</label>
+	<%= f.text_field :email  %></p>
+
+  <p><label for="user_first_name">First name</label>
+	<%= f.text_field :first_name  %></p>
+
+  <p><label for="user_last_name">Last name</label>
+	<%= f.text_field :last_name  %></p>
+
+  <p><label for="user_mediaserver_url">Mediaserver URL</label>
+	<%= f.text_field :mediaserver_url  %></p>
+
+  <p><label for="user_mediaserver_active">Mediaserver Active</label>
+	<%= f.check_box :mediaserver_active  %></p>
+
+  <p>
+    <%= submit_tag 'Submit' %>
+  </p>
+
+<% end %>

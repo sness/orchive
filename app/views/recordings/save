@@ -1,0 +1,1243 @@
+------------------------------ show.html.erb ------------------------------
+
+<h1>Tape : <%= @recording.pretty_name %></h1>
+
+
+<%= image_tag @recording.waveform_image_path %>
+
+<%= image_tag @recording.spectrogram_image_path %>
+
+<h2>Lab Book Pages</h2>
+<% @recording.labbook_page_recordings.each do |n| %>
+  <%= link_to (image_tag n.labbook_page.small_image_file_path), :controller => 'labbooks', :action => 'show_labbook_page', :id => n.labbook_page.id %>
+<% end %>
+<br />
+
+<p>Start time : <%= @recording.start_time.nil? ? "" : @recording.start_time.strftime("%b%d%y %H:%M") %></p>
+<p>End time : <%= @recording.end_time.nil? ? "" : @recording.end_time.strftime("%b%d%y %H:%M") %></p>
+
+
+----------------------------------------------------------------------------------------------------
+
+<div class="tabular">
+<table>
+  <tr>
+	<th>tape</th>
+	<th>start time</th>
+	<th>waveform</th>
+	<th>spectrogram</th>
+  </tr>
+  <% @recordings.each do |n| %>
+  <tr>
+	<td><%= link_to n.pretty_name , :controller => 'recordings', :action => 'show', :id => n.id %></td>
+	<td><%= n.start_time.nil? ? "" : n.start_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= link_to (image_tag n.waveform_thumbnail_path), :action => 'show', :id => n.id %></td>
+	<td><%= link_to (image_tag n.spectrogram_thumbnail_path), :action => 'show', :id => n.id %></td>
+  </tr>
+  <% end %>
+</table>
+</div>
+
+
+------------------------------ show.html.erb ------------------------------
+
+<h1>Tape : <%= @recording.pretty_name %></h1>
+
+<div class="orcasimplefftplay">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+   width="600"
+   height="194"
+   id="haxe"
+   align="middle">
+  <param name="movie" value="orcaannotator.swf"/>
+  <param name="allowScriptAccess" value="always" />
+  <param name="quality" value="high" />
+  <param name="scale" value="noscale" />
+  <param name="salign" value="lt" />
+  <param name="bgcolor" value="#f7f7f7"/>
+  <embed src="/orcasimplefftplay.swf"
+		 FlashVars="recording_id=<%= @recording.id -%>"
+		 bgcolor="#f7f7f7"
+		 width="600"
+		 height="194"
+		 name="orcaannotator"
+		 quality="high"
+		 align="middle"
+		 allowScriptAccess="always"
+		 type="application/x-shockwave-flash"
+		 pluginspage="http://www.macromedia.com/go/getflashplayer"
+		 />
+</object>
+</div>
+<br />
+
+<p>Start time : <%= @recording.start_time.nil? ? "" : @recording.start_time.strftime("%b%d%y %H:%M") %></p>
+<p>End time : <%= @recording.end_time.nil? ? "" : @recording.end_time.strftime("%b%d%y %H:%M") %></p>
+
+
+<br />
+<% @recording.labbook_page_recordings.each do |n| %>
+  <%= link_to (image_tag n.labbook_page.small_image_file_path), :controller => 'labbooks', :action => 'show_labbook_page', :id => n.labbook_page.id %>
+<% end %>
+<br />
+
+
+
+------------------------------ show.html.erb ------------------------------
+
+  <div class="orcaannotator">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+			width="800"
+			height="243"
+			id="haxe"
+			align="middle">
+	  <param name="movie" value="orcaannotator.swf"/>
+	  <param name="allowScriptAccess" value="always" />
+	  <param name="quality" value="high" />
+	  <param name="scale" value="noscale" />
+	  <param name="salign" value="lt" />
+	  <param name="bgcolor" value="#ffffff"/>
+	  <embed src="orcaannotator.swf"
+			 FlashVars="recording_url=assets/recordings/2003/223A&annotation_url=annotations/show/1.txt&visualization_url=web/assets/visualizations/2003/223A/waveform"
+			 bgcolor="#ffffff"
+			 width="800"
+			 height="243"
+			 name="orcaannotator"
+			 quality="high"
+			 align="middle"
+			 allowScriptAccess="always"
+			 type="application/x-shockwave-flash"
+			 pluginspage="http://www.macromedia.com/go/getflashplayer">
+	</object>
+  </div>
+  <br />
+
+
+------------------------------ show.html.erb ------------------------------
+
+  <select name="followMode" multiple size=3 onChange="followModeChange()">
+	<option value="0">page
+	<option value="1" selected="selected">scroll
+	<option value="2">off
+  </select>
+
+
+------------------------------ show.html.erb ------------------------------
+
+  <form name="recording">
+  <select name="visualization" multiple size=<%= @recording.visualizations.size %> onChange="visualizationChange()">
+	<% @recording.visualizations.each_index do |i| %>
+	  <option value="<%= @recording.visualizations[i].file_path %>"
+			  <% if i == 0 %>
+				selected="selected"
+			  <% end %>
+			  ><%= @recording.visualizations[i].name %>
+	<% end %>
+  </select>
+
+
+------------------------------ show.html.erb ------------------------------
+
+<center>
+  <h3>Timeline</h3>
+  <div style="width: 700px; height: 20px; background:#bcf;" id="special">
+	<table width="100%">
+	  <tr>
+		<td>2000</td>
+		<td>2001</td>
+		<td>2002</td>
+		<td>2003</td>
+		<td>2004</td>
+		<td>2005</td>
+		<td>2006</td>
+		<td>2007</td>
+		<td>2008</td>
+		<td>2009</td>
+	  </tr>
+	</table>
+  </div>
+  
+  <div>
+	<form action="http://somesite.com/prog/adduser" method="post">
+	  <p>
+		<table width="600px">
+		  <tr>
+			<td>
+			  <label for="year">year</label>
+			  <input type="text" size="6" id="year" value="<%= @recording.year %>"><br>
+			</td>
+			<td>
+			  <label for="tape">tape</label>
+			  <input type="text" size="7" id="tape" value="<%= @recording.tape + @recording.side %>"><br>
+			</td>
+			<td>
+			  <input type="submit" value="find">
+			</td>
+		  </tr>
+		</table>
+	  </p>
+	</form>
+  </div>
+  <br>
+  
+  <div class="orcaannotator">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+			width="800"
+			height="243"
+			id="haxe"
+			align="middle">
+	  <param name="movie" value="/orcaannotator.swf"/>
+	  <param name="allowScriptAccess" value="always" />
+	  <param name="quality" value="high" />
+	  <param name="scale" value="noscale" />
+	  <param name="salign" value="lt" />
+	  <param name="bgcolor" value="#ffffff"/>
+	  <embed src="/orcaannotator.swf"
+			 FlashVars="recording_url=/assets/recordings/2003/223A&annotation_url=/annotations/show/1.txt&prediction_url=/predictions/show/1.txt&visualization_url=/assets/visualizations/2003/223A/waveform"
+			 bgcolor="#ffffff"
+			 width="800"
+			 height="243"
+			 name="movie"
+			 quality="best"
+			 align="middle"
+			 allowScriptAccess="always"
+			 type="application/x-shockwave-flash"
+			 pluginspage="http://www.macromedia.com/go/getflashplayer">
+	</object>
+  </div>
+  <br />
+  
+  <div class="yui-gf">
+	<div class="yui-u first">
+	  <p>
+		<form name="recording">
+		  <select name="visualization" multiple size=<%= @recording.visualizations.size %> onChange="visualizationChange()">
+			<% @recording.visualizations.each_index do |i| %>
+			  <option value="<%= @recording.visualizations[i].file_path %>"
+					  <% if i == 0 %>
+						selected="selected"
+					  <% end %>
+					  ><%= @recording.visualizations[i].name %>
+			<% end %>
+		  </select>
+		</form>
+	  </p>
+	  <div class="yui-u">
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+	  </div>
+	</div>
+  </div>
+  
+</center>
+
+<hr>
+
+
+
+------------------------------ show.html.erb ------------------------------
+
+			 FlashVars="recording_url=/assets/recordings/2003/223A&annotation_url=/annotations/show/1.txt&prediction_url=/predictions/show/1.txt&visualization_url=/assets/visualizations/2003/223A/waveform"
+
+------------------------------ show.html.erb ------------------------------
+
+		<%= link_to_remote 'Check Status...', 
+               :url => {:action => 'get_annotations', :id => @recording.id},
+               :update => 'annotation_table' %>
+
+
+		<%= link_to_remote 'Update table...', 
+               :url => {:action => 'get_annotations', :id => @recording.id},
+               :update => 'annotation_table' %>
+		<%= periodically_call_remote :url => {:action => 'get_annotations', :id => @recording.id},
+               :update => 'annotation_table',
+               :frequency => 10
+         %>
+
+
+------------------------------ show.html.erb ------------------------------
+
+  <h3>Timeline</h3>
+  <div style="width: 700px; height: 20px; background:#bcf;" id="special">
+	<table width="100%">
+	  <tr>
+		<td>2000</td>
+		<td>2001</td>
+		<td>2002</td>
+		<td>2003</td>
+		<td>2004</td>
+		<td>2005</td>
+		<td>2006</td>
+		<td>2007</td>
+		<td>2008</td>
+		<td>2009</td>
+	  </tr>
+	</table>
+  </div>
+
+
+------------------------------ show.html.erb ------------------------------
+
+			<form action="" method="post">
+			  <td width="50px"></td>
+			  <td><input type="submit" value="Previous"></td>
+			  <td><input type="submit" value="Next"></td>
+			  <td width="50px"></td>
+			</form>
+
+
+------------------------------ show.html.erb ------------------------------
+
+		<%= periodically_call_remote :url => {:action => 'get_annotations', :id => @recording.id},
+               :update => 'annotation_table',
+               :frequency => 10
+         %>
+
+
+------------------------------ show.html.erb ------------------------------
+
+			 FlashVars="recording_url=/assets/recordings/<%= @recording.year_tape_side -%>&annotation_url=/recordings/annotations/<%= @recording.id -%>&prediction_url=/predictions/show/1.txt&visualization_url=/assets/visualizations/<%= @recording.year_tape_side -%>/spectrogram&recording_id=<%= @recording.id -%>"
+
+------------------------------ _incidences.html.erb ------------------------------
+
+  <table class="pretty">
+	<tr><td>Date</td><td><%= n.date %></td></tr>
+	<tr><td>Identification</td><td><%= n.identification %></td></tr>
+	<tr><td>Acoustic/Visual</td><td><%= n.acoustic_visual %></td></tr>
+	<tr><td>Location</td><td><%= n.location %></td></tr>
+	<tr><td>East JS</td><td><%= n.east_js %></td></tr>
+	<tr><td>QCS</td><td><%= n.qcs %></td></tr>
+	<tr><td>Observer</td><td><%= n.observer %></td></tr>
+	<tr><td>System Info</td><td><%= n.system_info %></td></tr>
+	<tr><td>Effort</td><td><%= n.effort %></td></tr>
+	<tr><td>Comments</td><td><%= n.comments %></td></tr>
+  </table>
+
+
+------------------------------ show.html.erb ------------------------------
+
+
+
+------------------------------ _user_login_info.html.erb ------------------------------
+
+<% if !current_user.nil? && current_user != false %>
+  <%= current_user.login %>
+  <%= link_to "Logout", :controller => 'account', :action => 'logout' %>
+  <% if current_user.admin %>
+	<%= link_to "Admin", :controller => 'admin', :action => 'index' %>
+  <% end %>
+<% else %>
+  <%= link_to "Login", :controller => 'account', :action => 'login' %>
+<% end %>
+
+
+------------------------------ show.html.erb ------------------------------
+
+<center>
+  <div>
+	<table width="800px">
+	  <tr>
+		<td>
+		  <form action="/recordings/find" method="post">
+			<p>
+			  <table width="300px">
+				<tr>
+				  <td><label for="year">year</label></td>
+				  <td><label for="tape">tape</label></td>
+				</tr>
+				<tr>
+				  <td>
+					<input type="text" size="6" id="year" name="year" value="<%= @recording.year %>"><br>
+				  </td>
+				  <td>
+					<input type="text" size="7" id="tape" name="tape" value="<%= @recording.tape + @recording.side %>"><br>
+				  </td>
+				  <td>
+					<input type="submit" value="find">
+				  </td>
+				  <td>
+					&nbsp;<%= link_to "list", :action => 'index' %>
+				  </td>
+				  <td width="100px"></td>
+				</tr>
+			  </table>
+			</p>
+		  </form>
+		</td>
+		<td>
+		  <table width="200px">
+		  </table>
+		</td>
+		<td>
+		  <form action="" method="post">
+			<p>
+			  <table width="300px">
+				<tr><td>&nbsp;</td></tr>
+				<tr>
+				  <div id="loginlink">
+					<%= render :partial => 'user_login_info' %>
+				  </div>
+				  <td width="50px"></td>
+				  <td>
+					<input type="text" size="20" id="search"<br>
+						   </td>
+				  <td>
+					<input type="submit" value="search">
+				  </td>
+				</tr>
+			  </table>
+			</p>
+		  </form>
+		</td>
+	  </tr>
+	</table>
+  </div>
+  <br>
+  
+  <div class="orcaannotator">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+			width="800"
+			height="243"
+			id="haxe"
+			align="middle">
+	  <param name="movie" value="/orcaannotator.swf"/>
+	  <param name="allowScriptAccess" value="always" />
+	  <param name="quality" value="high" />
+	  <param name="scale" value="noscale" />
+	  <param name="salign" value="lt" />
+	  <param name="bgcolor" value="#ffffff"/>
+	  <embed src="/orcaannotator.swf"
+			 FlashVars="recording_url=/assets/recordings/<%= @recording.year_tape_side -%>&prediction_url=/predictions/show/2.txt&visualization_url=/assets/visualizations/<%= @recording.year_tape_side -%>/spectrogram&recording_id=<%= @recording.id -%>&start_year=<%= @recording.start_year -%>&start_month=<%= @recording.start_month -%>&start_day=<%= @recording.start_day %>&start_hour=<%= @recording.start_hour %>&start_minute=<%= @recording.start_minute %>&recording_id=<%= @recording.id %>&user_id=<%= current_user.id %>&user_annotation_id=<%= current_user.id %>&locked=<%= @locked %>"
+			 bgcolor="#ffffff"
+			 width="800"
+			 height="243"
+			 name="movie"
+			 quality="best"
+			 align="middle"
+			 allowScriptAccess="always"
+			 type="application/x-shockwave-flash"
+			 pluginspage="http://www.macromedia.com/go/getflashplayer">
+	</object>
+  </div>
+  <br />
+  
+  <table width="805px">
+	<tr>
+	  <td width="200px">
+		<%= render :partial => 'visualizations_form', :locals => { :visualizations => @visualizations} %>
+		<%= render :partial => 'user_annotations_form', :locals => { :users => @users} %>
+		<% if @predictions.length > 0 %>
+			<%= render :partial => 'predictions_form', :locals => { :predictions => @predictions} %>
+		<% end %>
+		<%= render :partial => 'incidences', :locals => { :incidences => @recording.incidences} %>
+		<br />
+		<%= link_to "Download annotations", :action => 'audacity_annotations', :id => @recording.id %>
+	  </td>
+	  <td>
+		<div style="width: 600px; height: 300px; overflow: auto">
+		  <% @recording.labbook_pages.each do |n| %>
+			<%= image_tag n.image_file_path %><br />
+		  <% end %>
+		</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td></td>
+	  <td>
+		<br />
+		<%= link_to (image_tag "sample_map.png"), "/images/sample_map_big.jpg" %>
+		<br />
+		<%= render :partial => 'annotation_table', :locals => { :annotations => @annotations} %>
+		<%= link_to_remote 'Update table...', 
+                          :url => {:action => 'get_annotations', :id => @recording.id},
+                          :update => 'annotation_table' %>
+	  </td>
+	</tr>
+  </table>
+
+</center>
+
+<hr>
+
+
+
+------------------------------ show.html.erb ------------------------------
+
+ 	  <td>
+		<div style="width: 600px; height: 300px; overflow: auto">
+		  <% @recording.labbook_pages.each do |n| %>
+			<%= image_tag n.image_file_path %><br />
+		  <% end %>
+		</div>
+	  </td>
+
+
+		<br />
+		<%= link_to (image_tag "sample_map.png"), "/images/sample_map_big.jpg" %>
+
+
+		<%= render :partial => 'visualizations_form', :locals => { :visualizations => @visualizations} %>
+
+
+					<input type="text" size="20" id="search"<br>
+					<input type="submit" value="search">
+
+
+------------------------------ _user_annotations_form.html.erb ------------------------------
+
+<% if users.length > 0 %>
+  <h2>Annotations</h2>
+  <form name="userAnnotationForm">
+	<select name="userAnnotation" multiple size=<%= users.size %> onChange="userAnnotationChange()">
+	  <% users.each_index do |i| %>
+		<option value="<%= users[i].id -%>"
+				<% if users[i] == current_user %>
+				  selected="selected"
+				<% end %>
+				><%= users[i].login %>
+	  <% end %>
+	</select>
+  </form>
+<% end %>
+
+
+------------------------------ _user_annotations_form.html.erb ------------------------------
+
+	  <% users.each_index do |i| %>
+		<% if !users[i].nil? %>
+		<option value="<%= users[i].id -%>"
+				<% if users[i] == current_user %>
+				  selected="selected"
+				<% end %>
+				><%= users[i].login %>
+		  <% end %>
+	  <% end %>
+
+
+------------------------------ _user_annotations_form.html.erb ------------------------------
+
+<% users.each do |user| %>
+user=(<%= user.id %>)
+<% end %>
+current_user=<%= current_user.id %>
+
+
+
+------------------------------ _predictions_form.html.erb ------------------------------
+
+<% if @predictions.length > 0 %>
+<h2>Predictions</h2>
+<form name="predictionForm">
+  <select name="prediction" multiple size=<%= predictions.size %> onChange="predictionChange()">
+	<option value="" selected="selected">
+	<% predictions.each_index do |i| %>
+	  <option value="<%= predictions[i].id %>"
+			  <% if i == 0 %>
+				selected="selected"
+			  <% end %>
+			  ><%= predictions[i].id.to_s + " (" + predictions[i].created_at.to_formatted_s(:short) + ")" %>
+	<% end %>
+  </select>
+</form>
+<% end %>
+
+
+------------------------------ _predictions_form.html.erb ------------------------------
+
+	  <option value="<%= predictions[i].id %>"><%= predictions[i].id.to_s + " " + predictions[i].name + " (" + predictions[i].created_at.to_formatted_s(:short) + ")" %></option>
+
+
+------------------------------ _comment_view.html.erb ------------------------------
+
+  <% @all_comments.each do |comment| %>
+	<b>User:</b> <%= comment.user.name %><br />
+	<b>Comments:</b> <%= comment.text %><br />
+  <% end %>
+
+
+
+------------------------------ _predictions_form.html.erb ------------------------------
+
+Before moving labbook page to take up whole side of screen
+
+<center>
+  <div>
+	<table width="800px">
+	  <tr>
+		<td>
+		  <form action="/recordings/find" method="post">
+			<p>
+			  <table width="300px">
+				<tr>
+				  <td><label for="year">year</label></td>
+				  <td><label for="tape">tape</label></td>
+				</tr>
+				<tr>
+				  <td>
+					<input type="text" size="6" id="year" name="year" value="<%= @recording.year %>"><br>
+				  </td>
+				  <td>
+					<input type="text" size="7" id="tape" name="tape" value="<%= @recording.tape + @recording.side %>"><br>
+				  </td>
+				  <td>
+					<input type="submit" value="find">
+				  </td>
+				  <td>
+					&nbsp;<%= link_to "list", :action => 'index' %>
+				  </td>
+				  <td width="100px">
+				  </td>
+				</tr>
+				<tr>
+				  <td></td>
+				  <td colspan=4>
+ 					<div style="width:85px"> 
+ 					  <div style="float:left"> 
+						<% unless (@recording.id - 1 == 0) %>
+						  <%= link_to "prev", :id => @recording.id - 1  %>
+						<% end %>
+ 					  </div> 
+ 					  <div style="float:right"> 
+						<%= link_to "next", :id => @recording.id + 1  %>
+ 					  </div>
+ 					</div> 
+				  </td>
+				</tr>
+			  </table>
+			</p>
+		  </form>
+		</td>
+		<td>
+		  <table width="200px">
+		  </table>
+		</td>
+		<td>
+		  <form action="" method="post">
+			<p>
+			  <table width="400px">
+				<tr><td>&nbsp;</td></tr>
+				<tr>
+				  <div id="loginlink">
+					<%= render :partial => 'user_login_info' %>
+				  </div>
+				  <td width="50px"></td>
+				  <td><input type="text" size="20" id="search"<br></td>
+				  <td><input type="submit" value="search"></td>
+				</tr>
+			  </table>
+			</p>
+		  </form>
+		</td>
+	  </tr>
+	</table>
+  </div>
+  <br>
+  
+  <div class="orcaannotator">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+			width="800"
+			height="243"
+			id="haxe"
+			align="middle">
+	  <param name="movie" value="/orcaannotator.swf"/>
+	  <param name="allowScriptAccess" value="always" />
+	  <param name="quality" value="high" />
+	  <param name="scale" value="noscale" />
+	  <param name="salign" value="lt" />
+	  <param name="bgcolor" value="#ffffff"/>
+	  <embed src="/orcaannotator.swf"
+			 FlashVars="recording_url=/assets/recordings/<%= @recording.year_tape_side -%>&prediction_url=&visualization_url=/assets/visualizations/<%= @recording.year_tape_side -%>/spectrogram&recording_id=<%= @recording.id -%>&start_year=<%= @recording.start_year -%>&start_month=<%= @recording.start_month -%>&start_day=<%= @recording.start_day %>&start_hour=<%= @recording.start_hour %>&start_minute=<%= @recording.start_minute %>&recording_id=<%= @recording.id %>&user_id=<%= @current_user_id %>&annotation_user_id=<%= @current_annotation_user_id %>"
+			 bgcolor="#ffffff"
+			 width="800"
+			 height="243"
+			 name="movie"
+			 quality="best"
+			 align="middle"
+			 allowScriptAccess="always"
+			 type="application/x-shockwave-flash"
+			 pluginspage="http://www.macromedia.com/go/getflashplayer">
+	</object>
+  </div>
+  <br />
+  
+  <table width="805px">
+	<tr>
+	  <td width="200px">
+        <%= render :partial => 'user_annotations_form', :locals => { :users => @users} %>
+		<%= render :partial => 'predictions_form', :locals => { :predictions => @predictions} %>
+		<%= render :partial => 'incidences', :locals => { :incidences => @recording.incidences} %>
+		<%= render :partial => 'download_annotations', :locals => { :incidences => @recording.incidences} %>
+	  </td>
+ 	  <td valign="top">
+
+		<%= render :partial => 'comment_view' %>
+
+		<% if !current_user.nil? && current_user != :false && current_user.admin %>
+		  <p>
+			<% form_for(:recording, :url => { :action => 'edit_time', :id => @recording.id }) do |f| -%>
+			  <label for="recording_start_time">Start Time</label>
+			  <% if !@recording.start_time.nil? %>
+				<%= f.datetime_select :start_time, :start_year => 1972  %>
+			  <% else %>
+				<% if !@prev_recording.nil? && !@prev_recording.start_time.nil? %>
+				  <%= f.datetime_select :start_time, :start_year => 1972, :default => @prev_recording.start_time + 45.minutes  %>
+				<% else %>
+				  <%= f.datetime_select :start_time, :start_year => 1972  %>
+				<% end %>
+			  <% end %>
+			  <%= submit_tag 'Submit' %>
+			<% end %>
+		  </p>
+		<% end %>
+
+		<%= render :partial => 'labbook_page_view', :locals => { :recording => @recording} %>
+	  </td>
+	</tr>
+	<tr>
+	  <td></td>
+	  <td>
+		<br />
+		<% if @annotations.length > 0 %>
+		  <%= render :partial => 'annotation_table', :locals => { :annotations => @annotations, :recording_id => @recording.id} %>
+		  <%= link_to_remote 'Update table...', 
+             :url => {:action => 'get_annotations', :id => @recording.id},
+             :update => 'annotation_table' %>
+		<% end %> 
+	  </td>
+	</tr>
+  </table>
+
+</center>
+
+<hr>
+
+
+------------------------------ show.html.erb ------------------------------
+
+	<tr>
+	  <td></td>
+	  <td>
+		<br />
+		<% if @annotations.length > 0 %>
+		  <%= render :partial => 'annotation_table', :locals => { :annotations => @annotations, :recording_id => @recording.id} %>
+		  <%= link_to_remote 'Update table...', 
+             :url => {:action => 'get_annotations', :id => @recording.id},
+             :update => 'annotation_table' %>
+		<% end %> 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td>
+		<%= render :partial => 'labbook_page_view', :locals => { :recording => @recording} %>
+      </td>
+	</tr>
+
+
+
+------------------------------ _catalog.html.erb ------------------------------
+
+<% @calls.each do |call| %>
+
+name=<%= call.name %>
+
+<% end %>
+  (<%= @call_array[call_row_i].size %>)
+
+------------------------------ _catalog.html.erb ------------------------------
+
+   $('#foo').bind('click', function() {
+   alert($(this).text());
+   });
+
+
+
+
+function handler(event) {
+alert(event.data.foo);
+}
+   $('#foo').bind("click", {foo: "bar"}, handler)
+
+
+------------------------------ _catalog.html.erb ------------------------------
+
+** Tue Apr 20 2010 - 02:52:11 AM
+   -----------------------------
+
+<% if !current_user.nil? && current_user != :false && current_user.can_annotate %>
+
+	<script type="text/javascript">
+<!--
+
+   function playAudio(url,call_id,flash_text) { 
+
+     console.log("before t=(" + flash_text + ")");
+ 	 var flash = window.movie || document.movie; // Get Flash object
+   console.log("la1");
+ 	 var val = flash.enterAnnotation(flash_text); // Invoke a function
+     console.log("after");
+     $("#result").load("/call/show/" + call_id);
+     var audio = new Audio(url);
+     audio.play();
+     window.setTimeout( function ( ) {
+       audio.volume = 0.1;
+     }, 0 );
+   };
+
+   function loadPicture(call_id) {
+   };
+
+$(document).ready(function(){
+	});
+
+
+$.ajaxSetup ({
+   cache: false
+   });
+
+//-->
+	</script>
+
+	<div class="call_catalog">
+	  <div class="yui-ge">  
+		<div class="yui-u first">  
+		  
+		  <div class="calls">
+		  <table>
+			<tr>
+			  <% @call_names.each do |call_name| %>
+				<th>
+				  <%= call_name %>
+				</th>
+			  <% end %>
+			</tr>
+			<% for n in (0..@max_call_names) %>
+			  <tr>
+				<% @call_array.each_index do |call_row_i| %>
+				  <td>
+					<% if !@call_array[call_row_i][n].nil? %>
+					  <div class="playerholder"
+						   <img src="<%= @call_array[call_row_i][n].image %>" width="50px" onmouseover="loadPicture(<%= @call_array[call_row_i][n].id -%>);" onclick="playAudio('<%= @call_array[call_row_i][n].audio -%>',<%= @call_array[call_row_i][n].id -%>,'<%= @call_array[call_row_i][n].flash_name -%>');">
+					</div>
+				  <% end %>
+				</td>
+			  <% end %>
+			  
+			</tr>
+		  <% end %>
+		</table>
+        </div>
+	  </div>
+	  <div class="yui-u">  
+		<div id="result">
+		</div>
+	  </div>
+	</div>
+</div>
+
+<% end %>
+
+
+------------------------------ _catalog.html.erb ------------------------------
+
+<hr>
+<div id="container">
+	<h1 class="title">Checkbox demo</h1>
+	<p>This is a basic checkbox plugin demo.</p>
+	<script type="text/javascript" class="source">
+	$(function () { 
+	console.log("test");
+		$("#demo_1").tree({
+			ui : {
+				theme_name : "checkbox"
+			},
+			plugins : { 
+				checkbox : { }
+			}
+		});
+	});
+	</script>
+	<div class="demo" id="demo_1">
+		<ul>
+			<li id="phtml_1" class="open"><a href="#"><ins>&nbsp;</ins>Root node 1</a>
+				<ul>
+					<li id="phtml_2"><a href="#"><ins>&nbsp;</ins>Child node 1</a></li>
+					<li id="phtml_3"><a href="#"><ins>&nbsp;</ins>Child node 2</a></li>
+					<li id="phtml_4"><a href="#"><ins>&nbsp;</ins>Some other child node with longer text</a></li>
+				</ul>
+			</li>
+			<li id="phtml_5"><a href="#"><ins>&nbsp;</ins>Root node 2</a></li>
+		</ul>
+	</div>
+
+</div>
+<hr>
+
+
+------------------------------ _catalog.html.erb ------------------------------
+
+** Tue Apr 20 2010 - 10:23:54 AM
+   -----------------------------
+
+
+<% if !current_user.nil? && current_user != :false && current_user.can_annotate %>
+
+	<script type="text/javascript">
+<!--
+
+   function playAudio(url,call_id,flash_text) { 
+
+     console.log("before t=(" + flash_text + ")");
+ 	 var flash = window.movie || document.movie; // Get Flash object
+   console.log("la1");
+ 	 var val = flash.enterAnnotation(flash_text); // Invoke a function
+     console.log("after");
+     $("#result").load("/call/show/" + call_id);
+     var audio = new Audio(url);
+     audio.play();
+     window.setTimeout( function ( ) {
+       audio.volume = 0.1;
+     }, 0 );
+   };
+
+   function loadPicture(call_id) {
+   };
+
+$(document).ready(function(){
+
+	});
+
+
+
+$.ajaxSetup ({
+   cache: false
+   });
+
+//-->
+	</script>
+
+	<div class="call_catalog">
+	  <div class="yui-ge">  
+		<div class="yui-u first">  
+		  
+		  <div class="calls">
+		  <table>
+			<tr>
+			  <% @call_types.each do |call_type| %>
+				<th>
+				  <%= call_type.name %>
+				</th>
+			  <% end %>
+			</tr>
+			<% for n in (0..@max_call_types) %>
+			  <tr>
+				<% @call_array.each_index do |call_row_i| %>
+				  <td>
+					<% if !@call_array[call_row_i][n].nil? %>
+					  <div class="playerholder"
+						   <img src="<%= @call_array[call_row_i][n].image %>" width="50px" onmouseover="loadPicture(<%= @call_array[call_row_i][n].id -%>);" onclick="playAudio('<%= @call_array[call_row_i][n].audio -%>',<%= @call_array[call_row_i][n].id -%>,'<%= @call_array[call_row_i][n].flash_name -%>');">
+					</div>
+				  <% end %>
+				</td>
+			  <% end %>
+			  
+			</tr>
+		  <% end %>
+		</table>
+        </div>
+	  </div>
+	  <div class="yui-u">  
+		<div id="result">
+		</div>
+	  </div>
+	</div>
+</div>
+
+<% end %>
+
+
+
+
+------------------------------ _catalog.html.erb ------------------------------
+
+<% if !current_user.nil? && current_user != :false && current_user.can_annotate %>
+
+	<script type="text/javascript">
+<!--
+
+   function playAudio(url,call_id,flash_text) { 
+
+     console.log("before t=(" + flash_text + ")");
+ 	 var flash = window.movie || document.movie; // Get Flash object
+   console.log("la1");
+ 	 var val = flash.enterAnnotation(flash_text); // Invoke a function
+     console.log("after");
+     $("#result").load("/call/show/" + call_id);
+     var audio = new Audio(url);
+     audio.play();
+     window.setTimeout( function ( ) {
+       audio.volume = 0.1;
+     }, 0 );
+   };
+
+   function loadPicture(call_id) {
+   };
+
+  function test(s) {
+   console.log("testaaa" + s);
+   };
+
+$(document).ready(function(){
+
+	});
+
+
+
+$.ajaxSetup ({
+   cache: false
+   });
+
+//-->
+	</script>
+
+	<div class="call_catalog">
+	  <div class="yui-ge">  
+		<div class="yui-u first">  
+		  
+		  <div class="yui-ge">  
+			<div class="yui-u first">  
+			  
+			  <div class="calls">
+				<table>
+				  <tr>
+					<% @call_types.each do |call_type| %>
+					  <th>
+						<%= call_type.name %>
+					  </th>
+					<% end %>
+				  </tr>
+				  <% for n in (0..@max_call_types) %>
+					<tr>
+					  <% @call_array.each_index do |call_row_i| %>
+						<td>
+						  <% if !@call_array[call_row_i][n].nil? %>
+							<div class="playerholder">
+							  <img src="<%= @call_array[call_row_i][n].image %>" width="50px" onmouseover="loadPicture(<%= @call_array[call_row_i][n].id -%>);" onclick="playAudio('<%= @call_array[call_row_i][n].audio -%>',<%= @call_array[call_row_i][n].id -%>,'<%= @call_array[call_row_i][n].flash_name -%>');">
+							</div>
+						  <% end %>
+						</td>
+					  <% end %>
+					</tr>
+				  <% end %>
+				</table>
+			  </div>
+			</div>
+			<div class="yui-u">  
+			  <h2>DTW</h2>
+			  <div id="dtw_results">
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="yui-u">  
+		  <div id="result">
+		  </div>
+		</div>
+	  </div>
+	</div>
+<% end %>
+
+
+
+
+------------------------------ _catalog.html.erb ------------------------------
+
+<% if !current_user.nil? && current_user != :false && current_user.can_annotate %>
+
+	<script type="text/javascript">
+<!--
+
+   function playAudio(url,call_id,flash_text) { 
+
+     // Invoke the "enterAnnotation" method on the orcaanotator
+ 	 var flash = window.movie || document.movie; // Get Flash object
+ 	 var val = flash.enterAnnotation(flash_text); // Invoke a function
+
+     // Fill up the "result" div with the output of /call/show via AJAX
+     $("#result").load("/calls/show/" + call_id);
+     //$("#result").load("http://localhost:8000/dtw");
+
+     // Play the audio
+     var audio = new Audio(url);
+     audio.play();
+
+     // Lower the volume of the audio
+     window.setTimeout( function ( ) {
+       audio.volume = 0.1;
+     }, 0 );
+   };
+
+   function loadPicture(call_id) {
+   };
+
+   function loadDtw(s) {
+     console.log("testaaa" + s);
+     // $("#dtw_results").load("/calls/dtw/" + s);
+     $("#dtw_results").load("/calls/dtw?" + s);
+     console.log("done");
+   };
+
+   $(document).ready(function(){
+   });
+
+   $.ajaxSetup ({
+     cache: false
+   });
+
+//-->
+	</script>
+
+	<div class="call_catalog">
+	  <div class="yui-ge">  
+		<div class="yui-u first">  
+		  
+		  <div class="yui-ge">  
+			<div class="yui-u first">  
+			  
+			  <div class="calls">
+				<table>
+				  <tr>
+					<% @call_types.each do |call_type| %>
+					  <th>
+						<%= call_type.name %>
+					  </th>
+					<% end %>
+				  </tr>
+				  <% for n in (0..@max_call_types) %>
+					<tr>
+					  <% @call_array.each_index do |call_row_i| %>
+						<td>
+						  <% if !@call_array[call_row_i][n].nil? %>
+							<%= render :partial => '/calls/call.html.erb', :locals => {:call => @call_array[call_row_i][n]} %>
+						  <% end %>
+						</td>
+					  <% end %>
+					</tr>
+				  <% end %>
+				</table>
+			  </div>
+			</div>
+			<div class="yui-u">  
+			  <h2>DTW</h2>
+			  <div id="dtw_results">
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="yui-u">  
+		  <div id="result">
+		  </div>
+		</div>
+	  </div>
+	</div>
+<% end %>
+
+
+
+
+------------------------------ _catalog.html.erb ------------------------------
+
+<% if !current_user.nil? && current_user != :false && current_user.can_annotate %>
+
+	<script type="text/javascript">
+<!--
+
+   function playAudio(url,call_id,flash_text) { 
+
+     // Invoke the "enterAnnotation" method on the orcaanotator
+ 	 var flash = window.movie || document.movie; // Get Flash object
+ 	 var val = flash.enterAnnotation(flash_text); // Invoke a function
+
+     // Fill up the "result" div with the output of /call/show via AJAX
+     $("#result").load("/calls/show/" + call_id);
+     //$("#result").load("http://localhost:8000/dtw");
+
+     // Play the audio
+     var audio = new Audio(url);
+     audio.play();
+
+     // Lower the volume of the audio
+     window.setTimeout( function ( ) {
+       audio.volume = 0.1;
+     }, 0 );
+   };
+
+   function loadPicture(call_id) {
+   };
+
+   function loadDtw(s) {
+     console.log("testaaa" + s);
+     // $("#dtw_results").load("/calls/dtw/" + s);
+     $("#dtw_results").load("/calls/dtw?" + s);
+     console.log("done");
+   };
+
+   $(document).ready(function(){
+   });
+
+   $.ajaxSetup ({
+     cache: false
+   });
+
+//-->
+	</script>
+
+	<div class="call_catalog">
+	  <div class="yui-ge">  
+		<div class="yui-u first">  
+
+		  <div class="calls">
+			<table>
+			  <tr>
+				<% @call_types.each do |call_type| %>
+				  <th>
+					<%= call_type.name %>
+				  </th>
+				<% end %>
+			  </tr>
+			  <% for n in (0..@max_call_types) %>
+				<tr>
+				  <% @call_array.each_index do |call_row_i| %>
+					<td>
+					  <% if !@call_array[call_row_i][n].nil? %>
+						<%= render :partial => '/calls/call.html.erb', :locals => {:call => @call_array[call_row_i][n]} %>
+					  <% end %>
+					</td>
+				  <% end %>
+				</tr>
+			  <% end %>
+			</table>
+		  </div>
+
+		</div>
+		<div class="yui-u">  
+		  test
+		  <div class="yui-g">  
+			<div class="yui-u first">  
+			  <div class="dtw">
+				<h2>DTW</h2>
+				<div id="dtw_results">
+				</div>
+			  </div>
+			</div>
+			<div class="yui-u">  
+			  <div id="result">
+			  </div>
+			</div>
+		  </div>
+
+		</div>
+	  </div>
+	</div>
+<% end %>
+
+

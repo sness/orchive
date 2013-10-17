@@ -1,0 +1,27 @@
+# == Schema Information
+# Schema version: 20100420092914
+#
+# Table name: labbooks
+#
+#  id            :integer(4)      not null, primary key
+#  name          :string(255)     
+#  start_date    :date            
+#  end_date      :date            
+#  pdf_file_path :string(255)     
+#  created_at    :datetime        
+#  updated_at    :datetime        
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  start_date: 2008-07-10
+  end_date: 2008-07-10
+  pdf_file_path: MyString
+
+two:
+  name: MyString
+  start_date: 2008-07-10
+  end_date: 2008-07-10
+  pdf_file_path: MyString

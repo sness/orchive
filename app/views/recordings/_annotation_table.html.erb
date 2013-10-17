@@ -1,0 +1,28 @@
+
+  <div id="annotation_table">
+	<table width="100%" class="pretty">
+	  <th>Annotation</th>
+	  <th>Start</th>
+	  <th>End</th>
+	  <th>User</th>
+	  <th>Comments</th>
+	  <% @annotations.each do |n| %> 
+		<tr>
+		  <td><%= n.label %></td>
+		  <% if !@recording.start_time.nil? %>
+		    <td><%= (@recording.start_time + (n.start_time_ms.to_f / 1000).to_i.seconds).strftime("%I:%M:%S%p") %></td>
+		    <td><%= (@recording.start_time + (n.end_time_ms.to_f / 1000).to_i.seconds).strftime("%I:%M:%S%p") %></td>
+          <% else %>
+		    <td><%= (n.start_time_ms.to_f / 1000).to_i %></td>
+		    <td><%= (n.end_time_ms.to_f / 1000).to_i %></td>
+	      <% end %>
+		  <td><%= n.user.login %></td>
+		  <td><%= n.comments %></td>
+		</tr>
+	  <% end %>
+	</table>
+  </div>
+
+
+
+

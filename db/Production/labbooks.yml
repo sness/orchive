@@ -1,0 +1,2300 @@
+--- 
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1982-06-21"
+    name: jun2182_nov2382
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1982/jun2182_nov2382.pdf
+    id: "1"
+    end_date: "1982-11-23"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1983-07-01"
+    name: jul0183_nov2284
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1983/jul0183_nov2284.pdf
+    id: "2"
+    end_date: "1984-11-22"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1985-02-15"
+    name: feb1585_jul0586
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1985/feb1585_jul0586.pdf
+    id: "3"
+    end_date: "1986-07-05"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1986-07-05"
+    name: jul0586_sep2386
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1986/jul0586_sep2386.pdf
+    id: "4"
+    end_date: "1986-09-23"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1986-09-25"
+    name: sep2586_sep0387
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1986/sep2586_sep0387.pdf
+    id: "5"
+    end_date: "1987-09-03"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1987-09-03"
+    name: sep0387_sep1588
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1987/sep0387_sep1588.pdf
+    id: "6"
+    end_date: "1988-09-15"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1988-09-10"
+    name: sep1088_sep1788
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1988/sep1088_sep1788.pdf
+    id: "7"
+    end_date: "1988-09-17"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1988-09-15"
+    name: sep1588_aug0689
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1988/sep1588_aug0689.pdf
+    id: "8"
+    end_date: "1989-08-06"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1989-08-07"
+    name: aug0789_oct0589
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1989/aug0789_oct0589.pdf
+    id: "9"
+    end_date: "1989-10-05"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1989-10-06"
+    name: oct0689_nov2689
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1989/oct0689_nov2689.pdf
+    id: "10"
+    end_date: "1989-11-26"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1990-08-30"
+    name: aug3090_nov0990
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1990/aug3090_nov0990.pdf
+    id: "11"
+    end_date: "1990-11-09"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1990-07-15"
+    name: jul1590_aug1090
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1990/jul1590_aug1090.pdf
+    id: "12"
+    end_date: "1990-08-10"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1989-11-27"
+    name: nov2789_jul1590
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1990/nov2789_jul1590.pdf
+    id: "13"
+    end_date: "1990-07-15"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1991-08-08"
+    name: aug0891_aug2491
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1991/aug0891_aug2491.pdf
+    id: "14"
+    end_date: "1991-08-24"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1991-08-25"
+    name: aug2591_sep1191
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1991/aug2591_sep1191.pdf
+    id: "15"
+    end_date: "1991-09-11"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1991-07-03"
+    name: jul0391_aug0891
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1991/jul0391_aug0891.pdf
+    id: "16"
+    end_date: "1991-08-08"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1991-07-17"
+    name: jul1791_jul3091
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1991/jul1791_jul3091.pdf
+    id: "17"
+    end_date: "1991-07-30"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1990-11-10"
+    name: nov1090_jul1291
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1991/nov1090_jul1291.pdf
+    id: "18"
+    end_date: "1991-07-12"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1991-10-03"
+    name: oct0391_nov0591
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1991/oct0391_nov0591.pdf
+    id: "19"
+    end_date: "1991-11-05"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1991-09-11"
+    name: sep1191_oct0391
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1991/sep1191_oct0391.pdf
+    id: "20"
+    end_date: "1991-10-03"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1992-08-05"
+    name: aug0592_aug2592
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1992/aug0592_aug2592.pdf
+    id: "21"
+    end_date: "1992-08-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1992-08-25"
+    name: aug2592_sep0992
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1992/aug2592_sep0992.pdf
+    id: "22"
+    end_date: "1992-09-09"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1992-07-19"
+    name: jul1992_aug0592
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1992/jul1992_aug0592.pdf
+    id: "23"
+    end_date: "1992-08-05"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1991-11-05"
+    name: nov0591_jul1992
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1992/nov0591_jul1992.pdf
+    id: "24"
+    end_date: "1992-07-19"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1992-09-09"
+    name: sep0992_sep2992
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1992/sep0992_sep2992.pdf
+    id: "25"
+    end_date: "1992-09-29"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1992-09-29"
+    name: sep2992_nov2092
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1992/sep2992_nov2092.pdf
+    id: "26"
+    end_date: "1992-11-20"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1993-08-09"
+    name: aug0993_aug1993
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1993/aug0993_aug1993.pdf
+    id: "27"
+    end_date: "1993-08-19"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1993-08-19"
+    name: aug1993_aug2993
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1993/aug1993_aug2993.pdf
+    id: "28"
+    end_date: "1993-08-29"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1993-08-29"
+    name: aug2993_sep1493
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1993/aug2993_sep1493.pdf
+    id: "29"
+    end_date: "1993-09-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1993-07-22"
+    name: jul2293_aug0993
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1993/jul2293_aug0993.pdf
+    id: "30"
+    end_date: "1993-08-09"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1992-11-23"
+    name: nov2392_jul2193
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1993/nov2392_jul2193.pdf
+    id: "31"
+    end_date: "1993-07-21"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1993-09-14"
+    name: sep1493_sep3093
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1993/sep1493_sep3093.pdf
+    id: "32"
+    end_date: "1993-09-30"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1993-09-30"
+    name: sep3093_oct3093
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1993/sep3093_oct3093.pdf
+    id: "33"
+    end_date: "1993-10-30"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1994-08-10"
+    name: aug1094_aug2794
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1994/aug1094_aug2794.pdf
+    id: "34"
+    end_date: "1994-08-27"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1994-08-27"
+    name: aug2794_oct2094
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1994/aug2794_oct2094.pdf
+    id: "35"
+    end_date: "1994-10-20"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1994-07-18"
+    name: jul1894_jul2794
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1994/jul1894_jul2794.pdf
+    id: "36"
+    end_date: "1994-07-27"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1994-07-27"
+    name: jul2794_aug1094
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1994/jul2794_aug1094.pdf
+    id: "37"
+    end_date: "1994-08-10"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1994-06-26"
+    name: jun2694_jul1894
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1994/jun2694_jul1894.pdf
+    id: "38"
+    end_date: "1994-07-18"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1994-11-06"
+    name: nov0694_dec2894
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1994/nov0694_dec2894.pdf
+    id: "39"
+    end_date: "1994-12-28"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1994-10-20"
+    name: oct2094_nov0694
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1994/oct2094_nov0694.pdf
+    id: "40"
+    end_date: "1994-11-06"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1993-10-30"
+    name: oct3093_jun2594
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1994/oct3093_jun2594.pdf
+    id: "41"
+    end_date: "1994-06-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1995-08-10"
+    name: aug1095_aug1995
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1995/aug1095_aug1995.pdf
+    id: "42"
+    end_date: "1995-08-19"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1995-08-19"
+    name: aug1995_sep1195
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1995/aug1995_sep1195.pdf
+    id: "43"
+    end_date: "1995-09-11"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1995-01-01"
+    name: jan0195_jul1495
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1995/jan0195_jul1495.pdf
+    id: "44"
+    end_date: "1995-07-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1995-07-14"
+    name: jul1495_jul2395
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1995/jul1495_jul2395.pdf
+    id: "45"
+    end_date: "1995-07-23"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1995-07-23"
+    name: jul2395_jul3095
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1995/jul2395_jul3095.pdf
+    id: "46"
+    end_date: "1995-07-30"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1995-07-30"
+    name: jul3095_aug1095
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1995/jul3095_aug1095.pdf
+    id: "47"
+    end_date: "1995-08-10"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1995-10-12"
+    name: oct1295_oct2995
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1995/oct1295_oct2995.pdf
+    id: "48"
+    end_date: "1995-10-29"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1995-10-29"
+    name: oct2995_nov2595
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1995/oct2995_nov2595.pdf
+    id: "49"
+    end_date: "1995-11-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1995-09-12"
+    name: sep1295_oct1295
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1995/sep1295_oct1295.pdf
+    id: "50"
+    end_date: "1995-10-12"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1996-08-06"
+    name: aug0696_aug1496
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1996/aug0696_aug1496.pdf
+    id: "51"
+    end_date: "1996-08-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1996-08-14"
+    name: aug1496_aug2496
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1996/aug1496_aug2496.pdf
+    id: "52"
+    end_date: "1996-08-24"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1996-08-24"
+    name: aug2496_aug3196
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1996/aug2496_aug3196.pdf
+    id: "53"
+    end_date: "1996-08-31"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1996-08-31"
+    name: aug3196_sep1496
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1996/aug3196_sep1496.pdf
+    id: "54"
+    end_date: "1996-09-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1996-07-17"
+    name: jul1796_jul2996
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1996/jul1796_jul2996.pdf
+    id: "55"
+    end_date: "1996-07-29"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1996-07-29"
+    name: jul2996_aug0696
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1996/jul2996_aug0696.pdf
+    id: "56"
+    end_date: "1996-08-06"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1995-11-26"
+    name: nov2695_jul1796
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1996/nov2695_jul1796.pdf
+    id: "57"
+    end_date: "1996-07-17"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1996-10-15"
+    name: oct1596_dec2596
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1996/oct1596_dec2596.pdf
+    id: "58"
+    end_date: "1996-12-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1996-09-14"
+    name: sep1496_oct1596
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1996/sep1496_oct1596.pdf
+    id: "59"
+    end_date: "1996-10-15"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1997-08-05"
+    name: aug0597_aug1797
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1997/aug0597_aug1797.pdf
+    id: "60"
+    end_date: "1997-08-17"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1997-08-17"
+    name: aug1797_aug2897
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1997/aug1797_aug2897.pdf
+    id: "61"
+    end_date: "1997-08-28"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1997-08-28"
+    name: aug2897_sep0797
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1997/aug2897_sep0797.pdf
+    id: "62"
+    end_date: "1997-09-07"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1996-12-25"
+    name: dec2596_jul1597
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1997/dec2596_jul1597.pdf
+    id: "63"
+    end_date: "1997-07-15"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1997-07-15"
+    name: jul1597_jul2597
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1997/jul1597_jul2597.pdf
+    id: "64"
+    end_date: "1997-07-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1997-07-25"
+    name: jul2597_aug0597
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1997/jul2597_aug0597.pdf
+    id: "65"
+    end_date: "1997-08-05"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1997-10-18"
+    name: oct1897_nov2197
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1997/oct1897_nov2197.pdf
+    id: "66"
+    end_date: "1997-11-21"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1997-09-07"
+    name: sep0797_sep2897
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1997/sep0797_sep2897.pdf
+    id: "67"
+    end_date: "1997-09-28"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1997-09-28"
+    name: sep2897_oct1897
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1997/sep2897_oct1897.pdf
+    id: "68"
+    end_date: "1997-10-18"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-08-02"
+    name: aug0298_aug0798
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/aug0298_aug0798.pdf
+    id: "69"
+    end_date: "1998-08-07"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-08-07"
+    name: aug0798_aug1198
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/aug0798_aug1198.pdf
+    id: "70"
+    end_date: "1998-08-11"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-08-11"
+    name: aug1198_aug1798
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/aug1198_aug1798.pdf
+    id: "71"
+    end_date: "1998-08-17"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-08-17"
+    name: aug1798_aug2198
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/aug1798_aug2198.pdf
+    id: "72"
+    end_date: "1998-08-21"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-08-21"
+    name: aug2198_aug2598
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/aug2198_aug2598.pdf
+    id: "73"
+    end_date: "1998-08-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-08-25"
+    name: aug2598_aug2998
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/aug2598_aug2998.pdf
+    id: "74"
+    end_date: "1998-08-29"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-08-29"
+    name: aug2998_sep0498
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/aug2998_sep0498.pdf
+    id: "75"
+    end_date: "1998-09-04"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-07-09"
+    name: jul0998_jul2098
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/jul0998_jul2098.pdf
+    id: "76"
+    end_date: "1998-07-20"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-07-20"
+    name: jul2098_jul2598
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/jul2098_jul2598.pdf
+    id: "77"
+    end_date: "1998-07-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-07-25"
+    name: jul2598_aug0298
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/jul2598_aug0298.pdf
+    id: "78"
+    end_date: "1998-08-02"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-06-29"
+    name: jun2998_jul0998
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/jun2998_jul0998.pdf
+    id: "79"
+    end_date: "1998-07-09"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1997-11-21"
+    name: nov2197_jun0798
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/nov2197_jun0798.pdf
+    id: "80"
+    end_date: "1998-06-07"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-10-09"
+    name: oct0998_nov0698
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/oct0998_nov0698.pdf
+    id: "81"
+    end_date: "1998-11-06"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-09-04"
+    name: sep0498_sep0798
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/sep0498_sep0798.pdf
+    id: "82"
+    end_date: "1998-09-07"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-09-07"
+    name: sep0798_sep1098
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/sep0798_sep1098.pdf
+    id: "83"
+    end_date: "1998-09-10"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-09-10"
+    name: sep1098_sep2098
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/sep1098_sep2098.pdf
+    id: "84"
+    end_date: "1998-09-20"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-09-20"
+    name: sep2098_sep2798
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/sep2098_sep2798.pdf
+    id: "85"
+    end_date: "1998-09-27"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1998-09-27"
+    name: sep2798_oct0998
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1998/sep2798_oct0998.pdf
+    id: "86"
+    end_date: "1998-10-09"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1999-08-22"
+    name: aug2299_sep0299
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1999/aug2299_sep0299.pdf
+    id: "87"
+    end_date: "1999-09-02"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1999-07-05"
+    name: jul0599_jul1699
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1999/jul0599_jul1699.pdf
+    id: "88"
+    end_date: "1999-07-16"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1999-07-16"
+    name: jul1699_jul2199
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1999/jul1699_jul2199.pdf
+    id: "89"
+    end_date: "1999-07-21"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1999-07-21"
+    name: jul2199_jul2599
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1999/jul2199_jul2599.pdf
+    id: "90"
+    end_date: "1999-07-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1999-07-25"
+    name: jul2599_aug2299
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1999/jul2599_aug2299.pdf
+    id: "91"
+    end_date: "1999-08-22"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: 
+    name: _
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: /_.pdf
+    id: "92"
+    end_date: 
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1999-10-05"
+    name: oct0599_oct2699
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1999/oct0599_oct2699.pdf
+    id: "93"
+    end_date: "1999-10-26"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1999-09-02"
+    name: sep0299_sep1499
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1999/sep0299_sep1499.pdf
+    id: "94"
+    end_date: "1999-09-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1999-09-14"
+    name: sep1499_oct0599
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 1999/sep1499_oct0599.pdf
+    id: "95"
+    end_date: "1999-10-05"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-08-05"
+    name: aug0500_aug0900
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/aug0500_aug0900.pdf
+    id: "96"
+    end_date: "2000-08-09"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-08-09"
+    name: aug0900_aug2000
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/aug0900_aug2000.pdf
+    id: "97"
+    end_date: "2000-08-20"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-08-20"
+    name: aug2000_aug2600
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/aug2000_aug2600.pdf
+    id: "98"
+    end_date: "2000-08-26"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-08-26"
+    name: aug2600_sep0100
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/aug2600_sep0100.pdf
+    id: "99"
+    end_date: "2000-09-01"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-07-02"
+    name: jul0200_jul1400
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/jul0200_jul1400.pdf
+    id: "100"
+    end_date: "2000-07-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-07-14"
+    name: jul1400_jul2000
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/jul1400_jul2000.pdf
+    id: "101"
+    end_date: "2000-07-20"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-07-20"
+    name: jul2000_jul2700
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/jul2000_jul2700.pdf
+    id: "102"
+    end_date: "2000-07-27"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-07-27"
+    name: jul2700_jul3100
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/jul2700_jul3100.pdf
+    id: "103"
+    end_date: "2000-07-31"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-07-31"
+    name: jul3100_aug0500
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/jul3100_aug0500.pdf
+    id: "104"
+    end_date: "2000-08-05"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-10-15"
+    name: oct1500_nov1400
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/oct1500_nov1400.pdf
+    id: "105"
+    end_date: "2000-11-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "1999-10-26"
+    name: oct2699_jul0200
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/oct2699_jul0200.pdf
+    id: "106"
+    end_date: "2000-07-02"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-09-01"
+    name: sep0100_sep0700
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/sep0100_sep0700.pdf
+    id: "107"
+    end_date: "2000-09-07"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-09-07"
+    name: sep0700_sep1500
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/sep0700_sep1500.pdf
+    id: "108"
+    end_date: "2000-09-15"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-09-15"
+    name: sep1500_sep2800
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/sep1500_sep2800.pdf
+    id: "109"
+    end_date: "2000-09-28"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-09-28"
+    name: sep2800_oct1500
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2000/sep2800_oct1500.pdf
+    id: "110"
+    end_date: "2000-10-15"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-08-02"
+    name: aug0201_aug0801
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/aug0201_aug0801.pdf
+    id: "111"
+    end_date: "2001-08-08"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-08-08"
+    name: aug0801_aug1501
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/aug0801_aug1501.pdf
+    id: "112"
+    end_date: "2001-08-15"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-08-15"
+    name: aug1501_aug2101
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/aug1501_aug2101.pdf
+    id: "113"
+    end_date: "2001-08-21"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-08-21"
+    name: aug2101_aug2801
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/aug2101_aug2801.pdf
+    id: "114"
+    end_date: "2001-08-28"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-08-28"
+    name: aug2801_sep0301
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/aug2801_sep0301.pdf
+    id: "115"
+    end_date: "2001-09-03"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-01-23"
+    name: jan2301_jul1101
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/jan2301_jul1101.pdf
+    id: "116"
+    end_date: "2001-07-11"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-07-11"
+    name: jul1101_jul1601
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/jul1101_jul1601.pdf
+    id: "117"
+    end_date: "2001-07-16"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-07-16"
+    name: jul1601_jul2101
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/jul1601_jul2101.pdf
+    id: "118"
+    end_date: "2001-07-21"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-07-21"
+    name: jul2101_jul2701
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/jul2101_jul2701.pdf
+    id: "119"
+    end_date: "2001-07-27"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-07-27"
+    name: jul2701_aug0201
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/jul2701_aug0201.pdf
+    id: "120"
+    end_date: "2001-08-02"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2000-11-14"
+    name: nov1400_jan2301
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/nov1400_jan2301.pdf
+    id: "121"
+    end_date: "2001-01-23"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-10-22"
+    name: oct2201_nov1601
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/oct2201_nov1601.pdf
+    id: "122"
+    end_date: "2001-11-16"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-09-03"
+    name: sep0301_sep0901
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/sep0301_sep0901.pdf
+    id: "123"
+    end_date: "2001-09-09"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-09-09"
+    name: sep0901_sep1401
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/sep0901_sep1401.pdf
+    id: "124"
+    end_date: "2001-09-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-09-14"
+    name: sep1401_sep1901
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/sep1401_sep1901.pdf
+    id: "125"
+    end_date: "2001-09-19"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-09-19"
+    name: sep1901_oct2201
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2001/sep1901_oct2201.pdf
+    id: "126"
+    end_date: "2001-10-22"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-08-06"
+    name: aug0602_aug1302
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/aug0602_aug1302.pdf
+    id: "127"
+    end_date: "2002-08-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-08-14"
+    name: aug1402_aug2002
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/aug1402_aug2002.pdf
+    id: "128"
+    end_date: "2002-08-20"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-08-20"
+    name: aug2002_aug2502
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/aug2002_aug2502.pdf
+    id: "129"
+    end_date: "2002-08-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-08-25"
+    name: aug2502_sep0102
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/aug2502_sep0102.pdf
+    id: "130"
+    end_date: "2002-09-01"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-07-03"
+    name: jul0302_jul1302
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/jul0302_jul1302.pdf
+    id: "131"
+    end_date: "2002-07-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-07-13"
+    name: jul1302_jul2202
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/jul1302_jul2202.pdf
+    id: "132"
+    end_date: "2002-07-22"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-07-23"
+    name: jul2302_jul2902
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/jul2302_jul2902.pdf
+    id: "133"
+    end_date: "2002-07-29"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-07-29"
+    name: jul2902_aug0602
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/jul2902_aug0602.pdf
+    id: "134"
+    end_date: "2002-08-06"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2001-11-16"
+    name: nov1601_jul0302
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/nov1601_jul0302.pdf
+    id: "135"
+    end_date: "2002-07-03"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-10-26"
+    name: oct2602_nov1302
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/oct2602_nov1302.pdf
+    id: "136"
+    end_date: "2002-11-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-09-01"
+    name: sep0102_sep0802
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/sep0102_sep0802.pdf
+    id: "137"
+    end_date: "2002-09-08"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-09-08"
+    name: sep0802_sep1702
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/sep0802_sep1702.pdf
+    id: "138"
+    end_date: "2002-09-17"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-09-17"
+    name: sep1702_sep2502
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/sep1702_sep2502.pdf
+    id: "139"
+    end_date: "2002-09-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-09-25"
+    name: sep2502_oct2602
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2002/sep2502_oct2602.pdf
+    id: "140"
+    end_date: "2002-10-26"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-08-05"
+    name: aug0503_aug1003
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/aug0503_aug1003.pdf
+    id: "141"
+    end_date: "2003-08-10"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-08-10"
+    name: aug1003_aug1503
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/aug1003_aug1503.pdf
+    id: "142"
+    end_date: "2003-08-15"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-08-15"
+    name: aug1503_aug2703
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/aug1503_aug2703.pdf
+    id: "143"
+    end_date: "2003-08-27"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-08-27"
+    name: aug2703_sep0703
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/aug2703_sep0703.pdf
+    id: "144"
+    end_date: "2003-09-07"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-07-13"
+    name: jul1303_jul2103
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/jul1303_jul2103.pdf
+    id: "145"
+    end_date: "2003-07-21"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-07-21"
+    name: jul2103_jul2903
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/jul2103_jul2903.pdf
+    id: "146"
+    end_date: "2003-07-29"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-07-30"
+    name: jul3003_aug0503
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/jul3003_aug0503.pdf
+    id: "147"
+    end_date: "2003-08-05"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-06-29"
+    name: jun2903_jul1303
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/jun2903_jul1303.pdf
+    id: "148"
+    end_date: "2003-07-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2002-11-13"
+    name: nov1302_jun2903
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/nov1302_jun2903.pdf
+    id: "149"
+    end_date: "2003-06-29"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-10-18"
+    name: oct1803_nov1303
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/oct1803_nov1303.pdf
+    id: "150"
+    end_date: "2003-11-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-09-07"
+    name: sep0703_sep1403
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/sep0703_sep1403.pdf
+    id: "151"
+    end_date: "2003-09-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-09-14"
+    name: sep1403_sep2403
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/sep1403_sep2403.pdf
+    id: "152"
+    end_date: "2003-09-24"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-09-24"
+    name: sep2403_oct1803
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2003/sep2403_oct1803.pdf
+    id: "153"
+    end_date: "2003-10-18"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-08-01"
+    name: aug0104_aug0604
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/aug0104_aug0604.pdf
+    id: "154"
+    end_date: "2004-08-06"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-08-06"
+    name: aug0604_aug1004
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/aug0604_aug1004.pdf
+    id: "155"
+    end_date: "2004-08-10"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-08-10"
+    name: aug1004_aug1404
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/aug1004_aug1404.pdf
+    id: "156"
+    end_date: "2004-08-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-08-14"
+    name: aug1404_aug1804
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/aug1404_aug1804.pdf
+    id: "157"
+    end_date: "2004-08-18"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-08-18"
+    name: aug1804_aug2304
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/aug1804_aug2304.pdf
+    id: "158"
+    end_date: "2004-08-23"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-08-23"
+    name: aug2304_sep0704
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/aug2304_sep0704.pdf
+    id: "159"
+    end_date: "2004-09-07"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-07-02"
+    name: jul0204_jul1304
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/jul0204_jul1304.pdf
+    id: "160"
+    end_date: "2004-07-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-07-13"
+    name: jul1304_jul2304
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/jul1304_jul2304.pdf
+    id: "161"
+    end_date: "2004-07-23"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-07-23"
+    name: jul2304_jul2804
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/jul2304_jul2804.pdf
+    id: "162"
+    end_date: "2004-07-28"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-07-28"
+    name: jul2804_aug0104
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/jul2804_aug0104.pdf
+    id: "163"
+    end_date: "2004-08-01"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2003-11-13"
+    name: nov1303_jul0204
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/nov1303_jul0204.pdf
+    id: "164"
+    end_date: "2004-07-02"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-10-06"
+    name: oct0604_oct2004
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/oct0604_oct2004.pdf
+    id: "165"
+    end_date: "2004-10-20"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-10-20"
+    name: oct2004_nov1404
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/oct2004_nov1404.pdf
+    id: "166"
+    end_date: "2004-11-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-09-07"
+    name: sep0704_sep2504
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/sep0704_sep2504.pdf
+    id: "167"
+    end_date: "2004-09-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-09-25"
+    name: sep2504_oct0604
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2004/sep2504_oct0604.pdf
+    id: "168"
+    end_date: "2004-10-06"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-08-04"
+    name: aug0405_aug1305
+    created_at: 2009-09-22 20:36:34
+    updated_at: 2009-09-22 20:36:34
+    pdf_file_path: 2005/aug0405_aug1305.pdf
+    id: "169"
+    end_date: "2005-08-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-08-13"
+    name: aug1305_aug2105
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/aug1305_aug2105.pdf
+    id: "170"
+    end_date: "2005-08-21"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-08-21"
+    name: aug2105_aug2505
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/aug2105_aug2505.pdf
+    id: "171"
+    end_date: "2005-08-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-08-25"
+    name: aug2505_sep0105
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/aug2505_sep0105.pdf
+    id: "172"
+    end_date: "2005-09-01"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-07-02"
+    name: jul0205_jul1305
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/jul0205_jul1305.pdf
+    id: "173"
+    end_date: "2005-07-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-07-13"
+    name: jul1305_jul2505
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/jul1305_jul2505.pdf
+    id: "174"
+    end_date: "2005-07-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-07-25"
+    name: jul2505_aug0405
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/jul2505_aug0405.pdf
+    id: "175"
+    end_date: "2005-08-04"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2004-11-14"
+    name: nov1404_jul0205
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/nov1404_jul0205.pdf
+    id: "176"
+    end_date: "2005-07-02"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-10-05"
+    name: oct0505_oct1805
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/oct0505_oct1805.pdf
+    id: "177"
+    end_date: "2005-10-18"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-10-18"
+    name: oct1805_jan1306
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/oct1805_jan1306.pdf
+    id: "178"
+    end_date: "2006-01-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-09-01"
+    name: sep0105_sep0405
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/sep0105_sep0405.pdf
+    id: "179"
+    end_date: "2005-09-04"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-09-04"
+    name: sep0405_sep0905
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/sep0405_sep0905.pdf
+    id: "180"
+    end_date: "2005-09-09"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-09-09"
+    name: sep0905_sep1305
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/sep0905_sep1305.pdf
+    id: "181"
+    end_date: "2005-09-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-09-13"
+    name: sep1305_sep1705
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/sep1305_sep1705.pdf
+    id: "182"
+    end_date: "2005-09-17"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-09-17"
+    name: sep1705_sep2505
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/sep1705_sep2505.pdf
+    id: "183"
+    end_date: "2005-09-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-09-25"
+    name: sep2505_oct0505
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2005/sep2505_oct0505.pdf
+    id: "184"
+    end_date: "2005-10-05"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-08-07"
+    name: aug0706_aug1306
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/aug0706_aug1306.pdf
+    id: "185"
+    end_date: "2006-08-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-08-13"
+    name: aug1306_aug2006
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/aug1306_aug2006.pdf
+    id: "186"
+    end_date: "2006-08-20"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-08-20"
+    name: aug2006_aug2506
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/aug2006_aug2506.pdf
+    id: "187"
+    end_date: "2006-08-25"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-08-25"
+    name: aug2506_aug3006
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/aug2506_aug3006.pdf
+    id: "188"
+    end_date: "2006-08-30"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-08-30"
+    name: aug3006_sep0306
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/aug3006_sep0306.pdf
+    id: "189"
+    end_date: "2006-09-03"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-01-13"
+    name: jan1306_jul0806
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/jan1306_jul0806.pdf
+    id: "190"
+    end_date: "2006-07-08"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-07-08"
+    name: jul0806_jul1706
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/jul0806_jul1706.pdf
+    id: "191"
+    end_date: "2006-07-17"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-07-17"
+    name: jul1706_jul3006
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/jul1706_jul3006.pdf
+    id: "192"
+    end_date: "2006-07-30"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-07-30"
+    name: jul3006_aug0706
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/jul3006_aug0706.pdf
+    id: "193"
+    end_date: "2006-08-07"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-10-05"
+    name: oct0506_oct2006
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/oct0506_oct2006.pdf
+    id: "194"
+    end_date: "2006-10-20"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2005-10-18"
+    name: oct1805_jan1306
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/oct1805_jan1306.pdf
+    id: "195"
+    end_date: "2006-01-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-10-20"
+    name: oct2006_nov1306
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/oct2006_nov1306.pdf
+    id: "196"
+    end_date: "2006-11-13"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-09-03"
+    name: sep0306_sep0706
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/sep0306_sep0706.pdf
+    id: "197"
+    end_date: "2006-09-07"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-09-07"
+    name: sep0706_sep1206
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/sep0706_sep1206.pdf
+    id: "198"
+    end_date: "2006-09-12"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-09-12"
+    name: sep1206_sep1906
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/sep1206_sep1906.pdf
+    id: "199"
+    end_date: "2006-09-19"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-09-19"
+    name: sep1906_sep2706
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/sep1906_sep2706.pdf
+    id: "200"
+    end_date: "2006-09-27"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-09-27"
+    name: sep2706_oct0506
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2006/sep2706_oct0506.pdf
+    id: "201"
+    end_date: "2006-10-05"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2007-08-02"
+    name: aug0207_aug1007
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2007/aug0207_aug1007.pdf
+    id: "202"
+    end_date: "2007-08-10"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2007-08-10"
+    name: aug1007_aug1807
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2007/aug1007_aug1807.pdf
+    id: "203"
+    end_date: "2007-08-18"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2007-08-18"
+    name: aug1807_aug2407
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2007/aug1807_aug2407.pdf
+    id: "204"
+    end_date: "2007-08-24"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2007-08-24"
+    name: aug2407_aug3107
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2007/aug2407_aug3107.pdf
+    id: "205"
+    end_date: "2007-08-31"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2007-08-31"
+    name: aug3107_sep1407
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2007/aug3107_sep1407.pdf
+    id: "206"
+    end_date: "2007-09-14"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2007-07-12"
+    name: jul1207_aug0207
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2007/jul1207_aug0207.pdf
+    id: "207"
+    end_date: "2007-08-02"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2006-11-13"
+    name: nov1306_jul1207
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2007/nov1306_jul1207.pdf
+    id: "208"
+    end_date: "2007-07-12"
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    start_date: "2007-09-14"
+    name: sep1407_nov0107
+    created_at: 2009-09-22 20:36:35
+    updated_at: 2009-09-22 20:36:35
+    pdf_file_path: 2007/sep1407_nov0107.pdf
+    id: "209"
+    end_date: "2007-11-01"
+  attributes_cache: {}
+

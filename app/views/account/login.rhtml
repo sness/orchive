@@ -1,0 +1,28 @@
+
+<% form_tag do -%>
+<p><label for="login">Login</label><br/>
+<%= text_field_tag 'login' %></p>
+
+<p><label for="password">Password</label><br/>
+<%= password_field_tag 'password' %></p>
+
+<p><label for="remember_me">Remember me:</label>
+<%= check_box_tag 'remember_me', '1', true %></p>
+
+<p><%= submit_tag 'Log in' %></p>
+<% end -%>
+
+
+<div>
+  Forget your password? <br />
+  <%= link_to "Reset your password", :action => 'forgot_password' %><br />
+  <br />
+  Forget your username? <br />
+  <%= link_to "Retrieve your username", :action => 'forgot_username' %><br />
+  <br />
+</div>
+
+<div>
+Not yet a member?<br />
+<%= link_to "Request a user account", :action => 'signup' %>
+</div>

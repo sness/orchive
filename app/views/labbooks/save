@@ -1,0 +1,188 @@
+------------------------------ _labbook_page_list.html.erb ------------------------------
+
+<div class="tabular">
+<table>
+  <tr>
+	<th>page</th>
+	<th>image</th>
+  </tr>
+  <% labbook_pages.each do |n| %>
+  <tr>
+	<td><%= link_to n.page, :controller => 'labbooks', :action => 'show_labbook_page', :id => n.id %></td>
+	<td>
+	  <%= link_to (image_tag n.image_file_path, :size => '590x450'), :controller => 'labbooks', :action => 'show_labbook_page', :id => n.id %>
+	  <% if !current_user.nil? && current_user != :false && current_user.admin && !session[:current_recording].nil? %><br />
+		<%= link_to "Add lab book page to recording", :action => 'add_labbook_page_to_recording', :id => n.id %>
+	  <% end %>
+	</td>
+  </tr>
+  <% end %>
+</table>
+</div>
+
+
+------------------------------ show_labbook_page.html.erb ------------------------------
+
+<h1><%= @labbook_page.labbook.name %> page <%= @labbook_page.page %></h1>
+
+
+<div style="width:450px">
+  <div style="float:left">
+	<% unless (@labbook_page.id - 1 == 0) %>
+	  <%= link_to "<<", :id => @labbook_page.id - 1  %>
+	<% end %>
+  </div>
+  <div style="float:right">
+	<%= link_to ">>", :id => @labbook_page.id + 1  %>
+  </div>
+</div>
+
+<br />
+<br />
+
+<%= link_to (image_tag @labbook_page.medium_image_file_path), :action => 'show_big_labbook_page', :id => @labbook_page.id %>
+
+
+
+<br />
+
+<% if !current_user.nil? && current_user != :false && current_user.admin && !session[:current_recording].nil? %>
+  <%= link_to "Add lab book page to recording", :action => 'add_labbook_page_to_recording', :id => @labbook_page.id %>
+<% end %>
+
+<pre>
+<%= @labbook_page.page_text %>
+</pre>
+<br />
+
+<h2>Recordings</h2>
+
+<div class="tabular">
+<table>
+  <tr>
+	<th>name</th>
+	<th>tape</th>
+	<th>side</th>
+	<th>start time</th>
+	<th>end time</th>
+  </tr>
+  <% @labbook_page.recordings.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :controller => 'recordings', :action => 'show', :id => n.id %></td>
+	<td><%= n.tape %></td>
+	<td><%= n.side %></td>
+	<td><%= n.start_time.nil? ? "" : n.start_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= n.end_time.nil? ? "" : n.end_time.strftime("%b%d%y %H:%M") %></td>
+  </tr>
+  <% end %>
+</table>
+</div>
+
+
+------------------------------ _labbook_page_list.html.erb ------------------------------
+
+	  <%= link_to (image_tag n.image_file_path, :size => '590x450'), :controller => 'labbooks', :action => 'show_labbook_page', :id => n.id %>
+
+
+	  <% if !current_user.nil? && current_user != :false && current_user.admin && !session[:current_recording].nil? %><br />
+		<%= link_to "Add lab book page to recording", :action => 'add_labbook_page_to_recording', :id => n.id, :labbook => labbook %>
+	  <% end %>
+
+
+------------------------------ show_labbook_page.html.erb ------------------------------
+
+
+<div style="width:450px">
+  <div style="float:left">
+	<% unless (@labbook_page.id - 1 == 0) %>
+	  <%= link_to "<<", :id => @labbook_page.id - 1  %>
+	<% end %>
+  </div>
+  <div style="float:right">
+	<%= link_to ">>", :id => @labbook_page.id + 1  %>
+  </div>
+  <div>
+	<%= link_to "Goto labbook", :controller => 'labbooks', :action => 'show', :id => @labbook_page.labbook.id %>
+  </div>
+</div>
+
+
+------------------------------ show_big_labbook_page.html.erb ------------------------------
+
+<h1><%= @labbook_page.labbook.name %> page <%= @labbook_page.page %></h1>
+
+<div style="width:450px">
+  <div style="float:left">
+	<% unless (@labbook_page.id - 1 == 0) %>
+	  <%= link_to "<<", :id => @labbook_page.id - 1  %>
+	<% end %>
+  </div>
+  <div style="float:right">
+	<%= link_to ">>", :id => @labbook_page.id + 1  %>
+  </div>
+</div>
+
+<br />
+<br />
+
+<% if !current_user.nil? && current_user != :false && current_user.admin && !session[:current_recording].nil? %>
+  <%= link_to "Add lab book page to recording", :action => 'add_labbook_page_to_recording', :id => @labbook_page.id %>
+<% end %>
+
+</br>
+</br>
+
+<%= image_tag @labbook_page.image_file_path %>
+
+<pre>
+<%= @labbook_page.page_text %>
+</pre>
+<br />
+
+
+
+------------------------------ show_labbook_page.html.erb ------------------------------
+
+<table width="680px">
+  <tr>
+	<td>
+	  <% unless (@labbook_page.page - 1 == 0) %>
+		<%= link_to "<<", :id => @labbook_page.id - 1  %>
+	  <% end %>
+
+	  <% unless (@labbook_page.page - 5 <= 0) %>
+		<%= link_to "-5", :id => @labbook_page.id - 5  %>
+	  <% end %>
+
+	  <% unless (@labbook_page.page - 10 <= 0) %>
+		<%= link_to "-10", :id => @labbook_page.id - 10  %>
+	  <% end %>
+
+	  <% unless (@labbook_page.page - 20 <= 0) %>
+		<%= link_to "-20", :id => @labbook_page.id - 20  %>
+	  <% end %>
+
+	</td>
+	<td align="center">
+	  <%= link_to "Goto labbook", :controller => 'labbooks', :action => 'show', :id => @labbook_page.labbook.id %>
+	</td>
+	<td align="right">
+
+	  <% unless (@labbook_page.page + 20 > @labbook_page.labbook.max_page_num) %>
+		<%= link_to "+20", :id => @labbook_page.id + 20  %>
+	  <% end %>
+
+	  <% unless (@labbook_page.page + 10 > @labbook_page.labbook.max_page_num) %>
+		<%= link_to "+10", :id => @labbook_page.id + 10  %>
+	  <% end %>
+
+	  <% unless (@labbook_page.page + 5 > @labbook_page.labbook.max_page_num) %>
+		<%= link_to "+5", :id => @labbook_page.id + 5  %>
+	  <% end %>
+
+	  <% unless (@labbook_page.page + 1 > @labbook_page.labbook.max_page_num) %>
+		<%= link_to ">>", :id => @labbook_page.id + 1  %>
+	  <% end %>
+	</td>
+  </tr>
+</table>

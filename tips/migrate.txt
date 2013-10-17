@@ -1,0 +1,2 @@
+rake db:migrate VERSION=0 ; rake db:migrate ; rake db:test:clone ; rake annotate_models ; rake dev db:load:all
+

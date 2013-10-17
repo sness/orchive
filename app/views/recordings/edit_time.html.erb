@@ -1,0 +1,9 @@
+<% form_for(:recording, :url => { :action => 'edit_time' }) do |f| -%>
+
+  <p><label for="recording_start_time">start time</label>
+	<%= f.datetime_select :start_time  %>
+
+    <%= submit_tag 'Submit' %>
+  </p>
+
+<% end %>

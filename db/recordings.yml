@@ -1,0 +1,145 @@
+--- 
+- !ruby/object:Recording 
+  attributes: 
+    name: 2005_449A
+    updated_at: 2009-08-08 08:45:18
+    wav_audio_file_path: /Volumes/Orchive1/2005/449A.wav
+    side: A
+    tape: "449"
+    mp3_audio_file_path: mp3/2005/449A.mp3
+    id: "1"
+    year: "2005"
+    length_ms: "2878920"
+    created_at: 2009-08-05 12:00:00
+    end_time: 2005-09-01 06:52:00
+    start_time: 2005-09-01 06:05:00
+  attributes_cache: {}
+
+- !ruby/object:Recording 
+  attributes: 
+    name: 2005_449B
+    updated_at: 2009-08-05 12:00:00
+    wav_audio_file_path: /Volumes/Orchive1/2005/449B.wav
+    side: B
+    tape: "449"
+    mp3_audio_file_path: mp3/2005/449B.mp3
+    id: "2"
+    year: "2005"
+    length_ms: "2878920"
+    created_at: 2009-08-05 12:00:00
+    end_time: 2005-09-01 07:40:00
+    start_time: 2005-09-01 06:53:00
+  attributes_cache: {}
+
+- !ruby/object:Recording 
+  attributes: 
+    name: 2005_450A
+    updated_at: 2009-08-05 12:00:00
+    wav_audio_file_path: /Volumes/Orchive1/2005/450A.wav
+    side: A
+    tape: "450"
+    mp3_audio_file_path: mp3/2005/450A.mp3
+    id: "3"
+    year: "2005"
+    length_ms: "2878920"
+    created_at: 2009-08-05 12:00:00
+    end_time: 2005-09-01 08:28:00
+    start_time: 2005-09-01 07:40:00
+  attributes_cache: {}
+
+- !ruby/object:Recording 
+  attributes: 
+    name: 2005_450B
+    updated_at: 2009-08-05 12:00:00
+    wav_audio_file_path: /Volumes/Orchive1/2005/450B.wav
+    side: B
+    tape: "450"
+    mp3_audio_file_path: mp3/2005/450B.mp3
+    id: "4"
+    year: "2005"
+    length_ms: "2878920"
+    created_at: 2009-08-05 12:00:00
+    end_time: 2005-09-01 09:15:00
+    start_time: 2005-09-01 08:28:00
+  attributes_cache: {}
+
+- !ruby/object:Recording 
+  attributes: 
+    name: 2005_451A
+    updated_at: 2009-08-05 12:00:00
+    wav_audio_file_path: /Volumes/Orchive1/2005/451A.wav
+    side: A
+    tape: "451"
+    mp3_audio_file_path: mp3/2005/451A.mp3
+    id: "5"
+    year: "2005"
+    length_ms: "2878920"
+    created_at: 2009-08-05 12:00:00
+    end_time: 2005-09-01 10:03:00
+    start_time: 2005-09-01 09:15:00
+  attributes_cache: {}
+
+- !ruby/object:Recording 
+  attributes: 
+    name: 2005_451B
+    updated_at: 2009-08-05 12:00:00
+    wav_audio_file_path: /Volumes/Orchive1/2005/451B.wav
+    side: B
+    tape: "451"
+    mp3_audio_file_path: mp3/2005/451B.mp3
+    id: "6"
+    year: "2005"
+    length_ms: "2878920"
+    created_at: 2009-08-05 12:00:00
+    end_time: 2005-09-01 10:51:00
+    start_time: 2005-09-01 10:03:00
+  attributes_cache: {}
+
+- !ruby/object:Recording 
+  attributes: 
+    name: 2005_452A
+    updated_at: 2009-08-05 12:00:00
+    wav_audio_file_path: /Volumes/Orchive1/2005/452A.wav
+    side: A
+    tape: "452"
+    mp3_audio_file_path: mp3/2005/452A.mp3
+    id: "7"
+    year: "2005"
+    length_ms: "2878920"
+    created_at: 2009-08-05 12:00:00
+    end_time: 2005-09-01 11:40:00
+    start_time: 2005-09-01 10:52:00
+  attributes_cache: {}
+
+- !ruby/object:Recording 
+  attributes: 
+    name: 2005_452B
+    updated_at: 2009-08-05 12:00:00
+    wav_audio_file_path: /Volumes/Orchive1/2005/452B.wav
+    side: B
+    tape: "452"
+    mp3_audio_file_path: mp3/2005/452B.mp3
+    id: "8"
+    year: "2005"
+    length_ms: "2878920"
+    created_at: 2009-08-05 12:00:00
+    end_time: 2005-09-01 12:28:00
+    start_time: 2005-09-01 11:40:00
+  attributes_cache: {}
+
+- !ruby/object:Recording 
+  attributes: 
+    name: 2005_999A
+    updated_at: 2009-08-05 12:00:00
+    wav_audio_file_path: /Volumes/Orchive1/2005/999A.wav
+    side: A
+    tape: "999"
+    mp3_audio_file_path: mp3/2005/999A.mp3
+    id: "9"
+    year: "2005"
+    length_ms: "2878920"
+    created_at: 2009-08-05 12:00:00
+    end_time: 2009-01-01 00:45:00
+    start_time: 2009-01-01 00:00:00
+  attributes_cache: {}
+

@@ -1,0 +1,371 @@
+------------------------------ _topnav.html.erb ------------------------------
+
+  <li><%= image_tag "buttons/normal_home.png" %></li>
+  <li><%= image_tag "buttons/normal_about.png" %></li>
+  <li><%= image_tag "buttons/normal_orchive.png" %></li>
+  <li><%= image_tag "buttons/normal_people.png" %></li>
+  <li><%= image_tag "buttons/normal_press.png" %></li>
+  <li><%= image_tag "buttons/normal_contact.png" %></li>
+
+
+<li><%= rollover_link "home", "home", "index", "210", "38" %></li>
+<li><%= rollover_link "about", "about", "about", "110", "38" %></li>
+<li><%= rollover_link "orchive", "orchive", "orchive", "130", "38" %></li>
+<li><%= rollover_link "people", "people", "people", "150", "38" %></li>
+<li><%= rollover_link "press", "press", "press", "100", "38" %></li>
+<li><%= rollover_link "contact", "contact", "contact", "250", "38" %></li>
+
+------------------------------ application.rhtml ------------------------------
+
+with shaded borders
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <%= render :partial => '/layouts/xhtml_header' %>
+  <body>
+	
+	<center>
+	  <table width="970px">
+		<tr>
+		  <td id="left-gradient" width="10px">
+		  </td>
+		  
+		  <td width="950px">
+			
+			<div id="doc2">  
+			  
+			  <div id="header">
+				<%= render :partial => '/layouts/header' %>
+			  </div>   
+			  
+			  <div id="topnav">
+				<%= render :partial => '/layouts/topnav' %>
+			  </div>
+			  
+			  <div id="content">
+				<%= yield %>
+			  </div>
+			  
+			  <div id="footer">
+				<%= render :partial => '/layouts/footer' %>
+			  </div>   
+			  
+			</div>  
+		  </td>
+		  
+		  <td id="right-gradient" width="10px">
+		  </td>
+		  
+		</tr>
+	  </table>
+	</center>
+	
+  </body>
+</html>
+
+
+------------------------------ _topnav.html.erb ------------------------------
+
+<ul>
+  <li><%= rollover_link "home", "index", "main/index", "250", "24" %></li>
+  <li><%= rollover_link "about", "about", "main/about", "125", "24" %></li>
+  <li><%= rollover_link "tour", "tour", "main/tour", "115", "24" %></li>
+  <li><%= rollover_link "orchive", "orchive", "orchive", "125", "24" %></li>
+  <li><%= rollover_link "people", "people", "main/people", "130", "24" %></li>
+</ul>
+
+
+<% orchive_controllers = ['orchive','recordings','labbooks','annotations','predictions'] %>
+<% label_names = ['Overview','Recordings','Lab Books','Annotations','Predictions'] %>
+
+<% if orchive_controllers.include? controller.controller_name %>
+
+<div id="secnav">
+
+  <ul>
+	
+	<% for item in orchive_controllers %>
+
+	  <% label = label_names[orchive_controllers.index(item)] %>
+	  
+	  <% if controller.controller_name == item %>
+		<% if item == orchive_controllers[-1] %>
+		  <li id="lastlink" class="sel">
+		<% else %>
+		  <li class="sel">
+		<% end %>
+		<% else %>
+		<% if item == orchive_controllers[-1] %>
+		  <li id="lastlink">
+		<% else %>
+		  <li>
+		<% end %>
+	  <% end %>	
+	  <%= link_to label, :controller => item %>
+      </li>
+    <% end %>
+
+  </ul>
+</div>
+<% end %>
+
+
+------------------------------ _topnav.html.erb ------------------------------
+
+<ul>
+  <li><%= rollover_link "home", "index", "main/index", "200", "24" %></li>
+  <li><%= rollover_link "about", "about", "main/about", "200", "24" %></li>
+  <li><%= rollover_link "tour", "tour", "main/tour", "100", "24" %></li>
+  <li><%= rollover_link "orchive", "orchive", "orchive", "200", "24" %></li>
+  <li><%= rollover_link "people", "people", "main/people", "250", "24" %></li>
+</ul>
+
+
+<% orchive_controllers = ['orchive','recordings','labbooks','annotations','predictions'] %>
+<% label_names = ['Overview','Recordings','Lab Books','Annotations','Predictions'] %>
+
+<% if orchive_controllers.include? controller.controller_name %>
+
+<div id="secnav">
+
+  <ul>
+	
+	<% for item in orchive_controllers %>
+
+	  <% label = label_names[orchive_controllers.index(item)] %>
+	  
+	  <% if controller.controller_name == item %>
+		<% if item == orchive_controllers[-1] %>
+		  <li id="lastlink" class="sel">
+		<% else %>
+		  <li class="sel">
+		<% end %>
+		<% else %>
+		<% if item == orchive_controllers[-1] %>
+		  <li id="lastlink">
+		<% else %>
+		  <li>
+		<% end %>
+	  <% end %>	
+	  <%= link_to label, :controller => item %>
+      </li>
+    <% end %>
+
+  </ul>
+</div>
+<% end %>
+
+
+------------------------------ orchive.html.erb ------------------------------
+
+** Thu Mar 12 2009 - 17:35:15 PM
+   -----------------------------
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <%= render :partial => '/layouts/orchive_controller_header' %>
+  <%= render :partial => '/layouts/xhtml_header' %>
+  <body>
+	
+	<div id="doc2">  
+	  
+	  <div id="header">
+		<%= render :partial => '/layouts/header' %>
+	  </div>   
+	  
+	  <div id="topnav">
+		<%= render :partial => '/layouts/topnav' %>
+	  </div>
+	  
+	  <div id="content">
+		
+		<% if flash[:notice] -%>
+		  <div class="notice">
+			<%= flash[:notice] %>
+		  </div>
+		<% end %>
+		
+		<div class="yui-gf">
+		  <div class="yui-u first">
+			<div id="leftnav">
+			  <%= render :partial => 'leftnav' %>
+			</div>
+		  </div>
+		  <div class="yui-u">
+			  <%= yield %>
+		  </div>
+		</div>
+		
+	  </div>
+	  
+	  <div id="footer">
+		<%= render :partial => '/layouts/footer' %>
+	  </div>   
+	  
+	</div>  
+	
+	<% if ENV["RAILS_ENV"] == 'production' %>
+	  <script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	  </script>
+	  <script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-51793-17");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+	  </script>
+	<% end %>	
+  </body>
+</html>
+
+
+------------------------------ recordings.html.erb ------------------------------
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <%= render :partial => '/layouts/xhtml_header' %>
+  <body>
+	
+	<div id="doc2">  
+	  
+	  <div id="header">
+		<%= render :partial => '/layouts/header' %>
+	  </div>   
+	  
+	  <div id="topnav">
+		<%= render :partial => '/layouts/topnav' %>
+	  </div>
+	  
+	  <div id="content">
+		
+		<% if flash[:notice] -%>
+		  <div class="notice">
+			<%= flash[:notice] %>
+		  </div>
+		<% end %>
+		
+		<div class="yui-gf">
+		  <div class="yui-u first">
+			<div id="leftnav">
+			  <%= render :partial => 'leftnav' %>
+			</div>
+		  </div>
+		  <div class="yui-u">
+			  <%= yield %>
+		  </div>
+		</div>
+		
+	  </div>
+	  
+	  <div id="footer">
+		<%= render :partial => '/layouts/footer' %>
+	  </div>   
+	  
+	</div>  
+	
+	<% if ENV["RAILS_ENV"] == 'production' %>
+	  <script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	  </script>
+	  <script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-51793-17");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+	  </script>
+	<% end %>	
+  </body>
+</html>
+
+
+------------------------------ _orchive_controller_header.html.erb ------------------------------
+
+<%= javascript_include_tag 'jquery' %>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+ $("#special").click(function(e){
+
+var x = e.pageX - this.offsetLeft;
+var y = e.pageY - this.offsetTop;
+
+      $('#status2').html(x +', '+ y);
+   }); 
+})
+</script>
+
+
+------------------------------ _xhtml_header.rhtml ------------------------------
+
+
+<head>
+  <title>Orchive</title>
+
+  <%= stylesheet_link_tag "reset-fonts-grids", :media => "screen, projection" %>
+
+  <% if controller.controller_name =~ /^admin/ %>
+	<%= stylesheet_link_tag "orchive-admin", :media => "screen, projection" %>
+	<%= stylesheet_link_tag "orchive-colours", :media => "screen, projection" %>
+  <% else %>
+	<%= stylesheet_link_tag "orchive", :media => "screen, projection" %>
+  <% end %>
+
+  <%= javascript_include_tag 'prototype' %>
+  <%= javascript_include_tag 'my' %>
+
+	<script type="text/javascript">
+<!--
+
+  if (document.images)
+   {
+
+   <% [
+       ["home","index","index"],
+       ["about","about","about"],
+       ["tour","tour","tour"],
+       ["orchive","orchive","orchive"],
+       ["people","people","people"]
+      ].each do |n| %>
+     <%= n[1] -%>on= new Image();
+     <%= n[1] -%>on.src="/images/buttons/hover_<%= n[0] -%>.jpg";
+
+	 <% if (controller.action_name == n[2]) || (controller.controller_name == "recordings" && n[0] == "orchive") %>
+       <%= n[1] -%>off= new Image();
+       <%= n[1] -%>off.src="/images/buttons/selected_<%= n[0] -%>.jpg";
+	 <% else %>
+       <%= n[1] -%>off= new Image();
+       <%= n[1] -%>off.src="/images/buttons/normal_<%= n[0] -%>.jpg";
+	 <% end %>
+
+	 <% end %>
+
+function lightup(imgName) 
+{
+ if (document.images)
+ {
+   imgOn=eval(imgName + "on.src");
+   document[imgName].src= imgOn;
+ }
+}
+
+function turnoff(imgName)
+{
+ if (document.images)
+ {
+  imgOff=eval(imgName + "off.src");
+  document[imgName].src= imgOff;
+ }
+}
+
+}
+
+
+
+//-->
+	</script>
+
+  
+</head>
+
+

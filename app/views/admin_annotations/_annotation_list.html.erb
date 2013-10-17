@@ -1,0 +1,11 @@
+<table>
+  <tr>
+	<th>name</th>
+  </tr>
+  <% annotations.each do |n| %>
+  <tr>
+	<td><%= link_to n.label, :action => 'show', :id => n.id %></td>
+  </tr>
+  <% end %>
+</table>
+

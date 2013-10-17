@@ -1,0 +1,10 @@
+<table>
+  <tr>
+	<th>name</th>
+  </tr>
+  <% predictions.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :controller => 'admin_predictions', :action => 'show', :id => n.id %></td>
+  </tr>
+  <% end %>
+</table>

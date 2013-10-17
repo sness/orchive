@@ -1,0 +1,91 @@
+<% if !current_user.nil? && current_user != :false && current_user.can_annotate %>
+
+	<script type="text/javascript">
+<!--
+
+   function playAudio(url,call_id,flash_text) { 
+
+     // Invoke the "enterAnnotation" method on the orcaanotator
+ 	 var flash = window.movie || document.movie; // Get Flash object
+ 	 var val = flash.enterAnnotation(flash_text); // Invoke a function
+
+     // Fill up the "result" div with the output of /call/show via AJAX
+     $("#details").load("/calls/show/" + call_id);
+
+     // Play the audio
+     var audio = new Audio(url);
+     audio.play();
+
+     // Lower the volume of the audio
+     window.setTimeout( function ( ) {
+       audio.volume = 0.1;
+     }, 0 );
+   };
+
+   function loadPicture(call_id) {
+   };
+
+   function loadDtw(s) {
+     console.log("loadDtw=" + s);
+     $("#dtwresults").load("/calls/dtw?" + s + "&tape=<%= @recording.year_tape_side %>");
+     console.log("done");
+   };
+
+   $(document).ready(function(){
+   });
+
+   $.ajaxSetup ({
+     cache: false
+   });
+
+//-->
+	</script>
+
+	<div class="call_catalog">
+	  <div class="yui-g">  
+		<div class="yui-u first" style="width:65%">  
+
+		  <h3>Call catalog</h3>
+		  <div class="calls">
+			<table>
+			  <tr>
+				<% @call_types.each do |call_type| %>
+				  <th>
+					<%= call_type.name %>
+				  </th>
+				<% end %>
+			  </tr>
+			  <% for n in (0..@max_call_types) %>
+				<tr>
+				  <% @call_array.each_index do |call_row_i| %>
+					<td>
+					  <% if !@call_array[call_row_i][n].nil? %>
+						<%= render :partial => '/calls/call.html.erb', :locals => {:call => @call_array[call_row_i][n]} %>
+					  <% end %>
+					</td>
+				  <% end %>
+				</tr>
+			  <% end %>
+			</table>
+		  </div>
+
+		</div>
+
+		<div class="yui-g" style="width:35%">  
+		  <div class="yui-u first" style="width:20%">  
+			<h3>DTW</h3>
+			<div id="dtwresults">
+			</div>
+		  </div>
+		  <div class="yui-u" style="width:80%">  
+			<h3>Details</h3>
+			<div id="details">
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+<% end %>
+
+

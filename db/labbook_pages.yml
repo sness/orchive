@@ -1,0 +1,161 @@
+--- 
+- !ruby/object:LabbookPage 
+  attributes: 
+    page_text: 
+    end_date: 
+    start_date: 
+    updated_at: 2009-08-05 11:59:59
+    medium_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg005.medium.jpg
+    small_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg005.small.jpg
+    id: "1"
+    labbook_id: "1"
+    image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg005.jpg
+    page: "5"
+    created_at: 2009-08-05 11:59:59
+    thumbnail_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg005.thumb.jpg
+  attributes_cache: {}
+
+- !ruby/object:LabbookPage 
+  attributes: 
+    page_text: 
+    end_date: 
+    start_date: 
+    updated_at: 2009-08-05 11:59:59
+    medium_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg006.medium.jpg
+    small_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg006.small.jpg
+    id: "2"
+    labbook_id: "1"
+    image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg006.jpg
+    page: "6"
+    created_at: 2009-08-05 11:59:59
+    thumbnail_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg006.thumb.jpg
+  attributes_cache: {}
+
+- !ruby/object:LabbookPage 
+  attributes: 
+    page_text: 
+    end_date: 
+    start_date: 
+    updated_at: 2009-08-05 11:59:59
+    medium_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg007.medium.jpg
+    small_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg007.small.jpg
+    id: "3"
+    labbook_id: "1"
+    image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg007.jpg
+    page: "7"
+    created_at: 2009-08-05 11:59:59
+    thumbnail_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg007.thumb.jpg
+  attributes_cache: {}
+
+- !ruby/object:LabbookPage 
+  attributes: 
+    page_text: 
+    end_date: 
+    start_date: 
+    updated_at: 2009-08-05 11:59:59
+    medium_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg008.medium.jpg
+    small_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg008.small.jpg
+    id: "4"
+    labbook_id: "1"
+    image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg008.jpg
+    page: "8"
+    created_at: 2009-08-05 11:59:59
+    thumbnail_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg008.thumb.jpg
+  attributes_cache: {}
+
+- !ruby/object:LabbookPage 
+  attributes: 
+    page_text: 
+    end_date: 
+    start_date: 
+    updated_at: 2009-08-05 11:59:59
+    medium_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg009.medium.jpg
+    small_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg009.small.jpg
+    id: "5"
+    labbook_id: "1"
+    image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg009.jpg
+    page: "9"
+    created_at: 2009-08-05 11:59:59
+    thumbnail_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg009.thumb.jpg
+  attributes_cache: {}
+
+- !ruby/object:LabbookPage 
+  attributes: 
+    page_text: 
+    end_date: 
+    start_date: 
+    updated_at: 2009-08-05 11:59:59
+    medium_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg010.medium.jpg
+    small_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg010.small.jpg
+    id: "6"
+    labbook_id: "1"
+    image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg010.jpg
+    page: "8"
+    created_at: 2009-08-05 11:59:59
+    thumbnail_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg010.thumb.jpg
+  attributes_cache: {}
+
+- !ruby/object:LabbookPage 
+  attributes: 
+    page_text: 
+    end_date: 
+    start_date: 
+    updated_at: 2009-08-05 11:59:59
+    medium_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg011.medium.jpg
+    small_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg011.small.jpg
+    id: "7"
+    labbook_id: "1"
+    image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg011.jpg
+    page: "9"
+    created_at: 2009-08-05 11:59:59
+    thumbnail_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg011.thumb.jpg
+  attributes_cache: {}
+
+- !ruby/object:LabbookPage 
+  attributes: 
+    page_text: 
+    end_date: 
+    start_date: 
+    updated_at: 2009-08-05 11:59:59
+    medium_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg012.medium.jpg
+    small_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg012.small.jpg
+    id: "8"
+    labbook_id: "1"
+    image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg012.jpg
+    page: "10"
+    created_at: 2009-08-05 11:59:59
+    thumbnail_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg012.thumb.jpg
+  attributes_cache: {}
+
+- !ruby/object:LabbookPage 
+  attributes: 
+    page_text: 
+    end_date: 
+    start_date: 
+    updated_at: 2009-08-05 11:59:59
+    medium_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg013.medium.jpg
+    small_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg013.small.jpg
+    id: "9"
+    labbook_id: "1"
+    image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg013.jpg
+    page: "11"
+    created_at: 2009-08-05 11:59:59
+    thumbnail_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg013.thumb.jpg
+  attributes_cache: {}
+
+- !ruby/object:LabbookPage 
+  attributes: 
+    page_text: 
+    end_date: 
+    start_date: 
+    updated_at: 2009-08-05 11:59:59
+    medium_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg014.medium.jpg
+    small_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg014.small.jpg
+    id: "10"
+    labbook_id: "180"
+    image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg014.jpg
+    page: "12"
+    created_at: 2009-08-05 11:59:59
+    thumbnail_image_file_path: /assets/labbooks/jpg/2005/sep0105_sep0405_pg014.thumb.jpg
+  attributes_cache: {}
+

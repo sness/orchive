@@ -1,0 +1,9 @@
+<div class="year-graph">
+  <%= image_tag "/orchive/year_graph" %>
+</div>
+
+------------------------------ index.html.erb ------------------------------
+
+<h2 id="status2">
+  0, 0
+</h2>

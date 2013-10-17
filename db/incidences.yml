@@ -1,0 +1,18 @@
+--- 
+- !ruby/object:Incidence 
+  attributes: 
+    observer: OL+
+    updated_at: 2009-08-13 16:06:37
+    qcs: ""
+    comments: ""
+    identification: A30,I15,A30,I15,A30,I15,A30,I15,A30,I15,A30,I15,A30,I15,A30,I15
+    date: "2005-09-01"
+    east_js: A11/13/56,A73,A08
+    effort: High
+    id: "1"
+    acoustic_visual: visual,acoustic
+    system_info: FI,LL,PI,CP,CRPT,RB
+    created_at: 2009-08-13 16:06:37
+    location: ""
+  attributes_cache: {}
+

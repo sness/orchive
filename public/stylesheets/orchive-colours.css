@@ -1,0 +1,122 @@
+
+
+/****************/
+/* lighter love */
+/****************/
+
+.sample-box {
+	width: 200px;
+ height: 40px;
+}
+
+.lighter1 { 
+	background-color: #288052;
+ color: white;
+}
+
+.lighter2 { 
+	background-color: #DD3E90;
+ color: white;
+}
+
+.lighter3 { 
+	background-color: #A82468;
+ color: white;
+}
+
+.lighter4 { 
+	background-color: #36AA6E;
+}
+
+.lighter5 { 
+	background-color: #43D188;
+}
+
+.colour-grey {
+	background-color: #464541;
+ color: white;
+}
+
+.colour-canvas {
+background-color: #F7F8D2;
+}
+
+.colour-dark-grey {
+	background-color: #434146;
+ color: white;
+}
+
+.colour-grey {
+background-color: #554F5C;
+ color: white;
+}
+
+.colour-dark-blue {
+background-color: #4B3D5A;
+ color: white;
+}
+
+.colour-light-orange {
+background-color: #F7CB75;
+}
+
+.colour-medium-orange {
+background-color: #F7B738;
+}
+
+.colour-dark-orange {
+background-color: #EE7728;
+}
+
+.colour-black {
+background-color: #0D0B16;
+ color: white;
+}
+
+.colour-dark-yellow {
+background-color: #F9D908;
+}
+
+.colour-light-yellow {
+background-color: #F3FC9F;
+}
+
+.colour-light-blue {
+background-color: #C5F5FF;
+}
+
+.colour-blue {
+background-color: #67AEFF;
+}
+
+
+
+/* COLOURlovers.com - galaxy.      */
+
+/*    background-color: #464541;   grey */
+/*    background-color: #F7F8D2;   canvas */
+/*    background-color: #434146;   dark-grey */
+/*    background-color: #554F5C;   grey */
+/*    background-color: #4B3D5A;   dark-blue */
+
+/* COLOURlovers.com - marmelade & sky */
+
+/*    background-color: #F7CB75;   light-orange */
+/*    background-color: #F7B738;   medium-orange */
+/*    background-color: #EE7728;   dark-orange */
+
+/* COLOURlovers.com - Swallowtails again */
+
+/*    background-color: #0D0B16;   black */
+/*    background-color: #F9D908;   dark-yellow */
+/*    background-color: #F3FC9F;   light-yellow */
+/*    background-color: #C5F5FF;   light-blue */
+/*    background-color: #67AEFF;   blue */
+
+/* COLOURlovers.com - Lighter Love */
+
+/*    background-color: #288052;   lighter1 */
+/*    background-color: #DD3E90;   lighter2 */
+/*    background-color: #A82468;   lighter3 */
+/*    background-color: #36AA6E;   lighter4 */
+/*    background-color: #43D188;   lighter5 */

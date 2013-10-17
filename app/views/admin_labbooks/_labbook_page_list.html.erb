@@ -1,0 +1,16 @@
+<table>
+  <tr>
+	<th>page</th>
+	<th>start date</th>
+	<th>end date</th>
+	<th>image</th>
+  </tr>
+  <% labbook_pages.each do |n| %>
+  <tr>
+	<td><%= link_to n.page, :controller => 'admin_labbooks', :action => 'edit_labbook_page', :id => n.id %></td>
+	<td><%= n.start_date.strftime("%b%d%y").downcase %></td>
+	<td><%= n.end_date.strftime("%b%d%y").downcase %></td>
+	<td><%= link_to (image_tag n.thumbnail_file_path), :controller => 'admin_labbooks', :action => 'edit_labbook_page', :id => n.id %></td>
+  </tr>
+  <% end %>
+</table>

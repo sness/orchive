@@ -1,0 +1,25 @@
+<h1>Recordings</h1>
+
+<table>
+  <tr>
+	<th>name</th>
+	<th>tape</th>
+	<th>side</th>
+	<th>start time</th>
+	<th>end time</th>
+	<th>year</th>
+	<th>actions</th>
+  </tr>
+  <% @recordings.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :controller => 'admin_recordings', :action => 'show', :id => n.id %></td>
+	<td><%= n.tape %></td>
+	<td><%= n.side %></td>
+	<td><%= n.start_time.nil? ? "" : n.start_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= n.end_time.nil? ? "" : n.end_time.strftime("%b%d%y %H:%M") %></td>
+	<td></td>
+	<td><%= link_to "edit", :action => 'edit', :id => n.id %></td>
+  </tr>
+  <% end %>
+</table>
+

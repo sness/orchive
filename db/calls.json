@@ -1,0 +1,186 @@
+{
+	'1' : {
+		audio : 'A12_A12sp__1_',
+		pitches : ''
+	},
+	'2' : {
+		audio : 'A12_A12sp__2_',
+		pitches : ''
+	},
+	'3' : {
+		audio : 'A12_N1__1_',
+		pitches : ''
+	},
+	'4' : {
+		audio : 'A12_N1__2_',
+		pitches : ''
+	},
+	'5' : {
+		audio : 'A12_N10',
+		pitches : ''
+	},
+	'6' : {
+		audio : 'A12_N11',
+		pitches : ''
+	},
+	'7' : {
+		audio : 'A12_N2',
+		pitches : ''
+	},
+	'8' : {
+		audio : 'A12_N3',
+		pitches : ''
+	},
+	'9' : {
+		audio : 'A12_N4',
+		pitches : ''
+	},
+	'10' : {
+		audio : 'A12_N47',
+		pitches : ''
+	},
+	'11' : {
+		audio : 'A12_N5',
+		pitches : ''
+	},
+	'12' : {
+		audio : 'A12_N7__1_',
+		pitches : ''
+	},
+	'13' : {
+		audio : 'A12_N7__2_',
+		pitches : ''
+	},
+	'14' : {
+		audio : 'A12_N8',
+		pitches : ''
+	},
+	'15' : {
+		audio : 'A12_N9',
+		pitches : ''
+	},
+	'16' : {
+		audio : 'A30_N1',
+		pitches : ''
+	},
+	'17' : {
+		audio : 'A30_N10',
+		pitches : ''
+	},
+	'18' : {
+		audio : 'A30_N13',
+		pitches : ''
+	},
+	'19' : {
+		audio : 'A30_N2',
+		pitches : ''
+	},
+	'20' : {
+		audio : 'A30_N3',
+		pitches : ''
+	},
+	'21' : {
+		audio : 'A30_N4',
+		pitches : ''
+	},
+	'22' : {
+		audio : 'A30_N47__2_',
+		pitches : ''
+	},
+	'23' : {
+		audio : 'A30_N47',
+		pitches : ''
+	},
+	'24' : {
+		audio : 'A30_N5',
+		pitches : ''
+	},
+	'25' : {
+		audio : 'A30_N7',
+		pitches : ''
+	},
+	'26' : {
+		audio : 'A30_N9',
+		pitches : ''
+	},
+	'27' : {
+		audio : 'A34_N10',
+		pitches : ''
+	},
+	'28' : {
+		audio : 'A36__A12sp_',
+		pitches : ''
+	},
+	'29' : {
+		audio : 'A36__A30sp_',
+		pitches : ''
+	},
+	'30' : {
+		audio : 'A36__weeawu_',
+		pitches : ''
+	},
+	'31' : {
+		audio : 'A36_N1',
+		pitches : ''
+	},
+	'32' : {
+		audio : 'A36_N10',
+		pitches : ''
+	},
+	'33' : {
+		audio : 'A36_N11',
+		pitches : ''
+	},
+	'34' : {
+		audio : 'A36_N2',
+		pitches : ''
+	},
+	'35' : {
+		audio : 'A36_N3',
+		pitches : ''
+	},
+	'36' : {
+		audio : 'A36_N4__2_',
+		pitches : ''
+	},
+	'37' : {
+		audio : 'A36_N47__1_',
+		pitches : ''
+	},
+	'38' : {
+		audio : 'A36_N47__2_',
+		pitches : ''
+	},
+	'39' : {
+		audio : 'A36_N5',
+		pitches : ''
+	},
+	'40' : {
+		audio : 'A36_N7_N8__1_',
+		pitches : ''
+	},
+	'41' : {
+		audio : 'A36_N7_N8__2_',
+		pitches : ''
+	},
+	'42' : {
+		audio : 'A36_N7_N8_1',
+		pitches : ''
+	},
+	'43' : {
+		audio : 'A36_N7',
+		pitches : ''
+	},
+	'44' : {
+		audio : 'A36_N9__sharp___1_',
+		pitches : ''
+	},
+	'45' : {
+		audio : 'A36_N9__sharp___2_',
+		pitches : ''
+	},
+	'46' : {
+		audio : 'A36_N9',
+		pitches : ''
+	}
+}

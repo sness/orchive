@@ -1,0 +1,26 @@
+<h1>Make a Prediction on an Annotation</h1>
+
+<table>
+  <tr>
+	<th>name</th>
+	<th># annotations</th>
+	<th>recordings</th>
+	<th>Actions</th>
+  </tr>
+  <% @annotations.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :action => 'show', :id => n.id %></td>
+	<td><%= n.annotation_items.count %></td>
+	<td>
+	  <% n.recordings.each do |m| %>
+		<%= link_to m.name, :controller => 'admin_recordings', :action => 'show', :id => m.id %><br />
+	  <% end %>
+	</td>
+	<td>
+	  <%= link_to "Make prediction", :controller => 'admin_jobs', :action => 'submit_job_for_prediction_on_one_annotation', :id => n.id %>
+  </tr>
+  <% end %>
+</table>
+
+
+

@@ -1,0 +1,53 @@
+<h1>Lab Book : <%= @labbook_page.labbook.name %></h1>
+<h1>Page : <%= @labbook_page.page %></h1>
+
+<h2>Recordings</h2>
+<table>
+  <tr>
+	<th>name</th>
+	<th>tape</th>
+	<th>side</th>
+	<th>start time</th>
+	<th>end time</th>
+	<th>waveform</th>
+	<th>spectrogram</th>
+  </tr>
+  <% @labbook_page.recordings.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :controller => 'admin_recordings', :action => 'edit', :id => n.id %></td>
+	<td><%= n.tape %></td>
+	<td><%= n.side %></td>
+	<td><%= n.start_time.nil? ? "" : n.start_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= n.end_time.nil? ? "" : n.end_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= link_to (image_tag n.waveform_thumbnail_path), :controller => 'admin_recordings', :action => 'edit', :id => n.id %></td>
+	<td><%= link_to (image_tag n.spectrogram_thumbnail_path), :controller => 'admin_recordings', :action => 'edit', :id => n.id %></td>
+  </tr>
+  <% end %>
+</table>
+
+<br />
+
+<%= link_to "Add recording to labbook page", :action => 'select_a_recording_to_add_to_a_labbook_page', :id => @labbook_page.id %>
+
+<br />
+
+<%= link_to (image_tag @labbook_page.image_file_path), {:action => 'view_labbook_page_image', :id => @labbook_page.id }, { :target => "_blank" } %>
+
+<h2>Text:</h2>
+<%= error_messages_for :labbook_page %>
+
+<% form_for(:labbook_page, :url => { :action => 'edit_labbook_page' }) do |f| -%>
+
+  <p><label for="labbook_page_start_date">Start Date:</label>
+	<%= f.date_select :start_date  %></p>
+
+  <p><label for="labbook_page_end_date">End Date:</label>
+	<%= f.date_select :end_date  %></p>
+
+  <p>
+	<%= f.text_area :page_text, :size => '100x50' %></p>
+  <p>
+    <%= submit_tag 'Submit' %>
+  </p>
+
+<% end -%>

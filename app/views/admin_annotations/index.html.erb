@@ -1,0 +1,16 @@
+<h1>Annotations</h1>
+
+<table>
+  <tr>
+	<th>name</th>
+	<th>recording</th>
+  </tr>
+  <% @annotations.each do |n| %>
+  <tr>
+	<td><%= link_to n.label, :action => 'show', :id => n.id %></td>
+	<td><%= link_to n.recording.name %></td>
+  </tr>
+  <% end %>
+</table>
+
+

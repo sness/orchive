@@ -1,0 +1,36 @@
+<h1>Create new Prediction</h1>
+
+<h2>Please select the annotations to use in this prediction</h2>
+
+<form action="/predictions/make_new_prediction_from_recording/<%= @recording.id %>" method="post">
+
+  <table class="pretty">
+	<tr>
+	  <th></th>
+	  <th>Recording</th>
+	  <th>Annotation</th>
+	  <th>Start</th>
+	  <th>End</th>
+	  <th>User</th>
+
+	</tr>
+	<% @annotations.each do |n| %>
+	  <tr>
+		<td><input type="checkbox" name="annotation[<%= n.id -%>]" value="<%= n.id -%>" checked="checked"/></td>
+		  <td><%= n.recording.pretty_name %></td>
+		  <td><%= n.label %></td>
+		  <% if !n.recording.start_time.nil? %>
+		    <td><%= (n.recording.start_time + (n.start_time_ms.to_f / 1000).to_i.seconds).strftime("%I:%M:%S%p") %></td>
+		    <td><%= (n.recording.start_time + (n.end_time_ms.to_f / 1000).to_i.seconds).strftime("%I:%M:%S%p") %></td>
+          <% else %>
+		    <td><%= (n.start_time_ms.to_f / 1000).to_i %></td>
+		    <td><%= (n.end_time_ms.to_f / 1000).to_i %></td>
+	      <% end %>
+		  <td><%= n.user.login %></td>
+	  </tr>
+	<% end %>
+  </table>
+
+  <input type="submit" value="submit">
+
+</form>

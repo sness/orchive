@@ -1,0 +1,31 @@
+<h1>Add Recording to LabbookPage</h1>
+
+<h2>Labbook : <%= @labbook_page.labbook.name %> Page : <%= @labbook_page.page %></h2>
+
+<table>
+  <tr>
+	<th>name</th>
+	<th>tape</th>
+	<th>side</th>
+	<th>start time</th>
+	<th>end time</th>
+	<th>waveform</th>
+	<th>spectrogram</th>
+	<th>year</th>
+	<th>actions</th>
+  </tr>
+  <% @recordings.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :controller => 'admin_recordings', :action => 'show', :id => n.id %></td>
+	<td><%= n.tape %></td>
+	<td><%= n.side %></td>
+	<td><%= n.start_time.nil? ? "" : n.start_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= n.end_time.nil? ? "" : n.end_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= link_to (image_tag n.waveform_thumbnail_path), :action => 'show', :id => n.id %></td>
+	<td><%= link_to (image_tag n.spectrogram_thumbnail_path), :action => 'show', :id => n.id %></td>
+	<td></td>
+	<td><%= link_to "add to labbook page", :action => 'add_recording_to_labbook_page', :id => @labbook_page.id, :recording_id => n.id %></td>
+  </tr>
+  <% end %>
+</table>
+

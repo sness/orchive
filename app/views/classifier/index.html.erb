@@ -1,0 +1,27 @@
+<h1>Classifiers</h1>
+
+
+<table class="pretty">
+  <tr>
+	<th>name</th>
+	<th>created by</th>
+	<th>created at</th>
+	<th># annotations</th>
+	<th>run</th>
+	<th>delete</th>
+  </tr>
+  <% for n in @classifiers %>
+	<tr>
+	  <td><%= link_to n.name, :action => "show", :id => n.id %></td>
+	  <td><%= n.user.login %></td>
+	  <td><%= n.created_at ? n.created_at.strftime("%m/%d/%Y %I:%M%p") : "" %></td>
+	  <td><%= n.annotations.count %></td>
+	  <td><%= link_to "Run", :action => 'run', :id => n.id %></td>
+	  <td><%= link_to "Delete", :action => 'delete', :id => n.id %></td>
+	</tr>
+  <% end %>
+</table>
+
+<%= will_paginate @classifiers %>
+
+<%= link_to "Create new classifier", :action => 'create' %>

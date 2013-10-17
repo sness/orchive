@@ -1,0 +1,21 @@
+<ul class="primary">
+  <% @years.each do |n| %>
+	<li><%= link_to n.name, :action => 'year', :id => n.name %></li>
+	<% if n.name == @current_year.to_i %>
+	  <% if !@labbooks.nil? %>
+		<ul class="secondary">
+		  <% @labbooks.each do |m| %>
+			<li><%= link_to m.name, :action => 'show', :id => m.id %></li>
+			<% if @show_pages && m.id == @labbook.id %>
+			  <ul>
+				<% m.labbook_pages.each do |l| %>
+				  <li><%= link_to l.page, :action => 'show_labbook_page', :id => l.id %></li>
+				<% end %>
+			  </ul>
+			<% end %>
+		  <% end %>
+		</ul>
+	  <% end %>
+	<% end %>
+  <% end %>
+</ul>

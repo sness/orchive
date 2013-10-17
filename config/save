@@ -1,0 +1,223 @@
+------------------------------ deploy.rb ------------------------------
+
+# This defines a deployment "recipe" that you can feed to capistrano
+# (http://manuals.rubyonrails.com/read/book/17). It allows you to automate
+# (among other things) the deployment of your application.
+
+# =============================================================================
+# REQUIRED VARIABLES
+# =============================================================================
+# You must always specify the application and repository for every recipe. The
+# repository must be the URL of the repository you want this recipe to
+# correspond to. The deploy_to path must be the path on each machine that will
+# form the root of the application path.
+
+set :application, "orchive"
+set :repository, "svn+ssh://q/usr/sness/nDEVsvn/orchive"
+
+# =============================================================================
+# ROLES
+# =============================================================================
+# You can define any number of roles, each of which contains any number of
+# machines. Roles might include such things as :web, or :app, or :db, defining
+# what the purpose of each machine is. You can also specify options that can
+# be used to single out a specific subset of boxes in a particular role, like
+# :primary => true.
+
+role :app, "orchive.cs.uvic.ca"
+role :web, "orchive.cs.uvic.ca"
+role :db,  "orchive.cs.uvic.ca", :primary => true
+
+# =============================================================================
+# OPTIONAL VARIABLES
+# =============================================================================
+# set :deploy_to, "/path/to/app" # defaults to "/u/apps/#{application}"
+# set :user, "flippy"            # defaults to the currently logged in user
+# set :scm, :darcs               # defaults to :subversion
+# set :svn, "/path/to/svn"       # defaults to searching the PATH
+# set :darcs, "/path/to/darcs"   # defaults to searching the PATH
+# set :cvs, "/path/to/cvs"       # defaults to searching the PATH
+# set :gateway, "gate.host.com"  # default to no gateway
+
+set :user, "www"
+set :svn_username, "www"
+set :deploy_to, "/var/www/orchive"
+set :mongrel_conf, "/var/www/orchive/current/config/mongrel_production.yml"
+set :keep_releases, 3
+
+# =============================================================================
+# SSH OPTIONS
+# =============================================================================
+# ssh_options[:keys] = %w(/path/to/my/key /path/to/another/key)
+# ssh_options[:port] = 25
+
+# =============================================================================
+# TASKS
+# =============================================================================
+# Define tasks that run on all (or only some) of the machines. You can specify
+# a role (or set of roles) that each task should be executed on. You can also
+# narrow the set of servers to a subset of a role by specifying options, which
+# must match the options given for the servers to select (like :primary => true)
+
+# Make Capistrano ask for the sudo password at the start of the script
+# http://pinds.com/articles/2006/06/07/rails-make-capistrano-ask-for-the-password-first
+deploy.task :before_deploy, :roles => :app do 
+  send(run_method, "date")
+end
+
+desc "Restart the apache web server"
+deploy.task :restart_apache, :roles => :app do
+  sudo "/usr/apache/bin/apachectl graceful"
+end
+
+desc "Start mongrel"
+deploy.task :start, :roles => :app do
+  sudo "sh -c 'cd /var/www/orchive/current/ && mongrel_rails cluster::start -C /var/www/orchive/current/config/mongrel_production.yml'"
+end
+
+desc "Restart mongrel"
+deploy.task :restart, :roles => :app do
+  sudo "sh -c 'cd /var/www/orchive/current/ && mongrel_rails cluster::restart -C /var/www/orchive/current/config/mongrel_production.yml'"
+end
+
+deploy.task :after_deploy, :roles => :app do
+  send(run_method, "date")
+end
+
+deploy.task :test1, :roles => :app do
+  send(run_method, "date")
+end
+
+
+
+------------------------------ deploy.rb ------------------------------
+
+set :application, "orchive"
+set :repository,  "svn+ssh://q/usr/sness/nDEVsvn/orchive"
+
+# If you aren't deploying to /u/apps/#{application} on the target
+# servers (which is the default), you can specify the actual location
+# via the :deploy_to variable:
+# set :deploy_to, "/var/www/#{application}"
+
+# If you aren't using Subversion to manage your source code, specify
+# your SCM below:
+# set :scm, :subversion
+
+role :app, "orchive.cs.uvic.ca"
+role :web, "orchive.cs.uvic.ca"
+role :db,  "orchive.cs.uvic.ca", :primary => true
+
+set :user, "sness"
+set :svn_username, "sness"
+
+
+
+------------------------------ deploy.rb ------------------------------
+
+
+# This defines a deployment "recipe" that you can feed to capistrano
+# (http://manuals.rubyonrails.com/read/book/17). It allows you to automate
+# (among other things) the deployment of your application.
+
+# =============================================================================
+# REQUIRED VARIABLES
+# =============================================================================
+# You must always specify the application and repository for every recipe. The
+# repository must be the URL of the repository you want this recipe to
+# correspond to. The deploy_to path must be the path on each machine that will
+# form the root of the application path.
+
+set :application, "orchive"
+set :repository, "svn+ssh://q/usr/sness/nDEVsvn/orchive"
+
+# =============================================================================
+# ROLES
+# =============================================================================
+# You can define any number of roles, each of which contains any number of
+# machines. Roles might include such things as :web, or :app, or :db, defining
+# what the purpose of each machine is. You can also specify options that can
+# be used to single out a specific subset of boxes in a particular role, like
+# :primary => true.
+
+role :app, "orchive.cs.uvic.ca"
+role :web, "orchive.cs.uvic.ca"
+role :db,  "orchive.cs.uvic.ca", :primary => true
+
+# =============================================================================
+# OPTIONAL VARIABLES
+# =============================================================================
+# set :deploy_to, "/path/to/app" # defaults to "/u/apps/#{application}"
+# set :user, "flippy"            # defaults to the currently logged in user
+# set :scm, :darcs               # defaults to :subversion
+# set :svn, "/path/to/svn"       # defaults to searching the PATH
+# set :darcs, "/path/to/darcs"   # defaults to searching the PATH
+# set :cvs, "/path/to/cvs"       # defaults to searching the PATH
+# set :gateway, "gate.host.com"  # default to no gateway
+
+set :user, "sness"
+set :svn_username, "sness"
+set :deploy_to, "/var/www/orchive"
+set :mongrel_conf, "/var/www/orchive/current/config/mongrel_production.yml"
+set :keep_releases, 3
+
+# =============================================================================
+# SSH OPTIONS
+# =============================================================================
+# ssh_options[:keys] = %w(/path/to/my/key /path/to/another/key)
+# ssh_options[:port] = 25
+
+# =============================================================================
+# TASKS
+# =============================================================================
+# Define tasks that run on all (or only some) of the machines. You can specify
+# a role (or set of roles) that each task should be executed on. You can also
+# narrow the set of servers to a subset of a role by specifying options, which
+# must match the options given for the servers to select (like :primary => true)
+
+# Make Capistrano ask for the sudo password at the start of the script
+# http://pinds.com/articles/2006/06/07/rails-make-capistrano-ask-for-the-password-first
+deploy.task :before_deploy, :roles => :app do 
+  send(run_method, "date")
+end
+
+desc "Restart the apache web server"
+deploy.task :restart_apache, :roles => :app do
+  sudo "/usr/apache/bin/apachectl graceful"
+end
+
+desc "Start mongrel"
+deploy.task :start, :roles => :app do
+  sudo "sh -c 'cd /var/www/orchive/current/ && mongrel_rails cluster::start -C /var/www/orchive/current/config/mongrel_production.yml'"
+end
+
+desc "Restart mongrel"
+deploy.task :restart, :roles => :app do
+  sudo "sh -c 'cd /var/www/orchive/current/ && mongrel_rails cluster::stop -C /var/www/orchive/current/config/mongrel_production.yml'"
+  sudo "sh -c 'cd /var/www/orchive/current/ && mongrel_rails cluster::start -C /var/www/orchive/current/config/mongrel_production.yml'"
+end
+
+deploy.task :after_deploy, :roles => :app do
+  send(run_method, "date")
+end
+
+deploy.task :test1, :roles => :app do
+  send(run_method, "date")
+end
+
+
+
+------------------------------ deploy.rb ------------------------------
+
+  
+  Rake.clear_tasks('vlad:start_app')
+
+  desc 'Restart Passenger'
+  remote_task :start_app, :roles => :app do
+    run "touch /var/www/orchivenet/current/tmp/restart.txt"
+  end
+  
+  desc 'Restarts the apache servers'
+  remote_task :start_web, :roles => :app do
+    run "sudo #{app_command} restart"
+  end

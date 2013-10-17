@@ -1,0 +1,17 @@
+<% if @recording.incidences.length > 0 %>
+  <h2>Incidence Report</h2>
+  <% @recording.incidences.each do |n| %>
+	<ul>
+	  <li><b>Date</b> : <%= n.date %></li>
+	  <li><b>Identification</b> : <%= n.pretty_identification %></li>
+	  <li><b>Acoustic/Visual</b> : <%= n.acoustic_visual %></li>
+	  <li><b>Location</b> : <%= n.location %></li>
+	  <li><b>East</b> JS : <%= n.east_js %></li>
+	  <li><b>QCS</b> : <%= n.qcs %></li>
+	  <li><b>Observer</b> : <%= n.observer %></li>
+	  <li><b>System</b> Info : <%= n.system_info %></li>
+	  <li><b>Effort</b> : <%= n.effort %></li>
+	  <li><b>Comments</b> : <%= n.comments %></li>
+	</ul>
+  <% end %>
+<% end %>

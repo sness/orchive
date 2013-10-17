@@ -1,0 +1,10 @@
+<% if @recording.labbook_pages.length > 0 %>
+
+	<div style="width: 920px; height: 500px; overflow: auto">
+	  <% @recording.labbook_pages.each do |n| %>
+		<%= link_to (image_tag n.image_file_path), :controller => 'labbooks', :action => 'show_labbook_page', :id => n.id %><br />
+	  <% end %>
+	</div>
+
+<% end %>
+

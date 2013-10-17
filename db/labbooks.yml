@@ -1,0 +1,89 @@
+--- 
+- !ruby/object:Labbook 
+  attributes: 
+    end_date: "2005-09-04"
+    start_date: "2005-09-01"
+    name: sep0105_sep0405
+    updated_at: 2009-11-25 15:33:03
+    pdf_file_path: 2005/sep0105_sep0405.pdf
+    id: "1"
+    created_at: 2009-08-05 11:59:58
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    end_date: "2005-07-13"
+    start_date: "2005-07-02"
+    name: jul0205_jul1305
+    updated_at: 2009-11-25 15:33:03
+    pdf_file_path: 2005/jul0205_jul1305.pdf
+    id: "173"
+    created_at: 2009-11-25 15:33:03
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    end_date: "2005-07-02"
+    start_date: "2004-11-14"
+    name: nov1404_jul0205
+    updated_at: 2009-11-25 15:33:03
+    pdf_file_path: 2005/nov1404_jul0205.pdf
+    id: "176"
+    created_at: 2009-11-25 15:33:03
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    end_date: "2005-10-18"
+    start_date: "2005-10-05"
+    name: oct0505_oct1805
+    updated_at: 2009-11-25 15:33:03
+    pdf_file_path: 2005/oct0505_oct1805.pdf
+    id: "177"
+    created_at: 2009-11-25 15:33:03
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    end_date: "2005-09-09"
+    start_date: "2005-09-04"
+    name: sep0405_sep0905
+    updated_at: 2009-11-25 15:33:03
+    pdf_file_path: 2005/sep0405_sep0905.pdf
+    id: "180"
+    created_at: 2009-11-25 15:33:03
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    end_date: "2005-09-13"
+    start_date: "2005-09-09"
+    name: sep0905_sep1305
+    updated_at: 2009-11-25 15:33:03
+    pdf_file_path: 2005/sep0905_sep1305.pdf
+    id: "181"
+    created_at: 2009-11-25 15:33:03
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    end_date: "2006-08-13"
+    start_date: "2006-08-07"
+    name: aug0706_aug1306
+    updated_at: 2009-11-25 15:33:03
+    pdf_file_path: 2006/aug0706_aug1306.pdf
+    id: "185"
+    created_at: 2009-11-25 15:33:03
+  attributes_cache: {}
+
+- !ruby/object:Labbook 
+  attributes: 
+    end_date: "2006-07-08"
+    start_date: "2006-01-13"
+    name: jan1306_jul0806
+    updated_at: 2009-11-25 15:33:03
+    pdf_file_path: 2006/jan1306_jul0806.pdf
+    id: "190"
+    created_at: 2009-11-25 15:33:03
+  attributes_cache: {}
+

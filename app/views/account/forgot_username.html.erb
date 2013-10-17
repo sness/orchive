@@ -1,0 +1,26 @@
+<h1>Forgot Username</h1>
+
+	<!-- Display a notice if one exists -->
+	<% if flash[:notice] -%>
+	<div id="notice"><%= flash[:notice] %></div>
+	<% end -%>
+
+	Please enter your email address and we will send you an email with your
+	username.
+
+<% form_for(:forgot_username, :url => { :action => 'forgot_username' }) do |f| -%>
+
+
+	<div class="formRow">
+	  <div class="formColumn">
+		<label for="forgot_username_email">Email address:</label>
+		<%= f.text_field :email, :size => '40' %>
+	  </div>
+	  <br class="clear" />
+	</div>
+
+	<div class="formRow">
+	  <%= submit_tag("Send request", { :class => "button", :title => "Submit" }) %>
+	</div>
+
+	<% end %>

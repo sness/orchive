@@ -1,0 +1,30 @@
+# == Schema Information
+# Schema version: 20100420092914
+#
+# Table name: calls
+#
+#  id           :integer(4)      not null, primary key
+#  matriline    :string(255)     
+#  notes        :string(255)     
+#  audio        :string(255)     
+#  image        :string(255)     
+#  call_type_id :integer(4)      
+#  created_at   :datetime        
+#  updated_at   :datetime        
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  matriline: MyString
+  notes: MyString
+  audio: MyString
+  image: MyString
+
+two:
+  name: MyString
+  matriline: MyString
+  notes: MyString
+  audio: MyString
+  image: MyString

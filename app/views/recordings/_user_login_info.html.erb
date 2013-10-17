@@ -1,0 +1,8 @@
+<% if !current_user.nil? && current_user != :false %>
+  <%= link_to current_user.login, :controller => 'account', :action => 'index' %>
+  <% if current_user.admin %>
+	<%= link_to "Admin", :controller => 'admin', :action => 'index' %>
+  <% end %>
+<% else %>
+  <%= link_to "Login", :controller => 'account', :action => 'login' %>
+<% end %>

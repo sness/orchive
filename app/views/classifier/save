@@ -1,0 +1,58 @@
+<h1>Create new Classifier</h1>
+
+<h2>Please select the annotations to use in this classifier</h2>
+
+<form action="/classifier/create" method="post">
+
+<p>
+Classifier Name:
+<%= text_field(:classifier, :name, :size => 20) %>
+</p>
+
+  <table class="pretty">
+	<tr>
+	  <th></th>
+	  <th>id</th>
+	</tr>
+	<% @annotations.each do |n| %>
+	  <tr>
+		<td><input type="checkbox" name="annotation[<%= n.id -%>]" value="<%= n.id -%>" checked="checked"/></td>
+		<td><%= n.id %></td>
+	  </tr>
+	<% end %>
+  </table>
+
+  <input type="submit" value="submit">
+
+</form>
+
+
+------------------------------ run.html.erb ------------------------------
+
+<h1>Run Classifier</h1>
+
+<h2>Please select the recordings to use in this classifier</h2>
+
+<form action="/classifier/run" method="post">
+
+<p>
+Prediction Name:
+<%= text_field(:prediction, :name, :size => 20) %>
+</p>
+
+  <table class="pretty">
+	<tr>
+	  <th></th>
+	  <th>Recording</th>
+	</tr>
+	<% @recordings.each do |n| %>
+	  <tr>
+		<td><input type="checkbox" name="recording[<%= n.id -%>]" value="<%= n.id -%>" checked="checked"/></td>
+		<td><%= n.pretty_name %></td>
+	  </tr>
+	<% end %>
+  </table>
+
+  <input type="submit" value="submit">
+
+</form>

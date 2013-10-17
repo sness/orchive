@@ -1,0 +1,22 @@
+<h1>Recordings</h1>
+
+<%= will_paginate @recordings %>
+
+<div class="tabular">
+<table>
+  <tr>
+	<th>tape</th>
+	<th>start time</th>
+	<th># annotations</th>
+  </tr>
+  <% @recordings.each do |n| %>
+  <tr>
+	<td><%= link_to n.pretty_name , :controller => 'recordings', :action => 'show', :id => n.id %></td>
+	<td><%= n.start_time.nil? ? "" : n.start_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= n.annotations.count %></td>
+  </tr>
+  <% end %>
+</table>
+</div>
+
+<%= will_paginate @recordings %>

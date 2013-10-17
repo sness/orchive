@@ -1,0 +1,20 @@
+<div class="tabular">
+<table>
+  <tr>
+	<th>id</th>
+	<th>created at</th>
+	<th>created by</th>
+	<th># annotations</th>
+	<th>status</th>
+  </tr>
+  <% predictions.each do |n| %>
+  <tr>
+	<td><%= link_to n.id, :controller => 'predictions', :action => 'show', :id => n.id %></td>
+	<td><%= n.created_at %></td>
+	<td><%= n.user.login %></td>
+	<td><%= n.annotations.count %></td>
+	<td><%= n.pretty_status %></td>
+  </tr>
+  <% end %>
+</table>
+</div>

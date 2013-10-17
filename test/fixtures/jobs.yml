@@ -1,0 +1,28 @@
+# == Schema Information
+# Schema version: 20100420092914
+#
+# Table name: jobs
+#
+#  id         :integer(4)      not null, primary key
+#  name       :string(255)     
+#  state      :integer(4)      
+#  user_id    :integer(4)      
+#  created_at :datetime        
+#  updated_at :datetime        
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  sqs_id: MyString
+  finished_at: 2008-07-09 10:42:27
+  state: 1
+  user: 
+  sqs_receipt_handle: MyString
+
+two:
+  sqs_id: MyString
+  finished_at: 2008-07-09 10:42:27
+  state: 1
+  user: 
+  sqs_receipt_handle: MyString

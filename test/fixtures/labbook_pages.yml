@@ -1,0 +1,32 @@
+# == Schema Information
+# Schema version: 20100420092914
+#
+# Table name: labbook_pages
+#
+#  id                        :integer(4)      not null, primary key
+#  start_date                :date            
+#  end_date                  :date            
+#  page                      :integer(4)      
+#  image_file_path           :string(255)     
+#  medium_image_file_path    :string(255)     
+#  small_image_file_path     :string(255)     
+#  thumbnail_image_file_path :string(255)     
+#  page_text                 :text            
+#  labbook_id                :integer(4)      
+#  created_at                :datetime        
+#  updated_at                :datetime        
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  page: 
+  pdf_file_path: MyString
+  png_file_path: MyString
+  recording: 
+
+two:
+  page: 
+  pdf_file_path: MyString
+  png_file_path: MyString
+  recording: 

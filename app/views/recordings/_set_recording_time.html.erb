@@ -1,0 +1,17 @@
+		<% if !current_user.nil? && current_user != :false && current_user.can_set_recording_time %>
+		  <p>
+			<% form_for(:recording, :url => { :action => 'edit_time', :id => @recording.id }) do |f| -%>
+			  <label for="recording_start_time">Start Time</label>
+			  <% if !@recording.start_time.nil? %>
+				<%= f.datetime_select :start_time, :start_year => 1972  %>
+			  <% else %>
+				<% if !@prev_recording.nil? && !@prev_recording.start_time.nil? %>
+				  <%= f.datetime_select :start_time, :start_year => 1972, :default => @prev_recording.start_time + 45.minutes  %>
+				<% else %>
+				  <%= f.datetime_select :start_time, :start_year => 1972  %>
+				<% end %>
+			  <% end %>
+			  <%= submit_tag 'Submit' %>
+			<% end %>
+		  </p>
+		<% end %>

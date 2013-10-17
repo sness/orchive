@@ -1,0 +1,59 @@
+<h1><%= @labbook_page.labbook.name %> page <%= @labbook_page.page %></h1>
+
+<% if !current_user.nil? && current_user != :false && current_user.can_set_labbook_page && !session[:current_recording].nil? %>
+  <br />
+  <%= link_to "Add lab book page to recording", :action => 'add_labbook_page_to_recording', :id => @labbook_page.id %>
+  &nbsp;&nbsp;&nbsp;
+  <% if !@searching_for_recording.nil? %>
+	(Looking for <%= @searching_for_recording.pretty_name %>)
+  <% end %>
+<% end %>
+
+<br />
+<br />
+
+<table width="680px">
+  <tr>
+	<td>
+	  <%= link_to "<<", :id => @labbook_page.id - 1  %>
+
+	  <%= link_to "-5", :id => @labbook_page.id - 5  %>
+
+	  <%= link_to "-10", :id => @labbook_page.id - 10  %>
+
+	  <%= link_to "-20", :id => @labbook_page.id - 20  %>
+
+	</td>
+	<td align="center">
+	  <%= link_to "Goto labbook", :controller => 'labbooks', :action => 'show', :id => @labbook_page.labbook.id %>
+	</td>
+	<td align="right">
+
+	  <%= link_to "+20", :id => @labbook_page.id + 20  %>
+	  
+	  <%= link_to "+10", :id => @labbook_page.id + 10  %>
+	  
+	  <%= link_to "+5", :id => @labbook_page.id + 5  %>
+
+	  <%= link_to ">>", :id => @labbook_page.id + 1  %>
+	</td>
+  </tr>
+</table>
+
+
+<%= link_to (image_tag @labbook_page.image_file_path, :size => '680x519'), :action => 'show_big_labbook_page', :id => @labbook_page.id %>
+
+
+
+<br />
+
+
+<pre>
+<%= @labbook_page.page_text %>
+</pre>
+<br />
+
+<% if !current_user.nil? && current_user != :false && current_user.can_set_labbook_page %>
+  <%= render :partial => 'labbook_recording', :locals => { :labbook_page => @labbook_page} %>
+<% end %>
+

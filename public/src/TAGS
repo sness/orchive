@@ -1,0 +1,141 @@
+
+Annotation.hx,217
+	function redrawText(redrawText106,2534
+ 	function mouseDownListener mouseDownListener140,3527
+ 	function mouseReleasedListener mouseReleasedListener143,3583
+ 	function keyDownListener keyDownListener146,3643
+
+AnnotationExtent.hx,285
+ 	function dragIconMouseDownListener dragIconMouseDownListener98,2633
+ 	function dragIconMouseUpListener dragIconMouseUpListener109,2892
+ 	function dragIconMouseOverListener dragIconMouseOverListener114,2998
+ 	function dragIconMouseOutListener dragIconMouseOutListener119,3105
+
+Annotator.hx,441
+ 	function mouseWheel mouseWheel117,3300
+ 	function redraw redraw243,6504
+ 	function mouseDownListener mouseDownListener257,6898
+ 	function mouseUpListener mouseUpListener281,7516
+ 	function mouseMoveListener mouseMoveListener288,7674
+	function createAnnotation(createAnnotation329,8879
+	function redrawAllAnnotations(redrawAllAnnotations344,9401
+	function determineAnnotationYPositions(determineAnnotationYPositions356,9758
+
+ControlBar.hx,80
+ 	function mouseOver mouseOver115,3410
+ 	function mouseOut mouseOut118,3457
+
+GlobalSettings.hx,298
+import flash.display.Loader;1,0
+import flash.display.Sprite;2,29
+import flash.display.Bitmap;3,58
+import flash.events.Event;4,87
+import flash.events.MouseEvent;5,114
+import flash.net.URLRequest;6,146
+class GlobalSettings GlobalSettings9,177
+	public function new(GlobalSettings::new14,264
+
+OrcaAnnotator.hx,1626
+	function new(new44,1346
+import flash.display.Sprite;6,98
+import flash.events.Event;7,127
+import flash.events.MouseEvent;8,154
+import flash.events.KeyboardEvent;9,186
+import flash.events.ProgressEvent;10,221
+import flash.events.IOErrorEvent;11,256
+import flash.media.Sound;12,290
+import flash.media.SoundChannel;13,316
+import flash.net.URLRequest;14,349
+class OrcaAnnotatorGlobalSettings::OrcaAnnotator16,379
+	function new(OrcaAnnotator::new44,1346
+	static function main OrcaAnnotator::main51,1648
+	private static function newPositionListener(OrcaAnnotator::newPositionListener130,4365
+	private static function rewindstartEventListener(OrcaAnnotator::rewindstartEventListener136,4515
+	private static function rewindEventListener(OrcaAnnotator::rewindEventListener142,4649
+	private static function playpauseEventListener(OrcaAnnotator::playpauseEventListener149,4833
+	private static function ffwdEventListener(OrcaAnnotator::ffwdEventListener157,4979
+	static private function ffwdendEventListener(OrcaAnnotator::ffwdendEventListener163,5111
+	static private function mainMouseDown(OrcaAnnotator::mainMouseDown169,5260
+	static private function mainMouseUp(OrcaAnnotator::mainMouseUp172,5319
+ 	public static function playSound(OrcaAnnotator::playSound175,5376
+	public static function stopSound(OrcaAnnotator::stopSound180,5483
+	static private function mainKeyDown(OrcaAnnotator::mainKeyDown185,5574
+	static private function mainKeyUp(OrcaAnnotator::mainKeyUp189,5640
+	private static function redraw OrcaAnnotator::redraw193,5704
+	static function onTimer(OrcaAnnotator::onTimer200,6050
+
+ProgressBar.hx,118
+	function mouseDown mouseDown141,4315
+ 	function mouseUp mouseUp150,4547
+ 	function mouseMove mouseMove156,4710
+
+ProgressBarReticle.hx,317
+import flash.display.Loader;1,0
+import flash.display.Sprite;2,29
+import flash.display.Shape;3,58
+import flash.display.Bitmap;4,86
+import flash.events.Event;5,115
+import flash.events.MouseEvent;6,142
+import flash.net.URLRequest;7,174
+import flash.filters.ColorMatrixFilter;8,203
+import flash.geom.Point;9,243
+
+PushButton.hx,78
+ 	function mouseOver mouseOver89,2495
+ 	function mouseOut mouseOut97,2698
+
+PushButtonEvent.hx,206
+import flash.display.Loader;1,0
+import flash.display.Sprite;2,29
+import flash.display.Bitmap;3,58
+import flash.events.Event;4,87
+import flash.events.MouseEvent;5,114
+import flash.net.URLRequest;6,146
+
+Slider.hx,162
+ 	function redraw redraw60,1310
+ 	function mouseDown mouseDown78,1889
+ 	function mouseReleased mouseReleased87,2064
+ 	function mouseMove mouseMove91,2133
+
+SoundPlayer.hx,177
+import flash.display.Sprite;1,0
+import flash.media.Sound;2,29
+import flash.media.SoundChannel;3,55
+import flash.media.SoundTransform;4,88
+import flash.net.URLRequest;5,123
+
+TimeIndicator.hx,277
+import flash.display.Loader;1,0
+import flash.display.Sprite;2,29
+import flash.display.Bitmap;3,58
+import flash.events.Event;4,87
+import flash.events.MouseEvent;5,114
+import flash.net.URLRequest;6,146
+import flash.text.TextField;7,175
+import flash.text.TextFormat;8,204
+
+VolumeButton.hx,206
+import flash.display.Loader;1,0
+import flash.display.Sprite;2,29
+import flash.display.Bitmap;3,58
+import flash.events.Event;4,87
+import flash.events.MouseEvent;5,114
+import flash.net.URLRequest;6,146
+
+VolumeSlider.hx,164
+ 	function redraw redraw71,1551
+ 	function mouseDown mouseDown91,2198
+ 	function mouseReleased mouseReleased102,2466
+ 	function mouseMove mouseMove106,2534
+
+XMLLoader.hx,305
+import flash.display.Loader;1,0
+import flash.display.Sprite;2,29
+import flash.display.Bitmap;3,58
+import flash.events.Event;4,87
+import flash.events.MouseEvent;5,114
+import flash.net.URLRequest;6,146
+import flash.text.TextField;7,175
+import flash.text.TextFormat;8,204
+import flash.xml.XML;9,234

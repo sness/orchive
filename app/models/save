@@ -1,0 +1,160 @@
+------------------------------ year.rb ------------------------------
+
+  def self.labels
+    h = {}
+    years = Year.find(:all, :order => 'year')
+    years.each_with_index do |n,i|
+      if i % 5 == 0
+        h[i] = n.year.to_s
+      end
+    end
+    return h
+  end
+
+  def self.data
+    years = Year.find(:all, :order => 'year')
+    percents = []
+    years.each do |n|
+       percents << n.percent_complete
+    end
+    return percents
+  end
+
+
+------------------------------ labbook_page.rb ------------------------------
+
+  def year
+    if !end_date.nil?
+      return end_date.year 
+    else return
+      0
+    end
+  end
+
+
+------------------------------ recording.rb ------------------------------
+
+  has_many :recording_annotations
+  has_many :annotations, :through => :recording_annotations
+
+  has_many :recording_predictions
+  has_many :predictions, :through => :recording_predictions
+
+
+------------------------------ annotation.rb ------------------------------
+
+
+  def to_string
+    return "#{id},#{start_time_ms},#{end_time_ms},#{name}"
+  end
+
+
+------------------------------ annotation.rb ------------------------------
+
+  # sness - It would be better to put this into a helper, but I'm not fully
+  # convinced I should even be storing it as a text block.  I keep
+  # going back and forth between deciding if an annotation should be a
+  # single annotation or an entire annotation by a user.  If we have
+  # each one as a single annotation, the number of rows in the
+  # database is going to get huge, and I'm not sure how much of a win
+  # we will get from that.
+  def data_table
+    t = ""
+    t += "<table width=\"100%\">"
+    t += "<th>Start (sec)</th>"
+    t += "<th>End (sec)</th>"
+    t += "<th>Annotation</th>"
+    data.split("\n").each do |n|
+      fields = n.split(",")
+      t += " <tr>"
+      t += "<td>#{fields[1].to_i / 1000}</td>"
+      t += "<td>#{fields[2].to_i / 1000}</td>"
+      t += "<td>#{fields[3]}</td>"
+      t += " </tr>"
+    end
+    t += "</table>"
+    return t
+  end
+
+
+------------------------------ job.rb ------------------------------
+
+# == Schema Information
+# Schema version: 20090813202805
+#
+# Table name: jobs
+#
+#  id                 :integer(4)      not null, primary key
+#  script             :string(255)     
+#  input              :text            
+#  sqs_id             :string(255)     
+#  finished_at        :datetime        
+#  state              :integer(4)      
+#  sqs_receipt_handle :string(255)     
+#  user_id            :integer(4)      
+#  created_at         :datetime        
+#  updated_at         :datetime        
+#
+
+STATE_CREATED = 0
+STATE_SUBMITTED_TO_SQS = 1
+STATE_RUNNING = 2
+STATE_COMPLETED_SUCCESSFULLY = 3
+STATE_COMPLETED_WITH_ERROR = 4
+
+class Job < ActiveRecord::Base
+
+  belongs_to :user
+  
+  def pretty_state
+    if state == STATE_CREATED
+      return "Created"
+    elsif state == STATE_SUBMITTED_TO_SQS
+      return "Submitted"
+    elsif state == STATE_RUNNING
+      return "Running"
+    elsif state = STATE_COMPLETED_SUCCESSFULLY
+      return "Completed"
+    elsif state = STATE_COMPLETED_WITH_ERROR
+      return "Error"
+    else
+      return ""
+    end
+  end
+
+  def send_job_to_sqs
+    pp "***queue=#{SQS_QUEUE_NAME}"
+    q = SQS.get_queue SQS_QUEUE_NAME
+    a = q.send_message id
+    self.sqs_id = a.id
+    self.state = STATE_SUBMITTED_TO_SQS
+    logger.info("***send_job_to_sqs***")
+  end
+
+  def set_state_as_running
+    self.state = STATE_RUNNING
+    logger.info("***set_state_as_running***")
+  end
+
+  def set_state_as_completed_successfully
+    self.state = STATE_COMPLETED_SUCCESSFULLY
+    self.finished_at = Time.now
+    logger.info("***set_state_as_completed_successfully***")
+  end
+
+  def completed?
+    if self.state == STATE_COMPLETED_SUCCESSFULLY || self.state == STATE_COMPLETED_WITH_ERROR
+      return true
+    else
+      return nil
+    end
+  end
+
+  def current_jobs
+  end
+
+  def self.per_page
+    10
+  end
+
+end

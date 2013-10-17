@@ -1,0 +1,24 @@
+<div class="tabular">
+<table>
+  <tr>
+	<th>name</th>
+	<th>tape</th>
+	<th>side</th>
+	<th>start time</th>
+	<th>end time</th>
+	<th>waveform</th>
+	<th>spectrogram</th>
+  </tr>
+  <% recordings.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :controller => 'admin_recordings', :action => 'edit', :id => n.id %></td>
+	<td><%= n.tape %></td>
+	<td><%= n.side %></td>
+	<td><%= n.start_time.nil? ? "" : n.start_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= n.end_time.nil? ? "" : n.end_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= link_to (image_tag n.waveform_thumbnail_path), :controller => 'admin_recordings', :action => 'edit', :id => n.id %></td>
+	<td><%= link_to (image_tag n.spectrogram_thumbnail_path), :controller => 'admin_recordings', :action => 'edit', :id => n.id %></td>
+  </tr>
+  <% end %>
+</table>
+</div>

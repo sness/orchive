@@ -1,0 +1,1652 @@
+--- 
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-07 09:12:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "12678"
+    id: "1"
+    user_id: "1"
+    label: orca
+    end_time_ms: "13516"
+    created_at: 2009-08-07 09:12:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:09:05
+    recording_id: "1"
+    comments: 
+    start_time_ms: "15961"
+    id: "2"
+    user_id: "1"
+    label: orca
+    end_time_ms: "17944"
+    created_at: 2009-08-07 09:12:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-07 09:12:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "20501"
+    id: "3"
+    user_id: "1"
+    label: orca
+    end_time_ms: "22178"
+    created_at: 2009-08-07 09:12:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:08:54
+    recording_id: "1"
+    comments: 
+    start_time_ms: "24832"
+    id: "5"
+    user_id: "1"
+    label: orca
+    end_time_ms: "26483"
+    created_at: 2009-08-07 09:18:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-07 09:18:51
+    recording_id: "1"
+    comments: 
+    start_time_ms: "31352"
+    id: "6"
+    user_id: "1"
+    label: orca
+    end_time_ms: "33420"
+    created_at: 2009-08-07 09:18:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-07 09:18:51
+    recording_id: "1"
+    comments: 
+    start_time_ms: "33754"
+    id: "7"
+    user_id: "1"
+    label: orca
+    end_time_ms: "36022"
+    created_at: 2009-08-07 09:18:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:08:30
+    recording_id: "1"
+    comments: 
+    start_time_ms: "26788"
+    id: "19"
+    user_id: "1"
+    label: bg
+    end_time_ms: "31049"
+    created_at: 2009-08-13 16:07:39
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:08:30
+    recording_id: "1"
+    comments: 
+    start_time_ms: "14075"
+    id: "20"
+    user_id: "1"
+    label: bg
+    end_time_ms: "15409"
+    created_at: 2009-08-13 16:08:30
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:08:54
+    recording_id: "1"
+    comments: 
+    start_time_ms: "18211"
+    id: "21"
+    user_id: "1"
+    label: bg
+    end_time_ms: "20222"
+    created_at: 2009-08-13 16:08:30
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:08:54
+    recording_id: "1"
+    comments: 
+    start_time_ms: "22387"
+    id: "22"
+    user_id: "1"
+    label: bg
+    end_time_ms: "24553"
+    created_at: 2009-08-13 16:08:31
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:22:55
+    recording_id: "2"
+    comments: 
+    start_time_ms: "270902"
+    id: "23"
+    user_id: "1"
+    label: bg
+    end_time_ms: "274771"
+    created_at: 2009-08-13 16:22:55
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:22:55
+    recording_id: "2"
+    comments: 
+    start_time_ms: "274905"
+    id: "24"
+    user_id: "1"
+    label: orca
+    end_time_ms: "278907"
+    created_at: 2009-08-13 16:22:55
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:22:55
+    recording_id: "2"
+    comments: 
+    start_time_ms: "279241"
+    id: "25"
+    user_id: "1"
+    label: bg
+    end_time_ms: "281242"
+    created_at: 2009-08-13 16:22:55
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:22:55
+    recording_id: "2"
+    comments: 
+    start_time_ms: "281375"
+    id: "26"
+    user_id: "1"
+    label: orca
+    end_time_ms: "285645"
+    created_at: 2009-08-13 16:22:55
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:22:55
+    recording_id: "2"
+    comments: 
+    start_time_ms: "296718"
+    id: "27"
+    user_id: "1"
+    label: bg
+    end_time_ms: "300721"
+    created_at: 2009-08-13 16:22:55
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-08-13 16:22:55
+    recording_id: "3"
+    comments: 
+    start_time_ms: "296718"
+    id: "28"
+    user_id: "1"
+    label: orca
+    end_time_ms: "300721"
+    created_at: 2009-08-13 16:22:55
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "48096"
+    id: "29"
+    user_id: "1"
+    label: bg
+    end_time_ms: "57569"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:05:01
+    recording_id: "1"
+    comments: 
+    start_time_ms: "58970"
+    id: "30"
+    user_id: "1"
+    label: orca
+    end_time_ms: "60771"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:05:01
+    recording_id: "1"
+    comments: 
+    start_time_ms: "67775"
+    id: "31"
+    user_id: "1"
+    label: orca
+    end_time_ms: "72578"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:05:01
+    recording_id: "1"
+    comments: 
+    start_time_ms: "81517"
+    id: "32"
+    user_id: "1"
+    label: orca
+    end_time_ms: "85720"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "86720"
+    id: "33"
+    user_id: "1"
+    label: orca
+    end_time_ms: "88455"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "63773"
+    id: "34"
+    user_id: "1"
+    label: bg
+    end_time_ms: "66908"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "90523"
+    id: "35"
+    user_id: "1"
+    label: orca
+    end_time_ms: "96193"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "97394"
+    id: "36"
+    user_id: "1"
+    label: orca
+    end_time_ms: "106333"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "106800"
+    id: "37"
+    user_id: "1"
+    label: bg
+    end_time_ms: "110469"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "110802"
+    id: "38"
+    user_id: "1"
+    label: orca
+    end_time_ms: "113804"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "115338"
+    id: "39"
+    user_id: "1"
+    label: orca
+    end_time_ms: "135418"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "136351"
+    id: "40"
+    user_id: "1"
+    label: bg
+    end_time_ms: "138686"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "148759"
+    id: "41"
+    user_id: "1"
+    label: orca
+    end_time_ms: "156364"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "163969"
+    id: "42"
+    user_id: "1"
+    label: orca
+    end_time_ms: "174575"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:04:08
+    recording_id: "1"
+    comments: 
+    start_time_ms: "184115"
+    id: "43"
+    user_id: "1"
+    label: orca
+    end_time_ms: "185649"
+    created_at: 2009-11-25 17:04:08
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:05:02
+    recording_id: "1"
+    comments: 
+    start_time_ms: "675355"
+    id: "44"
+    user_id: "1"
+    label: bg
+    end_time_ms: "696101"
+    created_at: 2009-11-25 17:05:02
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:05:02
+    recording_id: "1"
+    comments: 
+    start_time_ms: "1570982"
+    id: "45"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1579454"
+    created_at: 2009-11-25 17:05:02
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:05:02
+    recording_id: "1"
+    comments: 
+    start_time_ms: "1554505"
+    id: "46"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1560175"
+    created_at: 2009-11-25 17:05:02
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:05:02
+    recording_id: "1"
+    comments: 
+    start_time_ms: "1548368"
+    id: "47"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1552637"
+    created_at: 2009-11-25 17:05:02
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "14609"
+    id: "48"
+    user_id: "1"
+    label: orca
+    end_time_ms: "16210"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "21947"
+    id: "49"
+    user_id: "1"
+    label: orca
+    end_time_ms: "23147"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "26549"
+    id: "50"
+    user_id: "1"
+    label: orca
+    end_time_ms: "29885"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "44160"
+    id: "51"
+    user_id: "1"
+    label: orca
+    end_time_ms: "45495"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "54834"
+    id: "52"
+    user_id: "1"
+    label: orca
+    end_time_ms: "56035"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "74646"
+    id: "53"
+    user_id: "1"
+    label: bg
+    end_time_ms: "95793"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "102664"
+    id: "54"
+    user_id: "1"
+    label: bg
+    end_time_ms: "111336"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:38
+    recording_id: "5"
+    comments: 
+    start_time_ms: "137352"
+    id: "55"
+    user_id: "1"
+    label: orca
+    end_time_ms: "140687"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "146091"
+    id: "56"
+    user_id: "1"
+    label: orca
+    end_time_ms: "149560"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "190785"
+    id: "57"
+    user_id: "1"
+    label: orca
+    end_time_ms: "194521"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "210731"
+    id: "58"
+    user_id: "1"
+    label: bg
+    end_time_ms: "229676"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:38
+    recording_id: "5"
+    comments: 
+    start_time_ms: "265232"
+    id: "59"
+    user_id: "1"
+    label: bg
+    end_time_ms: "287312"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "341880"
+    id: "60"
+    user_id: "1"
+    label: vn
+    end_time_ms: "380637"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:42
+    recording_id: "5"
+    comments: 
+    start_time_ms: "465824"
+    id: "61"
+    user_id: "1"
+    label: bg
+    end_time_ms: "489439"
+    created_at: 2009-11-25 17:11:42
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:43
+    recording_id: "5"
+    comments: 
+    start_time_ms: "538603"
+    id: "62"
+    user_id: "1"
+    label: bg
+    end_time_ms: "565620"
+    created_at: 2009-11-25 17:11:43
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:43
+    recording_id: "5"
+    comments: 
+    start_time_ms: "598240"
+    id: "63"
+    user_id: "1"
+    label: bg
+    end_time_ms: "635797"
+    created_at: 2009-11-25 17:11:43
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:43
+    recording_id: "5"
+    comments: 
+    start_time_ms: "679224"
+    id: "64"
+    user_id: "1"
+    label: bg
+    end_time_ms: "706108"
+    created_at: 2009-11-25 17:11:43
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:43
+    recording_id: "5"
+    comments: 
+    start_time_ms: "809506"
+    id: "65"
+    user_id: "1"
+    label: bg
+    end_time_ms: "844928"
+    created_at: 2009-11-25 17:11:43
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:43
+    recording_id: "5"
+    comments: 
+    start_time_ms: "933517"
+    id: "66"
+    user_id: "1"
+    label: orca
+    end_time_ms: "948993"
+    created_at: 2009-11-25 17:11:43
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:43
+    recording_id: "5"
+    comments: 
+    start_time_ms: "965203"
+    id: "67"
+    user_id: "1"
+    label: orca
+    end_time_ms: "980613"
+    created_at: 2009-11-25 17:11:43
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:43
+    recording_id: "5"
+    comments: 
+    start_time_ms: "997957"
+    id: "68"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1003427"
+    created_at: 2009-11-25 17:11:43
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:43
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1010031"
+    id: "69"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1014767"
+    created_at: 2009-11-25 17:11:43
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:43
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1089814"
+    id: "70"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1092683"
+    created_at: 2009-11-25 17:11:43
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:43
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1441034"
+    id: "71"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1450773"
+    created_at: 2009-11-25 17:11:43
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:11:43
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1526487"
+    id: "72"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1535226"
+    created_at: 2009-11-25 17:11:43
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:14:06
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1542097"
+    id: "98"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1569447"
+    created_at: 2009-11-25 17:14:06
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:14:06
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1592462"
+    id: "99"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1597665"
+    created_at: 2009-11-25 17:14:06
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:14:06
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1607405"
+    id: "100"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1609806"
+    created_at: 2009-11-25 17:14:06
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:14:06
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1615543"
+    id: "101"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1617077"
+    created_at: 2009-11-25 17:14:06
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1648897"
+    id: "102"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1650618"
+    created_at: 2009-11-25 17:14:17
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:14:17
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1666308"
+    id: "103"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1670110"
+    created_at: 2009-11-25 17:14:17
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:14:17
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1673713"
+    id: "104"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1691791"
+    created_at: 2009-11-25 17:14:17
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-11-25 17:14:18
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1700730"
+    id: "105"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1726879"
+    created_at: 2009-11-25 17:14:18
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "39824"
+    id: "106"
+    user_id: "1"
+    label: orca
+    end_time_ms: "42159"
+    created_at: 2009-12-02 17:39:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "47429"
+    id: "107"
+    user_id: "1"
+    label: orca
+    end_time_ms: "53633"
+    created_at: 2009-12-02 17:39:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "150360"
+    id: "108"
+    user_id: "1"
+    label: orca
+    end_time_ms: "156364"
+    created_at: 2009-12-02 17:39:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "159833"
+    id: "109"
+    user_id: "1"
+    label: bg
+    end_time_ms: "180846"
+    created_at: 2009-12-02 17:39:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "182780"
+    id: "110"
+    user_id: "1"
+    label: orca
+    end_time_ms: "187116"
+    created_at: 2009-12-02 17:39:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "200658"
+    id: "111"
+    user_id: "1"
+    label: orca
+    end_time_ms: "203393"
+    created_at: 2009-12-02 17:39:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "204261"
+    id: "112"
+    user_id: "1"
+    label: bg
+    end_time_ms: "209531"
+    created_at: 2009-12-02 17:39:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "232612"
+    id: "113"
+    user_id: "1"
+    label: bg
+    end_time_ms: "254892"
+    created_at: 2009-12-02 17:39:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "295384"
+    id: "114"
+    user_id: "1"
+    label: bg
+    end_time_ms: "311327"
+    created_at: 2009-12-02 17:39:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:39:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "426733"
+    id: "115"
+    user_id: "1"
+    label: bg
+    end_time_ms: "450615"
+    created_at: 2009-12-02 17:39:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:40:17
+    recording_id: "5"
+    comments: 
+    start_time_ms: "744999"
+    id: "116"
+    user_id: "1"
+    label: bg
+    end_time_ms: "773216"
+    created_at: 2009-12-02 17:40:17
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:40:17
+    recording_id: "5"
+    comments: 
+    start_time_ms: "908701"
+    id: "117"
+    user_id: "1"
+    label: orca
+    end_time_ms: "918574"
+    created_at: 2009-12-02 17:40:17
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:40:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "983348"
+    id: "118"
+    user_id: "1"
+    label: bg
+    end_time_ms: "996756"
+    created_at: 2009-12-02 17:40:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:40:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1022239"
+    id: "119"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1024707"
+    created_at: 2009-12-02 17:40:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:40:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1031645"
+    id: "120"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1039049"
+    created_at: 2009-12-02 17:40:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:40:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1041584"
+    id: "121"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1043585"
+    created_at: 2009-12-02 17:40:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:40:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1075138"
+    id: "122"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1079608"
+    created_at: 2009-12-02 17:40:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:40:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1106892"
+    id: "123"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1108426"
+    created_at: 2009-12-02 17:40:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:40:48
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1100354"
+    id: "124"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1102022"
+    created_at: 2009-12-02 17:40:48
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:41:35
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1119566"
+    id: "125"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1123369"
+    created_at: 2009-12-02 17:41:35
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:41:35
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1110027"
+    id: "126"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1118766"
+    created_at: 2009-12-02 17:41:35
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:41:35
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1136110"
+    id: "127"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1151453"
+    created_at: 2009-12-02 17:41:35
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:41:35
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1132641"
+    id: "128"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1134976"
+    created_at: 2009-12-02 17:41:35
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:41:35
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1162260"
+    id: "129"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1163394"
+    created_at: 2009-12-02 17:41:35
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:41:35
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1179070"
+    id: "130"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1182872"
+    created_at: 2009-12-02 17:41:35
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:41:35
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1197548"
+    id: "131"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1202818"
+    created_at: 2009-12-02 17:41:35
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:41:47
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1185074"
+    id: "132"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1188609"
+    created_at: 2009-12-02 17:41:35
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1623681"
+    id: "133"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1625042"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1633621"
+    id: "134"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1645095"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1659971"
+    id: "135"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1662439"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1652766"
+    id: "136"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1654567"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1656302"
+    id: "137"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1658770"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1663173"
+    id: "138"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1665574"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1822339"
+    id: "139"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1842351"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1905591"
+    id: "140"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1916598"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1925270"
+    id: "141"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1927671"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1940746"
+    id: "142"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1942681"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1950019"
+    id: "143"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1962760"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1965628"
+    id: "144"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1968497"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:13
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1976168"
+    id: "145"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1978170"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:29
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1983173"
+    id: "146"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1988109"
+    created_at: 2009-12-02 17:43:13
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:29
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1988576"
+    id: "147"
+    user_id: "1"
+    label: bg
+    end_time_ms: "1993913"
+    created_at: 2009-12-02 17:43:29
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:43:29
+    recording_id: "5"
+    comments: 
+    start_time_ms: "1994380"
+    id: "148"
+    user_id: "1"
+    label: orca
+    end_time_ms: "1996981"
+    created_at: 2009-12-02 17:43:29
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:44:51
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2000984"
+    id: "149"
+    user_id: "1"
+    label: bg
+    end_time_ms: "2009389"
+    created_at: 2009-12-02 17:44:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:44:51
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2013992"
+    id: "150"
+    user_id: "1"
+    label: bg
+    end_time_ms: "2033538"
+    created_at: 2009-12-02 17:44:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:44:51
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2043144"
+    id: "151"
+    user_id: "1"
+    label: bg
+    end_time_ms: "2064957"
+    created_at: 2009-12-02 17:44:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:44:51
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2088305"
+    id: "152"
+    user_id: "1"
+    label: orca
+    end_time_ms: "2091374"
+    created_at: 2009-12-02 17:44:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:44:51
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2186100"
+    id: "153"
+    user_id: "1"
+    label: bg
+    end_time_ms: "2211582"
+    created_at: 2009-12-02 17:44:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:44:51
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2261213"
+    id: "154"
+    user_id: "1"
+    label: orca
+    end_time_ms: "2277023"
+    created_at: 2009-12-02 17:44:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:44:51
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2325787"
+    id: "155"
+    user_id: "1"
+    label: orca
+    end_time_ms: "2327388"
+    created_at: 2009-12-02 17:44:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:44:51
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2342998"
+    id: "156"
+    user_id: "1"
+    label: orca
+    end_time_ms: "2346467"
+    created_at: 2009-12-02 17:44:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:44:51
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2391962"
+    id: "157"
+    user_id: "1"
+    label: orca
+    end_time_ms: "2393363"
+    created_at: 2009-12-02 17:44:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:45:30
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2369281"
+    id: "158"
+    user_id: "1"
+    label: bg
+    end_time_ms: "2382756"
+    created_at: 2009-12-02 17:44:51
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:45:30
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2386158"
+    id: "159"
+    user_id: "1"
+    label: bg
+    end_time_ms: "2388226"
+    created_at: 2009-12-02 17:45:30
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:45:30
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2397298"
+    id: "160"
+    user_id: "1"
+    label: bg
+    end_time_ms: "2411841"
+    created_at: 2009-12-02 17:45:30
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:45:30
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2420179"
+    id: "161"
+    user_id: "1"
+    label: bg
+    end_time_ms: "2438991"
+    created_at: 2009-12-02 17:45:30
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:46:21
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2475414"
+    id: "163"
+    user_id: "1"
+    label: bg
+    end_time_ms: "2498228"
+    created_at: 2009-12-02 17:46:21
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:46:21
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2506767"
+    id: "164"
+    user_id: "1"
+    label: bg
+    end_time_ms: "2528180"
+    created_at: 2009-12-02 17:46:21
+  attributes_cache: {}
+
+- !ruby/object:Annotation 
+  attributes: 
+    updated_at: 2009-12-02 17:46:30
+    recording_id: "5"
+    comments: 
+    start_time_ms: "2361209"
+    id: "165"
+    user_id: "1"
+    label: orca
+    end_time_ms: "2367546"
+    created_at: 2009-12-02 17:46:21
+  attributes_cache: {}
+

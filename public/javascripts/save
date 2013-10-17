@@ -1,0 +1,15 @@
+------------------------------ my.js ------------------------------
+
+function visualizationChange() {
+ 	var flash = window.movie || document.movie; // Get Flash object
+	var val = flash.visualizationChange(document.recording.visualization.value); // Invoke a function on it
+	return;
+}
+
+function followModeChange() {
+ 	var flash = window.movie || document.movie; // Get Flash object
+ 	var val = flash.followModeChange(document.recording.followMode.value); // Invoke a function on it
+	return;
+}
+
+

@@ -1,0 +1,69 @@
+--- 
+- !ruby/object:CallType
+  attributes:
+    id: 1
+    name: N1
+- !ruby/object:CallType
+  attributes:
+    id: 2
+    name: N2
+- !ruby/object:CallType
+  attributes:
+    id: 3
+    name: N3
+- !ruby/object:CallType
+  attributes:
+    id: 4
+    name: N4
+- !ruby/object:CallType
+  attributes:
+    id: 5
+    name: N5
+#- !ruby/object:CallType
+#  attributes:
+#    id: 6
+#    name: N6
+- !ruby/object:CallType
+  attributes:
+    id: 7
+    name: N7
+- !ruby/object:CallType
+  attributes:
+    id: 8
+    name: N8
+- !ruby/object:CallType
+  attributes:
+    id: 9
+    name: N9
+- !ruby/object:CallType
+  attributes:
+    id: 10
+    name: N10
+- !ruby/object:CallType
+  attributes:
+    id: 11
+    name: N11
+#- !ruby/object:CallType
+#  attributes:
+#    id: 12
+#    name: N12
+- !ruby/object:CallType
+  attributes:
+    id: 13
+    name: N13
+- !ruby/object:CallType
+  attributes:
+    id: 47
+    name: N47
+- !ruby/object:CallType
+  attributes:
+    id: 100
+    name: A36
+- !ruby/object:CallType
+  attributes:
+    id: 101
+    name: A12
+- !ruby/object:CallType
+  attributes:
+    id: 102
+    name: A30

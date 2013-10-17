@@ -1,0 +1,24 @@
+<h1>Edit</h1>
+<h2>Recording : <%= @recording.name %></h2>
+
+<ul>
+  <li>Tape : <%= @recording.tape %></li>
+  <li>Side : <%= @recording.side %></li>
+  <li>Start time : <%= @recording.start_time.nil? ? "" : @recording.start_time.strftime("%b%d%y %H:%M") %></li>
+  <li>End time : <%= @recording.end_time.nil? ? "" : @recording.end_time.strftime("%b%d%y %H:%M") %></li>
+</ul>
+
+<h2>Annotations</h2>
+<% if @recording.annotations.length > 0 %>
+  <%= render :partial => "admin_annotations/annotation_list", :locals => { :annotations => @recording.annotations} %>
+<% end %>
+
+<h2>Predictions</h2>
+<% if @recording.predictions.length > 0 %>
+  <%= render :partial => "admin_predictions/prediction_list", :locals => { :predictions => @recording.predictions} %>
+<% end %>
+
+<h2>Lab Book Pages</h2>
+<% @recording.labbook_page_recordings.each do |n| %>
+  <%= link_to (image_tag n.labbook_page.small_image_file_path), :controller => 'admin_labbooks', :action => 'edit_labbook_page', :id => n.labbook_page.id %>
+<% end %>

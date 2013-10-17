@@ -1,0 +1,24 @@
+<h2>Recordings</h2>
+
+<div class="tabular">
+<table>
+  <tr>
+	<th>name</th>
+	<th>tape</th>
+	<th>side</th>
+	<th>start time</th>
+	<th>end time</th>
+	<th>actions</th>
+  </tr>
+  <% labbook_page.recordings.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :controller => 'recordings', :action => 'show', :id => n.id %></td>
+	<td><%= n.tape %></td>
+	<td><%= n.side %></td>
+	<td><%= n.start_time.nil? ? "" : n.start_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= n.end_time.nil? ? "" : n.end_time.strftime("%b%d%y %H:%M") %></td>
+	<td><%= button_to "Delete", { :action => 'delete_labbook_page_from_recording', :id => n.id, :labbook_page_id => labbook_page.id }, :confirm => "Are you sure?" %></td>
+  </tr>
+  <% end %>
+</table>
+</div>

@@ -1,0 +1,30 @@
+<% orchive_controllers = ['orchive','recordings','labbooks','annotations','predictions'] %>
+<% label_names = ['Overview','Recordings','Lab Books','Annotations','Predictions'] %>
+
+<% if orchive_controllers.include? controller.controller_name %>
+
+  <ul>
+	
+	<% for item in orchive_controllers %>
+
+	  <% label = label_names[orchive_controllers.index(item)] %>
+	  
+	  <% if controller.controller_name == item %>
+		<% if item == orchive_controllers[-1] %>
+		  <li id="lastlink" class="sel">
+		<% else %>
+		  <li class="sel">
+		<% end %>
+		<% else %>
+		<% if item == orchive_controllers[-1] %>
+		  <li id="lastlink">
+		<% else %>
+		  <li>
+		<% end %>
+	  <% end %>	
+	  <%= link_to label, :controller => item %>
+      </li>
+    <% end %>
+
+  </ul>
+<% end %>

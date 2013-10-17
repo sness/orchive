@@ -1,0 +1,44 @@
+development:
+  adapter: mysql
+  database: orchive_development
+  username: root
+  password:
+# Ubuntu
+  socket: /var/run/mysqld/mysqld.sock 
+# Fedora
+#  socket: /var/lib/mysql/mysql.sock
+
+test:
+  adapter: mysql
+  database: orchive_test
+  username: root
+  password:
+# Ubuntu
+  socket: /var/run/mysqld/mysqld.sock 
+# Fedora
+#  socket: /var/lib/mysql/mysql.sock
+
+production:
+  adapter: mysql
+#  database: orchive_development
+  database: orchive_production
+  username: root
+  password: 0beth2
+# Mac OSX
+#  socket: /usr/local/mysql/run/mysql_socket
+  socket: /opt/local/var/run/mysql5/mysqld.sock
+
+
+#production:
+#  adapter: mysql
+#  database: orchive_production
+#  username: root
+#  password:
+#  socket: /var/lib/mysql/mysql.sock
+
+#production:
+#  adapter: mysql
+#  database: orchive_production
+#  username: root
+#  password: 0beth2
+#  socket: /usr/local/mysql/run/mysql_socket

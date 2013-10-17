@@ -1,0 +1,2 @@
+module AdminPredictionsHelper
+end

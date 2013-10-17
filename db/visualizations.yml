@@ -1,0 +1,199 @@
+--- 
+- !ruby/object:Visualization 
+  attributes: 
+    name: Waveform
+    updated_at: 2009-08-05 11:59:59
+    file_path: /assets/visualizations/2005/449A/waveform
+    recording_id: "1"
+    id: "1"
+    params: default
+    created_at: 2009-08-05 11:59:59
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Spectrogram
+    updated_at: 2009-08-05 11:59:59
+    file_path: /assets/visualizations/2005/449A/spectrogram
+    recording_id: "1"
+    id: "2"
+    params: default
+    created_at: 2009-08-05 11:59:59
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Waveform
+    updated_at: 2009-08-05 11:59:59
+    file_path: /assets/visualizations/2005/449B/waveform
+    recording_id: "2"
+    id: "3"
+    params: default
+    created_at: 2009-08-05 11:59:59
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Spectrogram
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/449B/spectrogram
+    recording_id: "2"
+    id: "4"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Waveform
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/450A/waveform
+    recording_id: "3"
+    id: "5"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Spectrogram
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/450A/spectrogram
+    recording_id: "3"
+    id: "6"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Waveform
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/450B/waveform
+    recording_id: "4"
+    id: "7"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Spectrogram
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/450B/spectrogram
+    recording_id: "4"
+    id: "8"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Waveform
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/451A/waveform
+    recording_id: "5"
+    id: "9"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Spectrogram
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/451A/spectrogram
+    recording_id: "5"
+    id: "10"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Waveform
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/451B/waveform
+    recording_id: "6"
+    id: "11"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Spectrogram
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/451B/spectrogram
+    recording_id: "6"
+    id: "12"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Waveform
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/449A/waveform
+    recording_id: "7"
+    id: "13"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Spectrogram
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/452A/spectrogram
+    recording_id: "7"
+    id: "14"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Waveform
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/452B/waveform
+    recording_id: "8"
+    id: "15"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Spectrogram
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/452B/spectrogram
+    recording_id: "8"
+    id: "16"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Waveform
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/999A/waveform
+    recording_id: "9"
+    id: "17"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+
+- !ruby/object:Visualization 
+  attributes: 
+    name: Spectrogram
+    updated_at: 2009-08-05 12:00:00
+    file_path: /assets/visualizations/2005/999A/spectrogram
+    recording_id: "9"
+    id: "18"
+    params: default
+    created_at: 2009-08-05 12:00:00
+  attributes_cache: {}
+

@@ -1,0 +1,11 @@
+<form name="visualizationForm">
+  <select name="visualization" multiple size=<%= visualizations.size %> onChange="visualizationChange()">
+	<% visualizations.each_index do |i| %>
+	  <option value="<%= visualizations[i].file_path %>"
+			  <% if i == 1 %>
+				selected="selected"
+			  <% end %>
+			  ><%= visualizations[i].name %>
+	<% end %>
+  </select>
+</form>

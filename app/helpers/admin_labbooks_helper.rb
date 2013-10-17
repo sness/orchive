@@ -1,0 +1,2 @@
+module AdminLabbooksHelper
+end

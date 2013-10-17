@@ -1,0 +1,17 @@
+<% if @predictions.length > 0 %>
+<h2>Predictions</h2>
+<form name="predictionForm">
+  <select name="prediction" multiple size=<%= predictions.size + 1 %> onChange="predictionChange()">
+	<option value="0" selected="selected">none</option>
+	<% predictions.each_index do |i| %>
+	  <option value="<%= predictions[i].id %>"><%= predictions[i].id.to_s + " (" + predictions[i].created_at.to_formatted_s(:short) + ")" %></option>
+	<% end %>
+  </select>
+</form>
+<% end %>
+
+<% if !current_user.nil? && current_user != :false && current_user.admin %>
+<%= link_to "Make new prediction", :controller => 'predictions', :action => 'make_new_prediction_from_recording', :id => @recording%>
+<br />
+<br />
+<% end %>

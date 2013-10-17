@@ -1,0 +1,174 @@
+<div class="yui-gd">
+  
+
+
+<br />
+
+	<script type="text/javascript">
+<!--
+	value = 8;
+
+  function recalculate(i) {
+  value += i;
+  if (value < 1) {
+  value = 1;
+  }
+  if (value > 24) {
+  value = 24;
+  }
+  document.getElementById('inputvalue').innerHTML = value;
+  document.getElementById('outputvalue').innerHTML =  roundNumber(<%= @num_recordings %> * 45.0 / 60.0 / 365 / value,1);
+  }
+
+
+function roundNumber(num, dec) {
+var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+return result;
+}
+//-->
+</script>
+
+<div class="calculatortoy">
+<p>
+There are a total of <span class="infobox"><%= @num_recordings %></span> recordings, each of which is 45 minutes long for a total of <span class="infobox"><%= @num_recordings * 45 %></span> minutes of audio.</p>
+<br />
+<p>  If you listened for 
+  <span class="valuebox" id="inputvalue">8</span> 
+  hours per day, it would take you 
+  <span class="valuebox" id="outputvalue"><%= (((@num_recordings * 45.0 / 60.0 / 8 / 365)*10).round) / 10.0 %></span> 
+  years to listen to all the recordings.
+
+<span class="valuebox">
+  <a href="javascript:recalculate(1)"><%= image_tag "famfam/arrow_up.png" %></a>
+  <a href="javascript:recalculate(-1)"><%= image_tag "famfam/arrow_down.png" %></a>
+</span>
+</p>
+
+<br />
+
+<center>
+<object width="853" height="505"><param name="movie" value="http://www.youtube.com/v/dUTOt5BZedg&hl=en_GB&fs=1&rel=0&color1=0x006699&color2=0x54abd6&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/dUTOt5BZedg&hl=en_GB&fs=1&rel=0&color1=0x006699&color2=0x54abd6&hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="853" height="505"></embed></object>
+
+<object width="853" height="505"><param name="movie" value="http://www.youtube.com/v/9hrVupAxLd8&hl=en_GB&fs=1&rel=0&color1=0x006699&color2=0x54abd6&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/9hrVupAxLd8&hl=en_GB&fs=1&rel=0&color1=0x006699&color2=0x54abd6&hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="853" height="505"></embed></object>
+
+<object width="853" height="505"><param name="movie" value="http://www.youtube.com/v/70Ow2TdNwQc&hl=en_GB&fs=1&rel=0&color1=0x006699&color2=0x54abd6&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/70Ow2TdNwQc&hl=en_GB&fs=1&rel=0&color1=0x006699&color2=0x54abd6&hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="853" height="505"></embed></object>
+</center>
+<br />
+<br />
+
+  <div class="audioblock">
+	<h2>Original Audio</h2>
+	
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+			width="600"
+			height="195"
+			id="haxe"
+			align="middle">
+	  <param name="movie" value="demosimplefftplay.swf"/>
+	  <param name="allowScriptAccess" value="always" />
+	  <param name="quality" value="high" />
+	  <param name="scale" value="noscale" />
+	  <param name="salign" value="lt" />
+	  <param name="bgcolor" value="#eeeeee"/>
+	  <embed src="/demosimplefftplay.swf"
+			 FlashVars="mp3_url_param=/sample_audio/orca-original.mp3&waveform_url_param=/sample_audio/orca-original-waveform.jpg&spectrogram_url_param=/sample_audio/orca-original-spectrogram.jpg"
+			 bgcolor="#eeeeee"
+			 width="600"
+			 height="195"
+			 name="demosimplefftplay"
+			 quality="high"
+			 align="middle"
+			 allowScriptAccess="always"
+			 type="application/x-shockwave-flash"
+			 pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object>
+  </div>
+  
+  <div class="audioblock">
+	<h2>Denoised with Audacity</h2>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+			width="600"
+			height="195"
+			id="haxe"
+			align="middle">
+	  <param name="movie" value="demosimplefftplay.swf"/>
+	  <param name="allowScriptAccess" value="always" />
+	  <param name="quality" value="high" />
+	  <param name="scale" value="noscale" />
+	  <param name="salign" value="lt" />
+	  <param name="bgcolor" value="#eeeeee"/>
+	  <embed src="/demosimplefftplay.swf"
+			 FlashVars="mp3_url_param=/sample_audio/orca-denoised-audacity.mp3&waveform_url_param=/sample_audio/orca-denoised-audacity-waveform.jpg&spectrogram_url_param=/sample_audio/orca-denoised-audacity-spectrogram.jpg"
+			 bgcolor="#eeeeee"
+			 width="600"
+			 height="195"
+			 name="demosimplefftplay"
+			 quality="high"
+			 align="middle"
+			 allowScriptAccess="always"
+			 type="application/x-shockwave-flash"
+			 pluginspage="http://www.macromedia.com/go/getflashplayer"
+			 />
+	</object>
+  </div>
+  
+  <div class="audioblock">
+	<h2>Denoised with Marsyas</h2>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+			width="600"
+			height="195"
+			id="haxe"
+			align="middle">
+	  <param name="movie" value="demosimplefftplay.swf"/>
+	  <param name="allowScriptAccess" value="always" />
+	  <param name="quality" value="high" />
+	  <param name="scale" value="noscale" />
+	  <param name="salign" value="lt" />
+	  <param name="bgcolor" value="#eeeeee"/>
+	  <embed src="/demosimplefftplay.swf"
+			 FlashVars="mp3_url_param=/sample_audio/orca-denoised-marsyas.mp3&waveform_url_param=/sample_audio/orca-denoised-marsyas-waveform.jpg&spectrogram_url_param=/sample_audio/orca-denoised-marsyas-spectrogram.jpg"
+			 bgcolor="#eeeeee"
+			 width="600"
+			 height="195"
+			 name="demosimplefftplay"
+			 quality="high"
+			 align="middle"
+			 allowScriptAccess="always"
+			 type="application/x-shockwave-flash"
+			 pluginspage="http://www.macromedia.com/go/getflashplayer"
+			 />
+	</object>
+  </div>
+  
+  <div class="audioblock">
+	<h2>Residual noise from Marsyas Denoising</h2>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+			width="600"
+			height="195"
+			id="haxe"
+			align="middle">
+	  <param name="movie" value="demosimplefftplay.swf"/>
+	  <param name="allowScriptAccess" value="always" />
+	  <param name="quality" value="high" />
+	  <param name="scale" value="noscale" />
+	  <param name="salign" value="lt" />
+	  <param name="bgcolor" value="#eeeeee"/>
+	  <embed src="/demosimplefftplay.swf"
+			 FlashVars="mp3_url_param=/sample_audio/orca-removed-noise.mp3&waveform_url_param=/sample_audio/orca-removed-noise-waveform.jpg&spectrogram_url_param=/sample_audio/orca-removed-noise-spectrogram.jpg"
+			 bgcolor="#eeeeee"
+			 width="600"
+			 height="195"
+			 name="demosimplefftplay"
+			 quality="high"
+			 align="middle"
+			 allowScriptAccess="always"
+			 type="application/x-shockwave-flash"
+			 pluginspage="http://www.macromedia.com/go/getflashplayer"
+			 />
+	</object>
+  </div>
+</div>
+
+
+</div>
+

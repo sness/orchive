@@ -1,0 +1,30 @@
+<h1>Classifer</h1>
+
+<p>
+<b>Name : <%= @classifier.name %></b>
+</p>
+
+<h2>Annotations</h2>
+
+<div id="annotation_table">
+  <table class="pretty">
+	<th>id</th>
+	<th>Start (sec)</th>
+	<th>End (sec)</th>
+	<th>Annotation</th>
+	<th>Comments</th>
+	<% @classifier.annotations.each do |n| %> 
+	  <tr>
+		<td><%= n.id %></td>
+		<td><%= n.start_time_ms.to_f / 1000 %></td>
+		<td><%= n.end_time_ms.to_f / 1000 %></td>
+		<td><%= n.label %></td>
+		<td><%= n.comments %></td>
+	  </tr>
+	<% end %>
+  </table>
+</div>
+
+
+
+

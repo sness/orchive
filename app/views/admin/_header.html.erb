@@ -1,0 +1,17 @@
+<div class="yui-ge">
+  <div class="yui-u first">
+	<div id="title">
+	  <h1>orchive admin</h1>
+	</div>
+  </div>
+  
+  <div class="yui-u">
+	<div id="info">
+	  Administrator: <br />
+	  Date: <%= Time.now.strftime("%A %B %d, %Y") %><br />
+	  Time: <%= Time.now.strftime("%I:%M %p") %><br />
+	  <%= link_to "Logout", :controller => 'account', :action => 'logout' %><br />
+	  <%= link_to "Go to main site", :controller => 'main', :action => 'index' %>
+	</div>
+  </div>
+</div>

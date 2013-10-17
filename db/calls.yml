@@ -1,0 +1,369 @@
+--- 
+- !ruby/object:Call 
+  attributes:
+    id: 1
+    audio: /assets/catalog/helena/ogg/A12_A12sp__1_.ogg
+    image: /assets/catalog/helena/jpg/A12_A12sp__1_.jpg
+    notes: A12 A12sp  1 
+    call_type_id: 101
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 2
+    audio: /assets/catalog/helena/ogg/A12_A12sp__2_.ogg
+    image: /assets/catalog/helena/jpg/A12_A12sp__2_.jpg
+    notes: A12 A12sp  2 
+    call_type_id: 101
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 3
+    audio: /assets/catalog/helena/ogg/A12_N1__1_.ogg
+    image: /assets/catalog/helena/jpg/A12_N1__1_.jpg
+    notes: A12 N1  1 
+    call_type_id: 1
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 4
+    audio: /assets/catalog/helena/ogg/A12_N1__2_.ogg
+    image: /assets/catalog/helena/jpg/A12_N1__2_.jpg
+    notes: A12 N1  2 
+    call_type_id: 1
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 5
+    audio: /assets/catalog/helena/ogg/A12_N10.ogg
+    image: /assets/catalog/helena/jpg/A12_N10.jpg
+    notes: A12 N10
+    call_type_id: 10
+    matriline:  A12
+- !ruby/object:Call 
+  attributes:
+    id: 6
+    audio: /assets/catalog/helena/ogg/A12_N11.ogg
+    image: /assets/catalog/helena/jpg/A12_N11.jpg
+    notes: A12 N11
+    call_type_id: 11
+    matriline:  A12
+- !ruby/object:Call 
+  attributes:
+    id: 7
+    audio: /assets/catalog/helena/ogg/A12_N2.ogg
+    image: /assets/catalog/helena/jpg/A12_N2.jpg
+    notes: A12 N2
+    call_type_id: 2
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 8
+    audio: /assets/catalog/helena/ogg/A12_N3.ogg
+    image: /assets/catalog/helena/jpg/A12_N3.jpg
+    notes: A12 N3
+    call_type_id: 3
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 9
+    audio: /assets/catalog/helena/ogg/A12_N4.ogg
+    image: /assets/catalog/helena/jpg/A12_N4.jpg
+    notes: A12 N4
+    call_type_id: 4
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 10
+    audio: /assets/catalog/helena/ogg/A12_N47.ogg
+    image: /assets/catalog/helena/jpg/A12_N47.jpg
+    notes: A12 N47
+    call_type_id: 47
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 11
+    audio: /assets/catalog/helena/ogg/A12_N5.ogg
+    image: /assets/catalog/helena/jpg/A12_N5.jpg
+    notes: A12 N5
+    call_type_id: 5
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 12
+    audio: /assets/catalog/helena/ogg/A12_N7__1_.ogg
+    image: /assets/catalog/helena/jpg/A12_N7__1_.jpg
+    notes: A12 N7  1 
+    call_type_id: 7
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 13
+    audio: /assets/catalog/helena/ogg/A12_N7__2_.ogg
+    image: /assets/catalog/helena/jpg/A12_N7__2_.jpg
+    notes: A12 N7  2 
+    call_type_id: 7
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 14
+    audio: /assets/catalog/helena/ogg/A12_N8.ogg
+    image: /assets/catalog/helena/jpg/A12_N8.jpg
+    notes: A12 N8
+    call_type_id: 8
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 15
+    audio: /assets/catalog/helena/ogg/A12_N9.ogg
+    image: /assets/catalog/helena/jpg/A12_N9.jpg
+    notes: A12 N9
+    call_type_id: 9
+    matriline: A12
+- !ruby/object:Call 
+  attributes:
+    id: 16
+    audio: /assets/catalog/helena/ogg/A30_N1.ogg
+    image: /assets/catalog/helena/jpg/A30_N1.jpg
+    notes: A30 N1
+    call_type_id: 1
+    matriline: A30
+- !ruby/object:Call 
+  attributes:
+    id: 17
+    audio: /assets/catalog/helena/ogg/A30_N10.ogg
+    image: /assets/catalog/helena/jpg/A30_N10.jpg
+    notes: A30 N10
+    call_type_id: 10
+    matriline: A30
+- !ruby/object:Call 
+  attributes:
+    id: 18
+    audio: /assets/catalog/helena/ogg/A30_N13.ogg
+    image: /assets/catalog/helena/jpg/A30_N13.jpg
+    notes: A30 N13
+    call_type_id: 13
+    matriline: A30
+- !ruby/object:Call 
+  attributes:
+    id: 19
+    audio: /assets/catalog/helena/ogg/A30_N2.ogg
+    image: /assets/catalog/helena/jpg/A30_N2.jpg
+    notes: A30 N2
+    call_type_id: 2
+    matriline: A30
+- !ruby/object:Call 
+  attributes:
+    id: 20
+    audio: /assets/catalog/helena/ogg/A30_N3.ogg
+    image: /assets/catalog/helena/jpg/A30_N3.jpg
+    notes: A30 N3
+    call_type_id: 3
+    matriline: A30
+- !ruby/object:Call 
+  attributes:
+    id: 21
+    audio: /assets/catalog/helena/ogg/A30_N4.ogg
+    image: /assets/catalog/helena/jpg/A30_N4.jpg
+    notes: A30 N4
+    call_type_id: 4
+    matriline: A30
+- !ruby/object:Call 
+  attributes:
+    id: 22
+    audio: /assets/catalog/helena/ogg/A30_N47__2_.ogg
+    image: /assets/catalog/helena/jpg/A30_N47__2_.jpg
+    notes: A30 N47  2 
+    call_type_id: 47
+    matriline: A30
+- !ruby/object:Call 
+  attributes:
+    id: 23
+    audio: /assets/catalog/helena/ogg/A30_N47.ogg
+    image: /assets/catalog/helena/jpg/A30_N47.jpg
+    notes: A30 N47
+    call_type_id: 47
+    matriline: A30
+- !ruby/object:Call 
+  attributes:
+    id: 24
+    audio: /assets/catalog/helena/ogg/A30_N5.ogg
+    image: /assets/catalog/helena/jpg/A30_N5.jpg
+    notes: A30 N5
+    call_type_id: 5
+    matriline: A30
+- !ruby/object:Call 
+  attributes:
+    id: 25
+    audio: /assets/catalog/helena/ogg/A30_N7.ogg
+    image: /assets/catalog/helena/jpg/A30_N7.jpg
+    notes: A30 N7
+    call_type_id: 7
+    matriline: A30
+- !ruby/object:Call 
+  attributes:
+    id: 26
+    audio: /assets/catalog/helena/ogg/A30_N9.ogg
+    image: /assets/catalog/helena/jpg/A30_N9.jpg
+    notes: A30 N9
+    call_type_id: 9
+    matriline: A30
+- !ruby/object:Call 
+  attributes:
+    id: 27
+    audio: /assets/catalog/helena/ogg/A34_N10.ogg
+    image: /assets/catalog/helena/jpg/A34_N10.jpg
+    notes: A34 N10
+    call_type_id: 10
+    matriline:  A34
+- !ruby/object:Call 
+  attributes:
+    id: 28
+    audio: /assets/catalog/helena/ogg/A36__A12sp_.ogg
+    image: /assets/catalog/helena/jpg/A36__A12sp_.jpg
+    notes: A36  A12sp 
+    call_type_id: 101
+    matriline:  A36
+- !ruby/object:Call 
+  attributes:
+    id: 29
+    audio: /assets/catalog/helena/ogg/A36__A30sp_.ogg
+    image: /assets/catalog/helena/jpg/A36__A30sp_.jpg
+    notes: A36  A30sp 
+    call_type_id: 102
+    matriline:  A36
+- !ruby/object:Call 
+  attributes:
+    id: 30
+    audio: /assets/catalog/helena/ogg/A36__weeawu_.ogg
+    image: /assets/catalog/helena/jpg/A36__weeawu_.jpg
+    notes: A36  weeawu 
+    call_type_id: 100
+    matriline: 36
+- !ruby/object:Call 
+  attributes:
+    id: 31
+    audio: /assets/catalog/helena/ogg/A36_N1.ogg
+    image: /assets/catalog/helena/jpg/A36_N1.jpg
+    notes: A36 N1
+    call_type_id: 1
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 32
+    audio: /assets/catalog/helena/ogg/A36_N10.ogg
+    image: /assets/catalog/helena/jpg/A36_N10.jpg
+    notes: A36 N10
+    call_type_id: 10
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 33
+    audio: /assets/catalog/helena/ogg/A36_N11.ogg
+    image: /assets/catalog/helena/jpg/A36_N11.jpg
+    notes: A36 N11
+    call_type_id: 11
+    matriline:  A36
+- !ruby/object:Call 
+  attributes:
+    id: 34
+    audio: /assets/catalog/helena/ogg/A36_N2.ogg
+    image: /assets/catalog/helena/jpg/A36_N2.jpg
+    notes: A36 N2
+    call_type_id: 2
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 35
+    audio: /assets/catalog/helena/ogg/A36_N3.ogg
+    image: /assets/catalog/helena/jpg/A36_N3.jpg
+    notes: A36 N3
+    call_type_id: 3
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 36
+    audio: /assets/catalog/helena/ogg/A36_N4__2_.ogg
+    image: /assets/catalog/helena/jpg/A36_N4__2_.jpg
+    notes: A36 N4  2 
+    call_type_id: 4
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 37
+    audio: /assets/catalog/helena/ogg/A36_N47__1_.ogg
+    image: /assets/catalog/helena/jpg/A36_N47__1_.jpg
+    notes: A36 N47  1 
+    call_type_id: 47
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 38
+    audio: /assets/catalog/helena/ogg/A36_N47__2_.ogg
+    image: /assets/catalog/helena/jpg/A36_N47__2_.jpg
+    notes: A36 N47  2 
+    call_type_id: 47
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 39
+    audio: /assets/catalog/helena/ogg/A36_N5.ogg
+    image: /assets/catalog/helena/jpg/A36_N5.jpg
+    notes: A36 N5
+    call_type_id: 5
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 40
+    audio: /assets/catalog/helena/ogg/A36_N7_N8__1_.ogg
+    image: /assets/catalog/helena/jpg/A36_N7_N8__1_.jpg
+    notes: A36 N7 N8  1 
+    call_type_id: 7
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 41
+    audio: /assets/catalog/helena/ogg/A36_N7_N8__2_.ogg
+    image: /assets/catalog/helena/jpg/A36_N7_N8__2_.jpg
+    notes: A36 N7 N8  2 
+    call_type_id: 7
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 42
+    audio: /assets/catalog/helena/ogg/A36_N7_N8_1.ogg
+    image: /assets/catalog/helena/jpg/A36_N7_N8_1.jpg
+    notes: A36 N7 N8 1
+    call_type_id: 7
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 43
+    audio: /assets/catalog/helena/ogg/A36_N7.ogg
+    image: /assets/catalog/helena/jpg/A36_N7.jpg
+    notes: A36 N7
+    call_type_id: 7
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 44
+    audio: /assets/catalog/helena/ogg/A36_N9__sharp___1_.ogg
+    image: /assets/catalog/helena/jpg/A36_N9__sharp___1_.jpg
+    notes: A36 N9  sharp   1 
+    call_type_id: 9
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 45
+    audio: /assets/catalog/helena/ogg/A36_N9__sharp___2_.ogg
+    image: /assets/catalog/helena/jpg/A36_N9__sharp___2_.jpg
+    notes: A36 N9  sharp   2 
+    call_type_id: 9
+    matriline: A36
+- !ruby/object:Call 
+  attributes:
+    id: 46
+    audio: /assets/catalog/helena/ogg/A36_N9.ogg
+    image: /assets/catalog/helena/jpg/A36_N9.jpg
+    notes: A36 N9
+    call_type_id: 9
+    matriline: A36

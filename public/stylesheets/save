@@ -1,0 +1,17 @@
+------------------------------ orchive.css ------------------------------
+
+with shaded borders
+
+
+/* Left and Right gradients */
+
+
+#left-gradient {
+	width: 10px;
+  background: url('/images/left-gradient.png') repeat-y;
+}
+
+#right-gradient {
+	width: 10px;
+  background: url('/images/right-gradient.png') repeat-y;
+}

@@ -1,0 +1,3 @@
+------------------------------ edit_labbook_page.html.erb ------------------------------
+
+<%= render :partial => "admin_recordings/recording_list", :locals => { :recordings => @labbook_page.recordings} %>

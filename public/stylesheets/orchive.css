@@ -1,0 +1,431 @@
+/**********************************************/
+/*          SunshineOrganics.ca CSS           */
+/* lovingly created by hand in emacs by sness */
+/**********************************************/
+
+
+
+body {
+	margin-top: 3px;
+	background-color: #fff;
+}
+
+#doc2 {
+	border: 1px solid #a7d7ed;
+}
+
+h1 {
+	font-size: 174%;
+}
+
+h2 {
+	font-size: 153.9% 
+}
+
+h3 {
+	font-size: 131% 
+}
+
+h4 {
+	font-size: 116% 
+}
+
+h5 {
+	font-size: 108% 
+}
+
+
+
+#header {
+	height: 80px; 
+}
+
+#footer {
+	width: 950px;
+ height: 80px;
+}
+
+
+/*****************************/
+/* top navigation menu */
+/*****************************/
+
+#topnav {
+	background: #010204
+}
+
+#topnav ul {
+	width: 950px;
+}
+#topnav li {
+	float: left;
+ margin: 0px;
+ padding: 0px;
+}
+
+
+/* Content */
+
+#content {
+	background-color: #fff;
+}
+
+#content {
+	margin: auto;
+// padding: 30px 30px 30px 30px;
+ padding: 30px 10px 10px 10px;
+	font-size: 116%;
+}
+
+#content h1 {
+	padding-bottom: 20px;
+}
+
+#content h2 {
+	font-size: 116%;
+}
+
+#content p {
+	padding-bottom: 20px;
+}
+
+.photo {
+	padding: 10px;
+ border: 1px solid #777;
+}
+
+.spacer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* People */
+
+#people td {
+	padding: 20px 20px 0px 0px;
+}
+
+.year-graph {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.year-graph img {
+	border: 0px;
+}
+
+
+/* admin tables */
+/* Tabular lists of information */
+
+#admin table { 
+	border: 1px solid #EE7728;
+}
+
+#admin td {
+	padding: 5px;
+	border: 1px solid #F7CB75;
+}
+
+#admin td .center {
+ text-align: center;
+}
+
+#admin th {
+	padding: 5px;
+	border-bottom: 1px solid #EE7728;
+	border-right: 1px solid #EE7728;
+ text-align: center;
+ font-weight: bold;
+}
+
+.fftplaydiv {
+	width: 500px;
+	border: 1px solid #999999;
+}
+
+
+/* recording leftnav lists */
+
+#leftnav ul {
+	padding-left: 20px;
+}
+
+/* Tabular lists of information */
+
+.tabular table { 
+	border: 1px solid #EE7728;
+}
+
+.tabular td {
+	padding: 5px;
+	border: 1px solid #F7CB75;
+}
+
+.tabular td .center {
+ text-align: center;
+}
+
+.tabular th {
+	padding: 5px;
+	border-bottom: 1px solid #EE7728;
+	border-right: 1px solid #EE7728;
+ text-align: center;
+ font-weight: bold;
+}
+
+.tabular .list th {
+	padding: 10px;
+}
+
+.orcaannotator {
+	width: 800px;
+ height: 243px;
+	border: 1px solid #aaa;
+}
+
+/* secnav */
+
+#secnav   {
+  margin: 0px; 
+  padding: 0px;
+  height: 24px;
+  width: 950px;
+  color: inherit;
+  background: #67AEFF;
+  border-top: 1px solid #434146;
+  border-bottom: 1px solid #434146;
+  border-left: 1px solid #434146;
+  clear: both;
+}
+
+#secnav ul {
+  margin: 0px; 
+  padding: 0px 0px 0px 20px;
+  border-right: 1px solid #000;
+}   
+
+#secnav ul li {
+  margin: 0px; 
+  padding: 4px 6px 4px 6px;
+  display: inline; 
+  list-style: none; 
+  background: #67AEFF;
+  border-left: 1px solid #000;
+
+}   
+
+#secnav #lastlink {
+  border-right: 1px solid #000;
+}
+
+/* selected navigation */
+#secnav ul li.sel {
+  color: #000000;
+  background: #F9D908;
+} 
+
+/* sness - This isn't working for some reason */
+#secnav #lastlink li.sel {
+  border-right: 1px solid #000;
+}
+
+/* navigation link styling */
+#secnav ul li a:link {
+  text-decoration: none; 
+  background: inherit;
+  color: #0D0B16;
+}
+
+#secnav ul li a:visited {
+  text-decoration: none; 
+  background: inherit;
+  color: #0D0B16;
+}
+
+#secnav ul li a:hover {
+  text-decoration: none; 
+  background: inherit;
+  color: green;
+}
+
+/* selected navigation link styling */
+#secnav ul li.sel a:link {
+  text-decoration: none; 
+  background: inherit;
+  color: #000;
+}
+
+#secnav ul li.sel a:visited {
+  text-decoration: none; 
+  background: inherit;
+  color: #000;
+}
+
+#secnav ul li.sel a:hover {
+  text-decoration: none; 
+  background: inherit;
+  color: green;
+}                     
+
+
+/* the little calculator toy */
+
+.calculatortoy {
+	font-size: 116% 
+}
+
+.infobox {
+	border: 1px solid #777;
+ padding: 10px;
+ background-color: #7f0;
+}
+.valuebox {
+	border: 1px solid #777;
+ padding: 10px;
+ background-color: #ff0;
+}
+
+/* The demo audio clips */
+
+.audioblock {
+	padding: 10px;
+}
+
+.audioblock h2 {
+	padding: 10px;
+}
+
+
+/* pretty tables */
+/* Tabular lists of information */
+
+.pretty table { 
+	border: 1px solid #EE7728;
+}
+
+.pretty td {
+	padding: 5px;
+	border: 1px solid #F7CB75;
+}
+
+.pretty td .center {
+	text-align: center;
+}
+
+.pretty th {
+	padding: 5px;
+	border: 1px solid #EE7728;
+
+ text-align: center;
+ font-weight: bold;
+}
+
+
+/* New stuff */
+
+#loginlink {
+	float: right;
+ text-align: right;
+}
+
+.notice {
+	color: #119008;
+ background: #C8FFC4;
+ width: 500px;
+ text-align:center;
+	margin: auto;
+}
+
+.mediaserver_notice {
+	background: #b1f1b1;
+}
+
+
+/* call catalog */
+
+.call_catalog th {
+	text-align: center;
+ font-weight: bold;
+}
+
+.call_catalog .calls {
+width: 580px; 
+height: 280px; 
+overflow: auto;
+margin-bottom: 20px;
+}
+
+.call_catalog h3 {
+	text-align: center;
+ margin-bottom: 5px;
+}
+
+.playerholder {
+	width: 50px;
+	height: 65px;
+ float: left;
+ padding: 2px;
+ margin: 1px;
+ background: #cceeff;
+ border: 1px solid #333333;
+}
+
+.playerholder img {
+	margin: 0px;
+ padding: 0px;
+ border: 0px;
+}
+
+.playerholder p {
+	text-align: center;
+	font-size: 70%;
+ padding: 0px;
+}
+
+#dtwresults {
+	background: #f00;
+}
+
+#details {
+	width: 200px;
+	height: 200px;
+ padding: 2px;
+ margin: 1px;
+ margin-left: 10px;
+ background: #cceeff;
+ border: 1px solid #333333;
+}
+
+/*
+.player {
+	width: 200px;
+ height:200px
+background-repeat:no-repeat;
+}
+
+.player .play-progress {
+	width:0px;
+ background-color:#9999cc;
+ height:10px;
+	 margin-top: 37px;
+}
+
+.player .details {
+	margin-top: 100px;
+}
+
+.playbutton {
+	margin-top: 75px;
+	margin-bottom: 25px;
+ margin-left: 75px;
+	width: 50px;
+}
+
+.recording {
+	width: 874px;
+ height: 200px;
+}
+*/
+

@@ -1,0 +1,411 @@
+/**********************************************/
+/*          SunshineOrganics.ca CSS           */
+/* lovingly created by hand in emacs by sness */
+/**********************************************/
+
+
+
+body {
+	color: #222;
+}
+
+h1 {
+	font-size: 174%;
+}
+
+h2 {
+	font-size: 131%;
+}
+
+h3 {
+	font-size: 116%;
+}
+
+h4 {
+	font-size: 108%;
+}
+
+h5 {
+	font-size: 101%;
+}
+
+
+/**********/
+/* header */
+/**********/
+
+#hd {
+	background: #C5F5FF;
+ padding: 10px 20px 20px 20px;
+	border-left: 1px solid #0D0B16;
+	border-right: 1px solid #0D0B16;
+}
+
+#hd #title {
+	color: #0D0B16;
+}
+
+#hd #info {
+}
+
+#title h1 {
+	font-size: 189%;
+ font-weight: bold;
+}
+
+
+/**********/
+/* footer */
+/**********/
+
+#ft {
+}
+
+
+/*********************/
+/* main content pane */
+/*********************/
+
+#yui-main {
+}
+
+#content {
+	padding: 10px;
+/* width: 734px; */
+}
+
+/* Admin actions */
+
+
+#actions {
+	margin: 1px 0px 0px 0px;
+	padding: 5px 5px 200px 5px;
+ background: #F7F8D2;
+ border: 1px solid black;
+}
+
+#actions div {
+	margin: 0px 0px 10px 0px;
+}
+
+#actions h1 {
+	font-size: 116%;
+ font-weight: bold;
+}
+
+
+#actions ul {
+	padding: 5px 0px 10px 0px;
+}
+
+#actions li {
+	padding: 5px 0px 0px 0px;
+}
+
+
+
+/* Tabular lists of information */
+
+table { 
+	border: 1px solid #EE7728;
+}
+
+td {
+	padding: 5px;
+	border: 1px solid #F7CB75;
+}
+
+td .center {
+ text-align: center;
+}
+
+th {
+	padding: 5px;
+	border-bottom: 1px solid #EE7728;
+	border-right: 1px solid #EE7728;
+ text-align: center;
+ font-weight: bold;
+}
+
+.list th {
+	padding: 10px;
+}
+
+
+/* The top navigation bar */
+
+#topnav   {
+  margin: 0px; 
+  padding: 0px;
+  color: inherit;
+  background: #67AEFF;
+  border-top: 1px solid #434146;
+  border-bottom: 1px solid #434146;
+  border-left: 1px solid #434146;
+  clear: both;
+}
+
+#topnav ul {
+  margin: 0px; 
+  padding: 3px 0px 4px 20px;
+  border-right: 1px solid #000;
+}   
+
+#topnav ul li {
+  margin: 0px; 
+  padding: 4px 6px 4px 6px;
+  display: inline; 
+  list-style: none; 
+  background: #67AEFF;
+  border-left: 1px solid #000;
+
+}   
+
+#topnav #lastlink {
+  border-right: 1px solid #000;
+}
+
+/* selected navigation */
+#topnav ul li.sel {
+  color: #000000;
+  background: #F9D908;
+} 
+
+/* sness - This isn't working for some reason */
+#topnav #lastlink li.sel {
+  border-right: 1px solid #000;
+}
+
+/* navigation link styling */
+#topnav ul li a:link {
+  text-decoration: none; 
+  background: inherit;
+  color: #0D0B16;
+}
+
+#topnav ul li a:visited {
+  text-decoration: none; 
+  background: inherit;
+  color: #0D0B16;
+}
+
+#topnav ul li a:hover {
+  text-decoration: none; 
+  background: inherit;
+  color: green;
+}
+
+/* selected navigation link styling */
+#topnav ul li.sel a:link {
+  text-decoration: none; 
+  background: inherit;
+  color: #000;
+}
+
+#topnav ul li.sel a:visited {
+  text-decoration: none; 
+  background: inherit;
+  color: #000;
+}
+
+#topnav ul li.sel a:hover {
+  text-decoration: none; 
+  background: inherit;
+  color: green;
+}                     
+
+/* secondary navigation */                        
+#topnav ul.secondary  {
+  color: inherit;
+  background: #67AEFF;
+  padding: 8px 0px 0px 0px;
+  border: none;
+}   
+
+#topnav ul.secondary li {
+  color: #000;
+  background: #87CEFF;
+  border-right: 1px solid black;
+  border-top: 1px solid #000;
+}
+
+/* selected navigation */
+#topnav ul.secondary li.sel {
+  color: #000000;
+  background: #F9D908;
+} 
+
+
+/* secondary navigation link styling*/
+#topnav ul.secondary li a:link {
+  text-decoration: none; 
+  background: inherit;
+  color: #000;
+}
+
+#topnav ul.secondary li a:visited {
+  text-decoration: none; 
+  background: inherit;
+  color: #000;
+}
+
+#topnav ul.secondary li a:hover {
+  text-decoration: none; 
+  background: inherit;
+  color: green;
+}                         
+
+/* selected secondary navigation link styling*/
+#topnav ul.secondary li.sel a:link {
+  text-decoration: none; 
+  background: inherit;
+  color: #000;
+  font-weight: bold;
+}
+
+#topnav ul.secondary li.sel a:visited {
+  text-decoration: none; 
+  background: inherit;
+  color: #000;
+  font-weight: bold;
+}
+
+#topnav ul.secondary li.sel a:hover {
+  text-decoration: none; 
+  background: inherit;
+  color: green;
+  font-weight: bold;
+}                 
+
+
+
+.main-action {
+	padding: 10px;
+	font-size: 131%;
+}
+
+.main-action a {
+ color: #627FA3;
+}
+
+
+.main-customer-nav {
+	padding: 40px 0px 0px 0px;
+	font-size: 108%;
+}
+
+.main-customer-nav .next {
+	float: right;
+}
+
+.main-customer-nav a {
+ color: #627FA3;
+}
+
+/********/
+/* todo */
+/********/
+
+.todo {
+}
+
+.todo-done {
+	backgroundcolor: green;
+	color: green;
+}
+
+.todo-todo {
+	color: red;
+}
+
+.todo-inactive {
+	color: #aaa;
+}
+
+.todo h3 {
+	margin-top: 10px;
+}
+
+/********/
+/* AJAX */
+/********/
+
+.inputline input {
+	float: left;
+}
+
+/*************************/
+/* admin topnav floating */
+/*************************/
+
+.admin-right {
+	margin-right: 10px;
+}
+
+
+/* notices */
+
+.notice {
+	padding: 20px;
+	font-size: 131%;
+	color: red;
+ 
+
+}
+
+
+
+/**/
+/**/
+/**/
+
+.cell table {
+	border: 0px;
+ padding: 0px;
+ margin: 0px;
+}
+
+.cell th {
+	border: 0px;
+ padding: 0px;
+ margin: 0px;
+ font-weight: normal;
+ text-align: left;
+}
+
+.cell tr {
+	border: 0px;
+ padding: 0px;
+ margin: 0px;
+}
+
+.cell td {
+	border: 0px;
+ padding: 0px;
+ padding-right: 3px;
+ margin: 0px;
+}
+
+/*
+#order-list {
+	float: right;
+}
+*/
+
+
+.center {
+	text-align: center;
+}
+
+
+/**************************************/
+/* Has the order been placed already? */
+/**************************************/
+
+.order-sent-true {
+	border: 3px solid red;
+}
+
+.order-sent-nil {
+	border: 3px solid blue;
+}

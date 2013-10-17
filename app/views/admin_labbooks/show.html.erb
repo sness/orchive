@@ -1,0 +1,4 @@
+<h1>Lab Book : <%= @labbook.name %></h1>
+
+<%= render :partial => "labbook_page_list", :locals => { :labbook_pages => @labbook.labbook_pages } %>
+

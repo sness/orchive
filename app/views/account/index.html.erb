@@ -1,0 +1,18 @@
+<h1>Account Information</h1>
+
+<h2>name : <%= current_user.first_name %> <%= current_user.last_name %></h2>
+<h2>username : <%= current_user.login %></h2>
+<h2>email : <%= current_user.email %></h2>
+
+<br />
+
+<ul>
+  <li><%= link_to "Logout", :action => 'logout' %></li>
+</ul>
+
+<br />
+
+<ul>
+  <li><%= link_to "Edit account info", :action => 'edit' %></li>
+  <li><%= link_to "Change password", :action => 'change_password' %></li>
+</ul>

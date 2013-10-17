@@ -1,0 +1,49 @@
+<html>
+  
+  <%= render :partial => 'layouts/xhtml_header' %>
+  
+  <body>
+	
+	<% if controller.controller_name == 'admin' %>
+	<div id="doc3" class="yui-t5">
+	  <% else %>
+	<div id="doc3">
+	  <% end %>
+	  
+	  <div id="hd">
+		<%= render :partial => 'admin/header' %>
+	  </div> 
+	  
+	  <div id="topnav">
+		<%= render :partial => 'admin/topnav' %>
+	  </div>
+
+      <div id="yui-main">
+        <div class="yui-b" id="content">
+
+		  <% if flash[:notice] -%>
+			<div class="notice">
+			  <%= flash[:notice] %>
+			</div>
+		  <% end %>
+
+		  <%= yield %>
+
+		</div>
+      </div>
+
+	  <% if controller.controller_name == 'admin' %>
+      <div class="yui-b" id="actions">
+		<%= render :partial => 'admin/actions' %>
+	  </div>
+	  <% end %>
+
+	  <div id="ft">
+		<%= render :partial => 'admin/footer' %>
+	  </div> 
+
+    </div>
+
+	
+  </body>
+</html>

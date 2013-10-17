@@ -1,0 +1,16 @@
+<div class="tabular">
+<table>
+  <tr>
+	<th>page</th>
+	<th>image</th>
+  </tr>
+  <% labbook_pages.each do |n| %>
+  <tr>
+	<td><%= link_to n.page, :controller => 'labbooks', :action => 'show_labbook_page', :id => n.id %></td>
+	<td>
+	  <%= link_to (image_tag n.thumbnail_image_file_path), :controller => 'labbooks', :action => 'show_labbook_page', :id => n.id %>
+	</td>
+  </tr>
+  <% end %>
+</table>
+</div>

@@ -1,0 +1,343 @@
+--- 
+- !ruby/object:User 
+  attributes: 
+    salt: 7e3041ebc2fc05a40c60028e2c4901a81035d3cd
+    created_at: 2007-07-11 02:16:57
+    remember_token_expires_at: 2010-03-18 18:27:48
+    crypted_password: 2edfcd288e41b85bc1c2358a999183609d3e5093
+    updated_at: 2010-03-04 11:27:48
+    admin: "1"
+    can_annotate: "1"
+    can_set_recording_time: "1"
+    can_set_labbook_page: "1"
+    id: "1"
+    remember_token: 834fd213ff805dd82b591c3006798ca89ad28cf0
+    last_name: Ness
+    login: sness
+    first_name: Steven
+    email: sness@sness.net
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 6ef9b36ff30f526f081dac8e738a83939b45112b
+    created_at: 2007-07-11 02:16:57
+    remember_token_expires_at: 2009-12-29 23:17:31
+    crypted_password: 5536e77e56c4c5256dbbd132b12b1014c5c092ca
+    updated_at: 2009-12-15 15:17:31
+    admin: "1"
+    can_annotate: "1"
+    can_set_recording_time: "1"
+    can_set_labbook_page: "1"
+    id: "2"
+    remember_token: cb872a47bbf7f6c2dcebcc32e3af5d3c96742933
+    last_name: Tzanetakis
+    login: gtzan
+    first_name: George
+    email: gtzan@cs.uvic.ca
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 6ef9b36ff30f526f081dac8e738a83939b45112b
+    created_at: 2007-07-11 02:16:57
+    remember_token_expires_at: 
+    crypted_password: 5536e77e56c4c5256dbbd132b12b1014c5c092ca
+    updated_at: 2009-09-21 17:56:21
+    admin: "1"
+    can_annotate: "1"
+    can_set_recording_time: "1"
+    can_set_labbook_page: "1"
+    id: "3"
+    remember_token: 
+    last_name: Spong
+    login: paul
+    first_name: Paul
+    email: paul@orcalab.org
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 6ef9b36ff30f526f081dac8e738a83939b45112b
+    created_at: 2007-07-11 02:16:57
+    remember_token_expires_at: 
+    crypted_password: 5536e77e56c4c5256dbbd132b12b1014c5c092ca
+    updated_at: 2009-09-21 17:56:21
+    admin: "1"
+    can_annotate: "1"
+    can_set_recording_time: "1"
+    can_set_labbook_page: "1"
+    id: "4"
+    remember_token: 
+    last_name: Symonds
+    login: helena
+    first_name: Helena
+    email: helena@orcalab.org
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 6ef9b36ff30f526f081dac8e738a83939b45112b
+    created_at: 2009-09-21 17:56:21
+    remember_token_expires_at: 2009-11-24 10:01:08
+    crypted_password: 5536e77e56c4c5256dbbd132b12b1014c5c092ca
+    updated_at: 2009-11-10 02:01:08
+    admin: "1"
+    can_annotate: "1"
+    can_set_recording_time: "1"
+    can_set_labbook_page: "1"
+    id: "5"
+    remember_token: 121285a1733d7736247cb4ddd355b8c090cf1fa6
+    last_name: 
+    login: gigi
+    first_name: 
+    email: brigitte.weiss@klf.ac.at
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 6ef9b36ff30f526f081dac8e738a83939b45112b
+    created_at: 2009-09-21 17:56:21
+    remember_token_expires_at: 2010-02-27 19:19:55
+    crypted_password: 5536e77e56c4c5256dbbd132b12b1014c5c092ca
+    updated_at: 2010-02-13 11:19:55
+    admin: "1"
+    can_annotate: "1"
+    can_set_recording_time: "1"
+    can_set_labbook_page: "1"
+    id: "6"
+    remember_token: fb73a78866e6551f0bfe2ad7e608d373f290eada
+    last_name: Fournier
+    login: marie
+    first_name: Marie
+    email: marief@uvic.ca
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 7fc52ad388a3536d5bcd71600880751f419368e1
+    created_at: 2009-11-15 10:53:58
+    remember_token_expires_at: 
+    crypted_password: cf6994cd9df3daccfe3ee8fc09adcb0ecd23d9e0
+    updated_at: 2009-11-15 10:53:58
+    admin: 
+    can_annotate: "0"
+    can_set_recording_time: "0"
+    can_set_labbook_page: "0"
+    id: "7"
+    remember_token: 
+    last_name: 
+    login: rjhutch
+    first_name: 
+    email: rjhutch@uvic.ca
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 9d4edcd06c26376e84ea77d378b53312df228a68
+    created_at: 2009-11-18 09:17:26
+    remember_token_expires_at: 
+    crypted_password: 742ba75fde4e276b4e61eed619e598b054bc8974
+    updated_at: 2009-11-18 09:18:33
+    admin: "1"
+    can_annotate: "1"
+    can_set_recording_time: "1"
+    can_set_labbook_page: "1"
+    id: "8"
+    remember_token: 
+    last_name: 
+    login: hanna
+    first_name: 
+    email: supahanna@gmx.net
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 69665baae20b9ba602017170c953eac3b1bc23f1
+    created_at: 2009-11-18 09:17:47
+    remember_token_expires_at: 
+    crypted_password: 389e77a7af40bc6e2a3bcf83bcb77871d2f54abb
+    updated_at: 2009-11-18 09:18:47
+    admin: "1"
+    can_annotate: "1"
+    can_set_recording_time: "1"
+    can_set_labbook_page: "1"
+    id: "9"
+    remember_token: 
+    last_name: 
+    login: melissa
+    first_name: 
+    email: melissaness@gmail.com
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 63f753d73218fc020c2cbcd3ee2b172c2b599c52
+    created_at: 2009-11-23 15:08:38
+    remember_token_expires_at: 2010-02-24 00:47:03
+    crypted_password: 0b626336d34fb9c6554656ec5e508384b2ef1050
+    updated_at: 2010-02-09 16:47:03
+    admin: "1"
+    can_annotate: "1"
+    can_set_recording_time: "1"
+    can_set_labbook_page: "1"
+    id: "10"
+    remember_token: c822c48678429c4db2e57ac1b58b15cf48f086a7
+    last_name: 
+    login: amalis
+    first_name: 
+    email: ariera@uvic.ca
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 71c64dd7f298f0176ec3e10800e993828fa62c47
+    created_at: 2009-12-10 15:25:33
+    remember_token_expires_at: 
+    crypted_password: 6ff57b410faeaa0eeda1fa453d826703e873f51c
+    updated_at: 2009-12-10 15:25:33
+    admin: 
+    can_annotate: "1"
+    can_set_recording_time: "0"
+    can_set_labbook_page: "0"
+    id: "11"
+    remember_token: 
+    last_name: 
+    login: john
+    first_name: 
+    email: ford@zoology.ubc.ca
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 617ae65be5db8df6dfc3a7c73dd6ba939b9ce896
+    created_at: 2009-12-14 17:01:57
+    remember_token_expires_at: 
+    crypted_password: b39e11098224c59a70dae2551645e8444166a1d7
+    updated_at: 2009-12-14 17:01:57
+    admin: 
+    can_annotate: "1"
+    can_set_recording_time: "1"
+    can_set_labbook_page: "1"
+    id: "12"
+    remember_token: 
+    last_name: 
+    login: paulreimer
+    first_name: 
+    email: paulreimer@gmail.com
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 82704db818246f9b2b94222dbe2084a2166e9384
+    created_at: 2010-01-17 01:49:50
+    remember_token_expires_at: 
+    crypted_password: dec81bf83f083b317964c973239f8d8245b4bae9
+    updated_at: 2010-01-18 17:03:55
+    admin: 
+    can_annotate: "0"
+    can_set_recording_time: "0"
+    can_set_labbook_page: "0"
+    id: "13"
+    remember_token: 
+    last_name: 
+    login: EJ Christiano
+    first_name: 
+    email: freakishej@hotmail.com
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: e1bff7318790c83608edc0901b7dafeccc6bb1c3
+    created_at: 2010-01-17 09:40:04
+    remember_token_expires_at: 
+    crypted_password: 3cf86ab34390c2cd1e258fe988d10a3bc58fce21
+    updated_at: 2010-02-21 08:13:24
+    admin: 
+    can_annotate: "0"
+    can_set_recording_time: "0"
+    can_set_labbook_page: "0"
+    id: "14"
+    remember_token: 
+    last_name: 
+    login: osmia
+    first_name: 
+    email: osmia_lignaria@yahoo.com
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 30189a2dd0ef9aa2260158e5847780bb9bd7bc51
+    created_at: 2010-01-20 23:32:51
+    remember_token_expires_at: 
+    crypted_password: 41dfd62705d73992087a77ea74020769a33f0b89
+    updated_at: 2010-01-20 23:32:51
+    admin: 
+    can_annotate: "0"
+    can_set_recording_time: "0"
+    can_set_labbook_page: "0"
+    id: "15"
+    remember_token: 
+    last_name: 
+    login: gotmywish
+    first_name: 
+    email: gotmywish@ymail.com
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 0304ef3860698140aeb1c9d5b11a558d8b513cbd
+    created_at: 2010-02-11 09:26:42
+    remember_token_expires_at: 
+    crypted_password: b0615442be8a0d818e2add1d6d3bb293e7445f3e
+    updated_at: 2010-02-11 09:26:42
+    admin: 
+    can_annotate: "0"
+    can_set_recording_time: "0"
+    can_set_labbook_page: "0"
+    id: "16"
+    remember_token: 
+    last_name: 
+    login: HarYurk
+    first_name: 
+    email: yurk@zoology.ubc.ca
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: 47fb5be1c2183e34f29483e2010fb6f85e06458f
+    created_at: 2010-02-24 10:35:25
+    remember_token_expires_at: 2010-03-14 20:31:07
+    crypted_password: 3f80ba1ff62974f5f1bada7f4b7dac281d970b3a
+    updated_at: 2010-02-28 13:31:07
+    admin: "1"
+    can_annotate: "1"
+    can_set_recording_time: "1"
+    can_set_labbook_page: "1"
+    id: "17"
+    remember_token: 9cb2808bcd0b19f4e323ded4800b9757ff42bf65
+    last_name: 
+    login: aquagreen
+    first_name: 
+    email: griffinr@gmail.com
+  attributes_cache: {}
+
+- !ruby/object:User 
+  attributes: 
+    salt: f09a33fc1bc367e08e56e614d49bc21b17d6d801
+    created_at: 2010-02-27 02:31:11
+    remember_token_expires_at: 2010-03-14 16:53:44
+    crypted_password: de62da4f7ffc9f843005df1ac4d1bdb7b36f3000
+    updated_at: 2010-02-28 09:53:44
+    admin: 
+    can_annotate: "0"
+    can_set_recording_time: "0"
+    can_set_labbook_page: "0"
+    id: "18"
+    remember_token: 1f086150520aa3aaf1165cc86f207997b9c3f73e
+    last_name: van Twillert
+    login: Jan
+    first_name: Jan
+    email: j.vantwillert@promundo.nl
+  attributes_cache: {}
+

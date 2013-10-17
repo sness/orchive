@@ -1,0 +1,18 @@
+<h1>Labbooks</h1>
+
+<table>
+  <tr>
+	<th>name</th>
+	<th>start date</th>
+	<th>end date</th>
+	<th>pdf</th>
+  </tr>
+  <% @labbooks.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :controller => 'admin_labbooks', :action => 'show', :id => n.id %></td>
+	<td><%= n.start_date.strftime("%b%d%y") %></td>
+	<td><%= n.end_date.strftime("%b%d%y") %></td>
+	<td><%= link_to "Download PDF", "/labbook_pdf/#{n.pdf_file_path}" %>
+  </tr>
+  <% end %>
+</table>

@@ -1,0 +1,34 @@
+# == Schema Information
+# Schema version: 20100420092914
+#
+# Table name: recordings
+#
+#  id                  :integer(4)      not null, primary key
+#  name                :string(255)     
+#  tape                :string(255)     
+#  side                :string(255)     
+#  year                :integer(4)      
+#  start_time          :datetime        
+#  end_time            :datetime        
+#  length_ms           :integer(4)      
+#  wav_audio_file_path :string(255)     
+#  mp3_audio_file_path :string(255)     
+#  created_at          :datetime        
+#  updated_at          :datetime        
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  tape: MyString
+  side: MyString
+  start_time: 2008-07-09 10:42:09
+  end_time: 2008-07-09 10:42:09
+
+two:
+  name: MyString
+  tape: MyString
+  side: MyString
+  start_time: 2008-07-09 10:42:09
+  end_time: 2008-07-09 10:42:09

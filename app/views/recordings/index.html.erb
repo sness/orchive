@@ -1,0 +1,16 @@
+<h1>Recordings</h1>
+
+<div class="tabular">
+<table>
+  <tr>
+	<th>year</th>
+	<th>number of recordings</th>
+  </tr>
+  <% @year_array.each do |n| %>
+  <tr>
+	<td><%= link_to n[0], :action => 'year', :id => n[0] %></td>
+	<td><%= n[1] %></td>
+  </tr>
+  <% end %>
+</table>
+</div>

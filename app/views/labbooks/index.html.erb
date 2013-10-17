@@ -1,0 +1,21 @@
+<h1>Labbooks</h1>
+
+<div class="tabular">
+
+  <% if !@searching_for_recording.nil? %>
+	(Looking for <%= @searching_for_recording.pretty_name %>)
+  <% end %>
+
+<table>
+  <tr>
+	<th>name</th>
+	<th>pdf</th>
+  </tr>
+  <% @labbooks.each do |n| %>
+  <tr>
+	<td><%= link_to n.name, :controller => 'labbooks', :action => 'show', :id => n.id %></td>
+	<td><%= link_to "Download PDF", "/labbook_pdf/#{n.pdf_file_path}" %>
+  </tr>
+  <% end %>
+</table>
+</div>

@@ -1,0 +1,72 @@
+<head>
+  <title>Orchive</title>
+
+  <%= stylesheet_link_tag "reset-fonts-grids", :media => "screen, projection" %>
+
+  <% if controller.controller_name =~ /^admin/ %>
+	<%= stylesheet_link_tag "orchive-admin", :media => "screen, projection" %>
+	<%= stylesheet_link_tag "orchive-colours", :media => "screen, projection" %>
+  <% else %>
+	<%= stylesheet_link_tag "orchive", :media => "screen, projection" %>
+  <% end %>
+
+  <%= javascript_include_tag 'jquery' %>
+  <%= javascript_include_tag 'jquery.tree' %>
+  <%= javascript_include_tag 'jquery.tree.checkbox' %>
+  <%= javascript_include_tag 'my' %>
+
+	<script type="text/javascript">
+<!--
+
+  if (document.images)
+   {
+
+   <% [
+       ["home","index","index"],
+       ["about","about","about"],
+       ["tour","tour","tour"],
+       ["orchive","orchive","orchive"],
+       ["people","people","people"]
+      ].each do |n| %>
+     <%= n[1] -%>on= new Image();
+     <%= n[1] -%>on.src="/images/buttons/hover_<%= n[0] -%>.jpg";
+
+	 <% if (controller.action_name == n[2]) || (controller.controller_name == "recordings" && n[0] == "orchive") %>
+       <%= n[1] -%>off= new Image();
+       <%= n[1] -%>off.src="/images/buttons/selected_<%= n[0] -%>.jpg";
+	 <% else %>
+       <%= n[1] -%>off= new Image();
+       <%= n[1] -%>off.src="/images/buttons/normal_<%= n[0] -%>.jpg";
+	 <% end %>
+
+	 <% end %>
+
+function lightup(imgName) 
+{
+ if (document.images)
+ {
+   imgOn=eval(imgName + "on.src");
+   document[imgName].src= imgOn;
+ }
+}
+
+function turnoff(imgName)
+{
+ if (document.images)
+ {
+  imgOff=eval(imgName + "off.src");
+  document[imgName].src= imgOff;
+ }
+}
+
+}
+
+
+
+//-->
+	</script>
+
+  
+</head>
+
+

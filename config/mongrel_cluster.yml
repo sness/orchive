@@ -1,0 +1,9 @@
+--- 
+user: sness
+cwd: /home/sness/nDEV/orchive
+port: "9616"
+environment: development
+group: sness
+address: 127.0.0.1
+pid_file: log/mongrel.pid
+servers: 1

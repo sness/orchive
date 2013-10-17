@@ -1,0 +1,26 @@
+------------------------------ index.html.erb ------------------------------
+
+<h1>Jobs</h1>
+
+<table>
+  <tr>
+	<th>job number</th>
+	<th>user</th>
+	<th>created at</th>
+	<th>finished at</th>
+	<th>state</th>
+	<th>actions</th>
+  </tr>
+  <% for n in @jobs %>
+	<tr>
+	  <td><%= n.id %></td>
+	  <td><%= n.user.id %></td>
+	  <td><%= n.created_at ? n.created_at.strftime("%m/%d/%Y %I:%M%p") : "" %></td>
+	  <td><%= n.finished_at ? n.finished_at.strftime("%m/%d/%Y %I:%M%p") : "" %></td>
+	  <td><%= n.pretty_state %></td>
+	  <td><%= link_to "Delete", :controller => 'main', :action => 'delete_job', :id => n.id %></td>
+	</tr>
+  <% end %>
+</table>
+
+<%= will_paginate @jobs %>

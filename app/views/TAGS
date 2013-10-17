@@ -1,0 +1,32 @@
+
+recordings/year.html.erb,0
+
+recordings/show.html.erb,0
+
+recordings/index.html.erb,0
+
+recordings/_leftnav.html.erb,0
+
+predictions/show.html.erb,0
+
+predictions/index.html.erb,0
+
+predictions/_prediction_list.html.erb,0
+
+labbooks/year.html.erb,0
+
+labbooks/show_labbook_page.html.erb,0
+
+labbooks/show_big_labbook_page.html.erb,0
+
+labbooks/show.html.erb,0
+
+labbooks/index.html.erb,0
+
+labbooks/_leftnav.html.erb,0
+
+labbooks/_labbook_page_list.html.erb,0
+
+annotations/show.html.erb,0
+
+annotations/index.html.erb,0

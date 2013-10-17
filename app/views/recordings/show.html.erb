@@ -1,0 +1,137 @@
+<center>
+	<table width="800px">
+	  <tr>
+		<td>
+		  <form action="/recordings/find" method="post">
+			<p>
+			  <table width="300px">
+				<tr>
+				  <td><label for="year">year</label></td>
+				  <td><label for="tape">tape</label></td>
+				</tr>
+				<tr>
+				  <td>
+					<input type="text" size="6" id="year" name="year" value="<%= @recording.year %>"><br>
+				  </td>
+				  <td>
+					<input type="text" size="7" id="tape" name="tape" value="<%= @recording.tape + @recording.side %>"><br>
+				  </td>
+				  <td>
+					<input type="submit" value="find">
+				  </td>
+				  <td>
+					&nbsp;<%= link_to "list", :action => 'index' %>
+				  </td>
+				  <td width="100px">
+				  </td>
+				</tr>
+				<tr>
+				  <td></td>
+				  <td colspan=4>
+ 					<div style="width:85px"> 
+ 					  <div style="float:left"> 
+						<% unless (@recording.id - 1 == 0) %>
+						  <%= link_to "prev", :id => @recording.id - 1  %>
+						<% end %>
+ 					  </div> 
+ 					  <div style="float:right"> 
+						<%= link_to "next", :id => @recording.id + 1  %>
+ 					  </div>
+ 					</div> 
+				  </td>
+				</tr>
+			  </table>
+			</p>
+		  </form>
+		</td>
+		<td>
+		  <table width="200px">
+		  </table>
+		</td>
+		<td>
+		  <form action="" method="post">
+			<p>
+			  <table width="400px">
+				<tr><td>&nbsp;</td></tr>
+				<tr>
+				  <div id="loginlink">
+					<%= render :partial => 'user_login_info' %><br />
+					<% if @current_user_mediaserver_active == 1 %>
+					  <div class="mediaserver_notice">
+						Mediaserver Active
+					  </div>
+					<% end %>
+				  </div>
+				  <td width="50px"></td>
+				  <td><input type="text" size="20" id="search"<br></td>
+				  <td><input type="submit" value="search"></td>
+				</tr>
+			  </table>
+			</p>
+		  </form>
+		</td>
+	  </tr>
+	</table>
+  <br>
+  
+  <div class="orcaannotator">
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+			width="800"
+			height="243"
+			id="haxe"
+			align="middle">
+	  <param name="movie" value="/orcaannotator.swf"/>
+	  <param name="allowScriptAccess" value="always" />
+	  <param name="quality" value="high" />
+	  <param name="scale" value="noscale" />
+	  <param name="salign" value="lt" />
+	  <param name="bgcolor" value="#ffffff"/>
+	  <param name=FlashVars value="recording_url=/assets/recordings/<%= @recording.year_tape_side -%>&prediction_url=&visualization_url=/assets/visualizations/<%= @recording.year_tape_side -%>/spectrogram&recording_id=<%= @recording.id -%>&start_year=<%= @recording.start_year -%>&start_month=<%= @recording.start_month -%>&start_day=<%= @recording.start_day %>&start_hour=<%= @recording.start_hour %>&start_minute=<%= @recording.start_minute %>&recording_id=<%= @recording.id %>&user_id=<%= @current_user_id %>&annotation_user_id=<%= @current_annotation_user_id %>&mediaserver_url=<%= @current_user_mediaserver_url %>&mediaserver_active=<%= @current_user_mediaserver_active %>">
+	  <embed src="/orcaannotator.swf"
+			 FlashVars="recording_url=/assets/recordings/<%= @recording.year_tape_side -%>&prediction_url=&visualization_url=/assets/visualizations/<%= @recording.year_tape_side -%>/spectrogram&recording_id=<%= @recording.id -%>&start_year=<%= @recording.start_year -%>&start_month=<%= @recording.start_month -%>&start_day=<%= @recording.start_day %>&start_hour=<%= @recording.start_hour %>&start_minute=<%= @recording.start_minute %>&recording_id=<%= @recording.id %>&user_id=<%= @current_user_id %>&annotation_user_id=<%= @current_annotation_user_id %>&mediaserver_url=<%= @current_user_mediaserver_url %>&mediaserver_active=<%= @current_user_mediaserver_active %>"
+			 bgcolor="#ffffff"
+			 width="800"
+			 height="243"
+			 name="movie"
+			 quality="best"
+			 align="middle"
+			 allowScriptAccess="always"
+			 type="application/x-shockwave-flash"
+			 pluginspage="http://www.macromedia.com/go/getflashplayer">
+	</object>
+  </div>
+  <br />
+  
+  <table width="900px">
+	<tr>
+	  <td colspan="2">
+		<%= render :partial => 'catalog', :locals => { :calls => @calls} %>
+      </td>
+	</tr>
+
+	<tr>
+	  <td colspan="2">
+		<%= render :partial => 'labbook_page_view', :locals => { :recording => @recording} %>
+      </td>
+	</tr>
+
+	<tr>
+	  <td>
+        <%= render :partial => 'user_annotations_form', :locals => { :users => @users} %>
+		<%= render :partial => 'predictions_form', :locals => { :predictions => @predictions} %>
+		<%= render :partial => 'incidences', :locals => { :incidences => @recording.incidences} %>
+		<%= render :partial => 'download_annotations', :locals => { :incidences => @recording.incidences} %>
+	  </td>
+ 	  <td valign="top">
+		<%= render :partial => 'comment_view' %>
+
+		<%= render :partial => 'set_labbook_page' %>
+		<%= render :partial => 'set_recording_time' %>
+	  </td>
+	</tr>
+  </table>
+
+</center>
+
+<hr>
+

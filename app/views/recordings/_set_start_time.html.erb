@@ -1,0 +1,8 @@
+	<% if !current_user.nil? && current_user != :false && current_user.admin %>
+	  <% form_for(:recording, :url => { :action => 'edit_time' }) do |f| -%>
+		<p><label for="recording_start_time">Start Time</label>
+		  <%= f.datetime_select :start_time, :start_year => 1972  %>
+		  <%= submit_tag 'Submit' %>
+		</p>
+	  <% end %>
+	<% end %>

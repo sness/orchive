@@ -1,0 +1,79 @@
+<ul>
+  
+  <% if controller.controller_name == "admin" %>
+	<li class="sel">
+	<% else %>
+	<li>
+  <% end %>
+  <%= link_to "Home", :controller=> 'admin', :action => 'index' %>
+</li> 
+
+<% if controller.controller_name == "admin_recordings" %>
+  <li class="sel">
+  <% else %>
+  <li>
+<% end %>
+<%= link_to "Recordings", :controller=> 'admin_recordings' %>
+</li> 
+
+<% if controller.controller_name == "admin_labbooks" %>
+  <li class="sel">
+  <% else %>
+  <li>
+<% end %>
+<%= link_to "Lab Books", :controller=> 'admin_labbooks' %>
+</li> 
+
+<% if controller.controller_name == "admin_annotations" %>
+  <li class="sel">
+  <% else %>
+  <li>
+<% end %>
+<%= link_to "Annotations", :controller=> 'admin_annotations' %>
+</li> 
+
+<% if controller.controller_name == "admin_predictions" %>
+  <li class="sel">
+  <% else %>
+  <li>
+<% end %>
+<%= link_to "Predictions", :controller=> 'admin_predictions' %>
+</li> 
+
+<% if controller.controller_name == "admin_jobs" %>
+  <li class="sel">
+  <% else %>
+  <li>
+<% end %>
+<%= link_to "Jobs", :controller=> 'admin_jobs' %>
+</li> 
+
+<% if controller.controller_name == "admin_accounts" %>
+  <li class="sel">
+  <% else %>
+  <li id="lastlink">
+<% end %>
+<%= link_to "Accounts", :controller=> 'admin_accounts' %>
+</li> 
+
+
+<% if @secondary_navigation %>
+  <ul class="secondary">
+	
+	<% for item in @secondary_navigation %>
+	  
+	  <% if controller.action_name == item[1] %>
+		<li class="sel">
+		<% else %>
+		<li>
+	  <% end %>	
+	  <%= link_to item[0], :controller => controller.controller_name, :action=> item[1], :id => item[2] %>
+</li>
+<% end %>
+
+</ul>
+<% end %>
+
+
+</ul>
+
